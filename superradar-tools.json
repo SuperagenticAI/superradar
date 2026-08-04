@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-04T21:56:03.666Z",
-  "featuredWeekLabel": "22–28 July 2026",
+  "updatedAt": "2026-08-04T22:43:23.270Z",
+  "featuredWeekLabel": "28 July – 3 August 2026",
   "featuredToolIds": [
-    "kimi",
-    "gepa",
-    "poolside-laguna",
-    "kimi-cli",
-    "grok-build"
+    "claude",
+    "deepseek",
+    "gemini",
+    "qwen3-8-max",
+    "sonnet"
   ],
   "tools": [
     {
@@ -359,8 +359,7 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-09",
-      "weeklyHighlight": "Sol, Terra and Luna tiers with programmatic tool calling and multi-agent API support",
-      "description": "OpenAI's GPT-5.6 family launched July 9, 2026 across ChatGPT, Codex, and the API. Sol is the flagship, Terra balances capability and cost, and Luna targets fast, economical workloads. The Responses API adds Programmatic Tool Calling for in-memory tool coordination and a multi-agent beta for concurrent subagents. Sol supports max and ultra reasoning for the hardest coding, computer-use, research, and professional-work tasks.",
+      "description": "OpenAI's GPT-5.6 family launched July 9, 2026 across ChatGPT, Codex, and the API. Sol is the flagship, Terra balances capability and cost, and Luna targets fast, economical workloads. The Responses API adds Programmatic Tool Calling for in-memory tool coordination and a multi-agent beta for concurrent subagents. On July 30 OpenAI cut Luna pricing ~80% to $0.20/$1.20 and Terra ~20% to $2/$12 per 1M tokens (Sol holds at $5/$30). ChatGPT default since July 9; GPT-6 / Astra rumored for later 2026.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -638,14 +637,15 @@
       "name": "Claude Code",
       "state": "Adopt",
       "highlighted": true,
-      "description": "Anthropic's official Claude Code CLI for AI-powered development workflows",
+      "description": "Anthropic's official Claude Code CLI for AI-powered development workflows. Now commonly paired with Claude Opus 5 (July 24, 2026) and Sonnet 5 for agentic coding, multi-step refactors, and long-running terminal work. Available across Free/Pro/Max/Team/Enterprise with raised rate limits for higher effort levels.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Closed Source",
       "websiteUrl": "https://claude.com/product/claude-code",
       "country": "US",
       "logoUrl": "https://github.com/anthropics.png",
-      "icon": "Code"
+      "icon": "Code",
+      "trending": true
     },
     {
       "id": "codex",
@@ -715,21 +715,25 @@
       "name": "DeepAgents CLI",
       "state": "Trial",
       "new": true,
-      "description": "LangChain's open-source CLI coding agent with persistent memory. Uses Claude Sonnet 4, Tavily search, and file operations. Stores knowledge across sessions for continuous learning",
+      "description": "LangChain's open-source CLI coding agent with persistent memory, planning tools, sub-agents, and filesystem access — the terminal face of Deep Agents. Commonly paired with Sonnet 5 / Opus 5 and search tools; stores knowledge across sessions for continuous learning. Complements LangGraph for teams that want a ready-made long-horizon coding harness.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Open Source",
       "websiteUrl": "https://blog.langchain.com/introducing-deepagents-cli/",
-      "githubUrl": "https://github.com/langchain-ai",
+      "githubUrl": "https://github.com/langchain-ai/deepagents",
       "country": "US",
       "logoUrl": "https://github.com/langchain-ai.png",
       "tags": [
+        "deep-agents",
+        "cli",
         "persistent-memory",
-        "claude",
-        "open-source",
-        "npm"
+        "sub-agents",
+        "langgraph",
+        "coding-agent"
       ],
-      "icon": "Terminal"
+      "icon": "Terminal",
+      "highlighted": true,
+      "trending": true
     },
     {
       "id": "iflow-cli",
@@ -1013,52 +1017,56 @@
     },
     {
       "id": "gemini",
-      "name": "Gemini 3.5 Flash",
+      "name": "Gemini 3.6 Flash",
       "state": "Adopt",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Gemini 3.5 Flash (released May 19, 2026) is Google's latest broadly available model - the default in the Gemini app and AI Mode in Search, and available to developers in Google Antigravity and the Gemini API. It pairs frontier intelligence with agentic action, alongside Gemini 3 Deep Think for harder reasoning. The next-tier Gemini 3.5 Pro (2M context, Deep Think) was still pending as of mid-June 2026.",
+      "description": "Google's Gemini 3.6 Flash launched July 21, 2026 as the new default workhorse in the Gemini app, AI Mode, Antigravity, and the Gemini API — successor to 3.5 Flash. Same Intelligence Index (~50) with ~17% fewer output tokens (up to 65% savings on long-horizon agentic work like DeepSWE), 12% faster, and output priced at $7.50/M (input $1.50/M). 1M context, March 2026 knowledge cutoff. Shipped alongside Gemini 3.5 Flash-Lite and limited-access Gemini 3.5 Flash Cyber; Gemini 3.5 Pro still pending with partners.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
       "githubUrl": "https://github.com/google-gemini",
       "country": "US",
       "logoUrl": "https://github.com/google-gemini.png",
       "tags": [
-        "gemini-3-5-flash",
-        "deep-think",
-        "reasoning",
-        "multimodal",
+        "gemini-3-6-flash",
+        "default-model",
+        "token-efficient",
         "agentic",
-        "default-model"
+        "1m-context",
+        "antigravity",
+        "multimodal"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "releaseDate": "2026-07-21",
+      "weeklyHighlight": "New Gemini default: 17% fewer output tokens, lower $1.50/$7.50 pricing, stronger coding & agents"
     },
     {
       "id": "gemini-3-1-flash-lite",
-      "name": "Gemini 3.1 Flash-Lite",
+      "name": "Gemini 3.5 Flash-Lite",
       "state": "Trial",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Google's March 3, 2026 preview model built for high-volume developer workloads. Gemini 3.1 Flash-Lite is Google's fastest and most cost-efficient Gemini 3-series model, with improved speed, low latency, and flexible thinking levels in AI Studio and Vertex AI.",
+      "description": "Google's Gemini 3.5 Flash-Lite (GA July 21, 2026) is the most cost-efficient model in the Flash class — built for high-volume developer and Search workloads at roughly $0.30/$2.50 per 1M tokens. Shipped with Gemini 3.6 Flash and limited-access Gemini 3.5 Flash Cyber (cybersecurity pilot for governments and trusted partners via CodeMender). Available in AI Studio, Vertex AI, Antigravity, and the Gemini app.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
       "githubUrl": "https://github.com/google-gemini",
       "country": "US",
       "logoUrl": "https://github.com/google-gemini.png",
       "tags": [
-        "gemini-3-1-flash-lite",
-        "preview",
+        "gemini-3-5-flash-lite",
         "high-volume",
         "low-latency",
-        "cost-efficient"
+        "cost-efficient",
+        "flash-class"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "releaseDate": "2026-07-21"
     },
     {
       "id": "gemma-4",
@@ -1088,35 +1096,39 @@
     },
     {
       "id": "deepseek",
-      "name": "DeepSeek-V4",
+      "name": "DeepSeek-V4-Flash-0731",
       "state": "Adopt",
       "highlighted": true,
-      "description": "DeepSeek-V4 (preview) launched April 24, 2026 with two MoE models - V4-Pro (1.6T total / 49B active) and V4-Flash (284B / 13B active) - both with a 1M-token context window and dual Thinking / Non-Thinking modes. A new Hybrid Attention architecture (Compressed Sparse + Heavily Compressed Attention) cuts long-context inference cost dramatically vs V3.2. MIT-licensed open weights on Hugging Face.",
+      "description": "DeepSeek's V4-Flash-0731 (July 31, 2026) is the official production release of V4-Flash, superseding the April preview with substantially stronger agentic and coding performance from re-post-training (same architecture/size). Scores 50 on Artificial Analysis Intelligence Index — 10 points above the preview and ahead of V4-Pro on many tasks — at roughly $0.09–$0.14/$0.18–$0.28 per 1M tokens. ~304B MoE (open weights, MIT), 1M context, dual Thinking/Non-Thinking modes, Hybrid Attention. Widely discussed on X as a Claude Code / personal-agent workhorse.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
-      "websiteUrl": "https://api-docs.deepseek.com/news/news260424",
-      "githubUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "websiteUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "githubUrl": "https://github.com/deepseek-ai/DeepSeek-V4",
       "country": "CN",
       "logoUrl": "https://github.com/deepseek-ai.png",
       "tags": [
-        "deepseek-v4",
-        "v4-pro",
+        "deepseek-v4-flash-0731",
         "v4-flash",
+        "price-performance",
         "1m-context",
-        "hybrid-attention",
-        "thinking-mode",
+        "agentic",
         "open-weights",
-        "mit-license"
+        "mit-license",
+        "moe"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-07-31",
+      "weeklyHighlight": "Official V4-Flash GA: Intelligence Index 50 at ~$0.14/$0.28 — new price-performance king"
     },
     {
       "id": "qwen",
       "name": "Qwen3.5-397B-A17B",
       "state": "Adopt",
       "highlighted": true,
-      "trending": true,
+      "trending": false,
       "new": true,
       "description": "Alibaba's Qwen3.5 release (Feb 17, 2026): open-weight native multimodal model with a hybrid architecture (397B total parameters, 17B active), expanded language and dialect support from 119 to 201, and strong performance across reasoning, coding, agentic workflows, and multimodal understanding. Reported coding-agent scores: 76.4 on SWE-bench Verified and 52.5 on Terminal Bench 2.",
       "category": "Foundational Models",
@@ -1144,7 +1156,7 @@
       "name": "Qwen3.5-Plus",
       "state": "Adopt",
       "highlighted": true,
-      "trending": true,
+      "trending": false,
       "new": true,
       "description": "Alibaba Cloud's current flagship API-served Qwen model line, with the latest dated release `qwen3.5-plus-2026-02-15`. Official Model Studio docs position it as the recommended model for coding-plan workflows with multimodal understanding and built-in tool support across the Responses API.",
       "category": "Foundational Models",
@@ -1169,7 +1181,7 @@
       "name": "Qwen3.6-Plus",
       "state": "Adopt",
       "highlighted": true,
-      "trending": true,
+      "trending": false,
       "new": true,
       "description": "Alibaba Cloud launched Qwen3.6-Plus on April 2, 2026 as its latest flagship API model for real-world agents. It adds a 1M default context window, significantly stronger agentic coding, better multimodal reasoning, improved tool use, and explicit support for coding assistants like Qwen Code, Claude Code, Cline, and OpenClaw.",
       "category": "Foundational Models",
@@ -1192,17 +1204,31 @@
     },
     {
       "id": "claude",
-      "name": "Opus 4.8",
+      "name": "Opus 5",
       "state": "Adopt",
       "highlighted": true,
-      "description": "Anthropic's Claude Opus 4.8 launched May 28, 2026 - its most capable Opus-tier model, building on Opus 4.7 with improvements across benchmarks at the same price. Anthropic reports it is roughly 4x less likely than Opus 4.7 to let flaws in its own code pass unremarked. Strong long-context reasoning and agentic workflows for knowledge work and software engineering.",
+      "description": "Anthropic's Claude Opus 5 launched July 24, 2026 — a step-change over Opus 4.8 that approaches Fable 5 intelligence at half the price ($5/$25 per 1M tokens). SOTA on Frontier-Bench v0.1 and GDPval-AA, near-Fable on CursorBench 3.2, and #1 on Artificial Analysis Intelligence Index (61) and Agentic Index (55.3). Default on Claude Max, strongest model on Claude Pro; 1M context, Fast mode (~2.5x speed), mid-conversation tool changes, and automatic safety fallbacks.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://www.anthropic.com/news/claude-opus-4-8",
+      "websiteUrl": "https://www.anthropic.com/news/claude-opus-5",
       "country": "US",
       "logoUrl": "https://github.com/anthropics.png",
-      "icon": "Brain"
+      "icon": "Brain",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-07-24",
+      "weeklyHighlight": "New #1 on Frontier-Bench & GDPval-AA at half Fable 5's price; default on Claude Max",
+      "githubUrl": "https://github.com/anthropics",
+      "tags": [
+        "claude-opus-5",
+        "frontier-bench",
+        "agentic-coding",
+        "computer-use",
+        "1m-context",
+        "fast-mode",
+        "anthropic"
+      ]
     },
     {
       "id": "fable-5",
@@ -1211,7 +1237,7 @@
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Anthropic's Claude Fable 5 launched June 9, 2026 as the first publicly available model in its new Mythos-class tier, sitting above the Opus class. Anthropic calls it its most capable widely released model - state-of-the-art on nearly all tested benchmarks, with exceptional software engineering, knowledge work, vision, and scientific reasoning. New safeguards (chiefly in cybersecurity and biology) make broad release possible; restricted queries fall back to Opus 4.8. Priced at $10/M input and $50/M output from June 23, 2026.",
+      "description": "Anthropic's Claude Fable 5 launched June 9, 2026 as the first publicly available Mythos-class model, sitting above the Opus class. It remains a writing and knowledge-work leader (Arena text, Humanity's Last Exam) and is still strong on coding, though Claude Opus 5 (July 24) now leads many coding and agentic boards at half the price. Fable 5 was offline mid-June under a US export-control order and restored July 1. Priced at $10/M input and $50/M output; restricted cyber/biology queries fall back to Opus 5.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -1230,51 +1256,58 @@
     },
     {
       "id": "sonnet",
-      "name": "Sonnet 4.6",
+      "name": "Sonnet 5",
       "state": "Adopt",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Anthropic's Claude Sonnet 4.6 launched on February 17, 2026. It is Anthropic's default high-volume model for coding, agents, computer use, and professional workflows, with a 1M-token context window available in beta on the API.",
+      "description": "Anthropic's Claude Sonnet 5 launched June 30, 2026 as the most agentic Sonnet yet — performance close to Opus 4.8 at lower prices, and a clear step-function over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work. Default model for Free and Pro plans; available in Claude Code and on the API as claude-sonnet-5. Introductory pricing $2/$10 per 1M tokens through August 31, 2026, then $3/$15. Adaptive thinking on by default; cyber safeguards enabled.",
       "category": "Coding Models",
       "layer": "Coding",
       "sourceType": "Commercial",
-      "websiteUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "websiteUrl": "https://www.anthropic.com/news/claude-sonnet-5",
       "country": "US",
       "logoUrl": "https://github.com/anthropics.png",
       "tags": [
-        "claude-sonnet-4-6",
-        "1m-context-beta",
+        "claude-sonnet-5",
+        "agentic-coding",
+        "default-model",
         "computer-use",
-        "agents",
-        "coding"
+        "adaptive-thinking",
+        "claude-code",
+        "anthropic"
       ],
-      "icon": "Code"
+      "icon": "Code",
+      "releaseDate": "2026-06-30",
+      "weeklyHighlight": "Default Free/Pro model; near-Opus agentic coding at $2/$10 intro pricing through Aug 31",
+      "githubUrl": "https://github.com/anthropics"
     },
     {
       "id": "opus",
-      "name": "Opus 4.8",
+      "name": "Opus 5",
       "state": "Adopt",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Anthropic's Claude Opus 4.8 (May 28, 2026) is a top-tier coding model - roughly 4x less likely than Opus 4.7 to let flaws in its own code pass unremarked, with strong long-context reasoning and agentic software engineering. One of the best models in the world for complex coding workflows.",
+      "description": "Anthropic's Claude Opus 5 (July 24, 2026) is the new coding daily-driver for many teams — SOTA on Frontier-Bench, within 0.5% of Fable 5 on CursorBench 3.2 at half the cost per task, and #1 on Arena WebDev / image-to-WebDev boards. Strong long-horizon agentic coding, root-cause debugging, and self-verification. Available in Claude Code, Cursor, Kiro, Devin, and the Claude API as claude-opus-5.",
       "category": "Coding Models",
       "layer": "Coding",
       "sourceType": "Commercial",
-      "websiteUrl": "https://www.anthropic.com/news/claude-opus-4-8",
+      "websiteUrl": "https://www.anthropic.com/news/claude-opus-5",
       "country": "US",
       "logoUrl": "https://github.com/anthropics.png",
       "tags": [
-        "opus-4-8",
-        "long-context",
-        "reasoning",
-        "software-engineering",
-        "anthropic",
-        "state-of-the-art",
-        "agentic"
+        "claude-opus-5",
+        "agentic-coding",
+        "cursorbench",
+        "frontier-bench",
+        "claude-code",
+        "anthropic"
       ],
-      "icon": "Code"
+      "icon": "Code",
+      "releaseDate": "2026-07-24",
+      "weeklyHighlight": "Took the coding crown on Arena WebDev & image-to-WebDev; near-Fable on CursorBench at half cost",
+      "githubUrl": "https://github.com/anthropics"
     },
     {
       "id": "mistral-large-3",
@@ -1304,29 +1337,30 @@
     },
     {
       "id": "deepseek-v3-2",
-      "name": "DeepSeek-V4",
-      "state": "Trial",
+      "name": "DeepSeek-V4-Flash-0731",
+      "state": "Adopt",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "DeepSeek's V4 (preview, April 24, 2026) brings a 1M-token context window and Hybrid Attention to coding workflows. V4-Pro (1.6T/49B active) and V4-Flash (284B/13B active) support thinking-in-tool-use, making them strong open-weight options for coding agents, math, and tool-driven software engineering.",
-      "category": "Coding Models",
-      "layer": "Coding",
+      "description": "DeepSeek-V4-Flash-0731 (July 31, 2026) is the production coding/agentic release of V4-Flash. Same MoE architecture as the April preview with major post-training gains — stronger tool use, coding, and long-horizon agents. 1M-token context, Hybrid Attention for cheap long-context inference, Thinking / Non-Thinking modes. MIT open weights on Hugging Face; serving on DeepInfra, Fireworks, Novita, and DeepSeek's first-party API (public beta).",
+      "category": "Foundational Models",
+      "layer": "Models",
       "sourceType": "Open Weights",
-      "websiteUrl": "https://api-docs.deepseek.com/news/news260424",
-      "githubUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "websiteUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "githubUrl": "https://github.com/deepseek-ai/DeepSeek-V4",
       "lastUpdate": "2026-04-24",
       "country": "CN",
       "logoUrl": "https://github.com/deepseek-ai.png",
       "tags": [
-        "deepseek-v4",
+        "deepseek-v4-flash-0731",
+        "coding",
         "agentic",
-        "hybrid-attention",
         "1m-context",
-        "coding-model",
-        "open-weights"
+        "open-weights",
+        "thinking-mode"
       ],
-      "icon": "Code"
+      "icon": "Brain",
+      "releaseDate": "2026-07-31"
     },
     {
       "id": "cursor-composer",
@@ -1517,7 +1551,6 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-16",
-      "weeklyHighlight": "80 TPS frontier coding model trained with Cursor; now the default in Grok Build",
       "description": "SpaceXAI's Grok 4.5 launched July 16, 2026 for coding, agentic tasks, and knowledge work. Trained alongside Cursor, it runs at roughly 80 tokens per second, emphasizes token-efficient long-horizon engineering, and is the default model in Grok Build. Available through the SpaceXAI API, Grok Build, and Cursor at $2/M input and $6/M output tokens.",
       "category": "Foundational Models",
       "layer": "Models",
@@ -1577,7 +1610,7 @@
       "name": "CrewAI",
       "state": "Adopt",
       "highlighted": true,
-      "description": "Framework for creating and orchestrating AI agents that collaborate to solve tasks",
+      "description": "Independent multi-agent orchestration framework for role-playing crews that collaborate on tasks. ~52K+ GitHub stars and billions of agent executions reported through mid-2026. 2026 releases add native MCP support via crewai-tools[mcp] (stdio, SSE, Streamable HTTPS) and A2A task delegation. Still the fastest path to a working multi-agent prototype for many teams.",
       "category": "Multi-Agent Orchestration",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -1585,7 +1618,16 @@
       "githubUrl": "https://github.com/crewAIInc/crewAI",
       "country": "US",
       "logoUrl": "https://avatars.githubusercontent.com/u/170677839?s=200&v=4",
-      "icon": "Network"
+      "icon": "Network",
+      "trending": true,
+      "tags": [
+        "multi-agent",
+        "crews",
+        "mcp",
+        "a2a",
+        "role-playing",
+        "orchestration"
+      ]
     },
     {
       "id": "autogen",
@@ -1605,7 +1647,7 @@
       "id": "langgraph",
       "name": "LangGraph",
       "state": "Adopt",
-      "description": "Low-level durable runtime for stateful, multi-actor, long-running LLM agents. LangGraph reached its first stable major release (v1.0 GA) - durable state and built-in persistence that auto-save and resume agent workflows - after powering production agents at Uber, LinkedIn, and Klarna.",
+      "description": "LangChain's low-level durable runtime for stateful, multi-actor, long-running LLM agents. Reached v1.0 GA with durable state and built-in persistence; active through 2026 (e.g. v1.3.x in July) with ~34–38K GitHub stars and tens of millions of monthly downloads. Production agents at Uber, LinkedIn, Klarna and others. Pairs with LangSmith for observability and Deep Agents / DeepAgents CLI for long-horizon coding agents.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -1613,7 +1655,18 @@
       "githubUrl": "https://github.com/langchain-ai/langgraph",
       "country": "US",
       "logoUrl": "https://github.com/langchain-ai.png",
-      "icon": "Network"
+      "icon": "Network",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "tags": [
+        "langgraph",
+        "durable-agents",
+        "state-machine",
+        "checkpointing",
+        "langsmith",
+        "production"
+      ]
     },
     {
       "id": "deepagents",
@@ -1621,7 +1674,7 @@
       "state": "Assess",
       "highlighted": true,
       "new": true,
-      "description": "LangChain's framework for building deep agents capable of complex planning and long-horizon tasks with planning tools, sub-agents, and file system access",
+      "description": "LangChain's framework for building deep agents capable of complex planning and long-horizon tasks — planning tools, sub-agents, and filesystem access. Paired with DeepAgents CLI for terminal workflows and LangGraph for durable multi-actor orchestration. Actively used for research and coding agent stacks in 2026.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -1629,27 +1682,39 @@
       "githubUrl": "https://github.com/langchain-ai/deepagents",
       "country": "US",
       "logoUrl": "https://github.com/langchain-ai.png",
-      "icon": "Network"
+      "icon": "Network",
+      "trending": true
     },
     {
       "id": "google-adk",
       "name": "Google ADK",
       "state": "Trial",
-      "description": "Google's Agent Development Kit for creating AI agents",
+      "description": "Google's Agent Development Kit for building multi-agent systems with tools, orchestration, and evaluation. Early 2026 expanded to four language SDKs (Python, TypeScript, Java 1.0, Go 1.0). Integrates with Gemini, Vertex AI, Antigravity, and the broader Google agent stack for production agentic apps.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
       "websiteUrl": "https://developers.google.com/adk",
-      "githubUrl": "https://github.com/google",
+      "githubUrl": "https://github.com/google/adk-python",
       "country": "US",
       "logoUrl": "https://avatars.githubusercontent.com/u/1342004?s=200&v=4",
-      "icon": "Brain"
+      "icon": "Brain",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "tags": [
+        "adk",
+        "multi-language",
+        "gemini",
+        "vertex",
+        "antigravity",
+        "multi-agent"
+      ]
     },
     {
       "id": "openai-agentsdk",
-      "name": "OpenAI SDK",
-      "state": "Assess",
-      "description": "Production-ready Python framework for multi-agent workflows with comprehensive tracing (successor to Swarm)",
+      "name": "OpenAI Agents SDK",
+      "state": "Trial",
+      "description": "OpenAI's lightweight, provider-agnostic Python (and TypeScript) framework for multi-agent workflows — successor to Swarm. Agent + Runner primitives, tools, handoffs, guardrails, sessions, and built-in tracing. Compatible with 100+ LLMs via OpenAI-compatible APIs; ~19–27K GitHub stars and heavy monthly downloads by mid-2026. Pairs with GPT-5.6 Responses API programmatic tool calling and multi-agent beta.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -1657,7 +1722,18 @@
       "githubUrl": "https://github.com/openai/openai-agents-python",
       "country": "US",
       "logoUrl": "https://avatars.githubusercontent.com/u/14957082?s=200&v=4",
-      "icon": "Brain"
+      "icon": "Brain",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "tags": [
+        "agents-sdk",
+        "multi-agent",
+        "handoffs",
+        "guardrails",
+        "tracing",
+        "provider-agnostic"
+      ]
     },
     {
       "id": "pydanticai",
@@ -1665,7 +1741,7 @@
       "state": "Trial",
       "highlighted": true,
       "new": true,
-      "description": "Type-safe agent framework from Pydantic for building structured LLM applications with typed tools, validated outputs, streaming runs, built-in provider tools, and strong observability hooks.",
+      "description": "Type-safe agent framework from Pydantic for structured LLM apps — typed tools, validated outputs, streaming runs, provider tools, and observability. v1.0 (Sept 2025) committed to API stability; through 2026 it remains a top production alternative to LangChain for teams prioritizing type safety over ecosystem breadth.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -1680,7 +1756,8 @@
         "builtin-tools",
         "observability"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "trending": true
     },
     {
       "id": "mastra",
@@ -1786,7 +1863,7 @@
       "state": "Assess",
       "highlighted": true,
       "trending": true,
-      "description": "Vercel's TypeScript-first AI toolkit with multi-provider routing, streaming UI primitives, RAG utilities, evals, and server components for production apps",
+      "description": "Vercel's TypeScript-first AI toolkit for Next.js/React — multi-provider routing, streaming UI, RAG, and evals. AI SDK 6 added a proper Agent interface, DurableAgent for resumable workflow steps, full MCP support, and a DevTools panel. ~22K+ GitHub stars and 20M+ monthly npm downloads; the default JS/TS path for production AI UI and agent features.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -1796,12 +1873,15 @@
       "logoUrl": "https://github.com/vercel.png",
       "tags": [
         "typescript",
-        "multi-provider",
-        "streaming-ui",
-        "rag",
-        "vercel"
+        "nextjs",
+        "agent",
+        "durable-agent",
+        "mcp",
+        "streaming",
+        "multi-provider"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "new": true
     },
     {
       "id": "smolagents",
@@ -3297,7 +3377,6 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-22",
-      "weeklyHighlight": "optimize_anything gets pluggable engines and composable optimizer pipelines",
       "description": "GEPA's July 22, 2026 Omni release makes the optimisation engine behind optimize_anything pluggable and the optimisation workflow composable. The same task and evaluator can be dispatched to GEPA reflective mutation, AutoResearch, or Meta-Harness, and pipelines can run several engines in parallel before seeding a fresh optimiser from the best candidate. Controlled experiments showed the strongest standalone optimiser varies by problem, which is the case for running them in competition rather than picking one.",
       "category": "Evaluation",
       "layer": "AgentOps",
@@ -3361,14 +3440,30 @@
       "id": "mcp",
       "name": "MCP",
       "state": "Adopt",
-      "description": "Open protocol for secure and standardized communication between agents, models, and memory",
+      "description": "Model Context Protocol — the industry standard for connecting AI agents to tools and apps (400M+ monthly SDK downloads). Late July 2026 shipped the largest revision since launch: a fully stateless request/response core (sessions/initialize removed) so servers run cleanly on Lambda, Cloudflare Workers, and load-balanced HTTP; multi-round-trip elicitation for human-in-the-loop; versioned Extensions (MCP Apps and Tasks for long-running work); OAuth 2.1 resource-server auth; and a formal 12-month deprecation policy. Widely discussed on X as 'MCP v2' / the agent-experience release.",
       "category": "Agent Protocols",
       "layer": "Frameworks",
       "sourceType": "Open Source",
       "websiteUrl": "https://modelcontextprotocol.io",
       "country": "US",
       "logoUrl": "https://github.com/modelcontextprotocol.png",
-      "icon": "Network"
+      "icon": "Network",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-07-28",
+      "weeklyHighlight": "Biggest spec update since launch: fully stateless request/response, OAuth 2.1, Tasks & Apps extensions",
+      "githubUrl": "https://github.com/modelcontextprotocol",
+      "tags": [
+        "mcp",
+        "stateless",
+        "oauth-2-1",
+        "tasks-extension",
+        "apps-extension",
+        "elicitation",
+        "agent-tools",
+        "protocol"
+      ]
     },
     {
       "id": "acp",
@@ -3376,7 +3471,7 @@
       "state": "Trial",
       "new": true,
       "trending": true,
-      "description": "The Agent Client Protocol - an open standard (championed by Zed) that lets any AI coding agent run inside any compatible editor, like a Language Server Protocol for agents. An official ACP Agent Registry (Zed + JetBrains) lists Claude Code, Codex CLI, Copilot CLI, OpenCode, Gemini CLI and more; clients now include Zed, JetBrains, VS Code, Neovim, Emacs, and Devin Desktop.",
+      "description": "The Agent Client Protocol — an open standard (championed by Zed) that lets any AI coding agent run inside any compatible editor, like LSP for agents. Official ACP Agent Registry (Zed + JetBrains) lists Claude Code, Codex CLI, Copilot CLI, OpenCode, Gemini/Antigravity CLI, Kimi Code, Grok Build, and more; clients include Zed, JetBrains, VS Code, Neovim, Emacs, and Devin Desktop. Central to 2026 agentic IDE interoperability.",
       "category": "Agent Protocols",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -3392,13 +3487,14 @@
         "interop",
         "zed"
       ],
-      "icon": "Network"
+      "icon": "Network",
+      "highlighted": true
     },
     {
       "id": "a2a",
       "name": "A2A",
       "state": "Trial",
-      "description": "The Agent2Agent (A2A) Protocol is an open standard designed to enable seamless communication and collaboration between AI agents.",
+      "description": "The Agent2Agent (A2A) Protocol — open standard for communication and collaboration between AI agents across vendors and frameworks. Increasingly paired with MCP (tools) and ACP (editor clients): MCP for tools, A2A for agent-to-agent, ACP for IDE embedding. CrewAI and others added A2A task delegation through 2026.",
       "category": "Agent Protocols",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -3406,7 +3502,17 @@
       "githubUrl": "https://github.com/a2aproject/A2A",
       "country": "US",
       "logoUrl": "https://github.com/a2aproject.png",
-      "icon": "Network"
+      "icon": "Network",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "tags": [
+        "a2a",
+        "agent-to-agent",
+        "interop",
+        "multi-agent",
+        "protocol"
+      ]
     },
     {
       "id": "a2ui",
@@ -3534,7 +3640,7 @@
       "state": "Assess",
       "highlighted": true,
       "trending": true,
-      "description": "Microsoft's Agent Framework for building multi-agent AI systems",
+      "description": "Microsoft's open-source SDK and runtime for AI agents and multi-agent workflows (.NET and Python), unifying AutoGen and Semantic Kernel. Reached 1.0 GA in April 2026 with chat clients, tools, MCP, context providers, middleware, and multi-step workflows. BUILD 2026 added an Agent Harness (shell/filesystem, human-in-the-loop, long-session context) and GitHub Copilot SDK backend integration for coding-oriented agents with MCP and OpenTelemetry.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -3543,7 +3649,17 @@
       "githubUrl": "https://github.com/microsoft/agent-framework",
       "country": "US",
       "logoUrl": "https://github.com/microsoft.png",
-      "icon": "Brain"
+      "icon": "Brain",
+      "tags": [
+        "maf",
+        "autogen",
+        "semantic-kernel",
+        "mcp",
+        "agent-harness",
+        "dotnet",
+        "python",
+        "copilot-sdk"
+      ]
     },
     {
       "id": "agent-lightning",
@@ -3982,8 +4098,7 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-27",
-      "weeklyHighlight": "Weights are out: 2.8T MoE in MXFP4, 1M context, served day zero by five hosts",
-      "description": "Moonshot AI released the Kimi K3 weights on July 27, 2026, eleven days after the model itself launched. The 2.8T-parameter MoE ships in MXFP4 at roughly 594GB, with Kimi Delta Attention, Attention Residuals, 16-of-896 expert activation, native vision, and a 1M-token context window. Baseten, Fireworks, Together, OpenRouter, and SiliconFlow were serving it within a day, and vLLM and SGLang had day-zero support for self-hosting. Each host publishes its own model id for the same file, so routing config matters more than usual.",
+      "description": "Moonshot AI's Kimi K3 launched July 16, 2026 with open weights on July 27 — a 2.8T-parameter MoE (MXFP4 ~594GB) with Kimi Delta Attention, Attention Residuals, 16-of-896 expert activation, native vision, and a 1M-token context window. Intelligence Index ~57 (open-weights frontier). Baseten, Fireworks, Together, OpenRouter, and SiliconFlow served it day zero; vLLM and SGLang support self-hosting. Still a top pick for long-horizon coding and agents alongside DeepSeek V4-Flash-0731 and Claude Opus 5.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
@@ -4012,7 +4127,6 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-21",
-      "weeklyHighlight": "118B MoE built for agentic coding, 8B active per token, runs locally from one GGUF",
       "description": "Poolside released Laguna S 2.1 on July 21, 2026 for agentic coding and long-horizon software engineering. The 118B-parameter MoE activates roughly 8B parameters per token across 256 routed experts, supports a context window of up to 1,048,576 tokens, and can reason before and between tool calls. Poolside reports 70.2 percent on Terminal-Bench 2.1, 78.5 percent on SWE-bench Multilingual, and 59.4 percent on the public SWE-Bench Pro dataset, and published the evaluation trajectories behind those numbers. The official Q4_K_M GGUF runs locally through DwarfStar or llama.cpp.",
       "category": "Coding Models",
       "layer": "Coding",
@@ -4549,48 +4663,53 @@
     },
     {
       "id": "deepseek-coder",
-      "name": "DeepSeek-Coder v3.2",
+      "name": "DeepSeek-V4-Flash (Coding)",
       "state": "Adopt",
-      "description": "DeepSeek's coding-focused usage of the V3.2 family, updated December 1, 2025. Strong for code generation, debugging, and tool-driven software tasks, with thinking-mode support tied directly into tool use.",
+      "description": "DeepSeek's coding-focused use of the V4 family. With V4-Flash-0731 (July 31, 2026), the production Flash model became a popular open-weights coding and agentic daily driver — strong tool use, 1M context, and aggressive price-performance on first-party and third-party APIs. Earlier DeepSeek-Coder / V3.2 lines remain useful locally; many developers now route Claude Code–style agents to deepseek-v4-flash-0731.",
       "category": "Coding Models",
       "layer": "Coding",
       "sourceType": "Open Source",
-      "websiteUrl": "https://api-docs.deepseek.com/news/news251201",
+      "websiteUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
       "logoUrl": "https://avatars.githubusercontent.com/u/148330874?s=200&v=4",
       "country": "CN",
       "tags": [
-        "code-generation",
-        "code-completion",
-        "debugging",
-        "tool-use",
-        "open-source",
-        "v3-2"
+        "deepseek-v4-flash-0731",
+        "coding",
+        "agentic",
+        "open-weights",
+        "1m-context",
+        "price-performance"
       ],
-      "icon": "Code"
+      "icon": "Code",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "githubUrl": "https://github.com/deepseek-ai/DeepSeek-V4"
     },
     {
       "id": "gemini-3-pro-code",
-      "name": "Gemini 3.5 Flash / 3.1 Pro",
+      "name": "Gemini 3.6 Flash / 3.1 Pro",
       "state": "Trial",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Google's latest Gemini coding stack: Gemini 3.5 Flash (released May 19, 2026) is broadly available across the Gemini app, AI Mode, Google Antigravity, and the Gemini API; Gemini 3.1 Pro (Feb 19, 2026) handles advanced coding and deep reasoning. Gemini 3.5 Pro - with a 2M-token context and Deep Think - was still pending as of mid-June 2026.",
+      "description": "Google's latest Gemini coding stack: Gemini 3.6 Flash (July 21, 2026) is the default across the Gemini app, AI Mode, Google Antigravity, and the Gemini API with better code/agentic planning and lower output cost than 3.5 Flash; Gemini 3.1 Pro (Feb 2026) still handles advanced coding and deep reasoning. Gemini 3.5 Pro (2M context, Deep Think) remains in partner testing; Google has confirmed Gemini 4 pre-training has begun.",
       "category": "Coding Models",
       "layer": "Coding",
       "sourceType": "Commercial",
-      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
       "githubUrl": "https://github.com/google-gemini",
       "country": "US",
       "logoUrl": "https://github.com/google-gemini.png",
       "tags": [
+        "gemini-3-6-flash",
         "gemini-3-1-pro",
-        "preview",
         "agentic-coding",
-        "deep-reasoning",
-        "tool-use"
+        "antigravity",
+        "token-efficient"
       ],
-      "icon": "Code"
+      "icon": "Code",
+      "releaseDate": "2026-07-21"
     },
     {
       "id": "grok-code-models",
@@ -4807,8 +4926,7 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-16",
-      "weeklyHighlight": "v0.26 adds K3 support, nested agents, background tasks, and plan mode",
-      "description": "Moonshot AI's open-source terminal and IDE coding agent, updated to v0.26 with Kimi K3 support. Its coder subagent now handles background tasks, todo lists, plan mode, skills, and nested agents. Kimi Code also includes ACP/MCP integration, a web UI, plugin marketplaces, session export, resilient provider retries, and long-running print mode for automation.",
+      "description": "Moonshot AI's open-source terminal and IDE coding agent (Kimi Code), updated for Kimi K3. Features screen-recording input, conversational /mcp-config, built-in coder/explore/plan subagents in isolated contexts, ACP for Zed/JetBrains, skills, nested agents, and plan mode. Free CLI; K3 API is comparatively cheap vs Claude/GPT for similar agentic coding — heavily promoted on X in July 2026.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Open Source",
@@ -4910,7 +5028,7 @@
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Anthropic's Mythos-class Fable 5 (June 9, 2026) is state-of-the-art on nearly all coding benchmarks, with exceptional software engineering performance. Available on the Claude API and via Pro/Max/Team/Enterprise plans, with safeguards in cybersecurity and biology; restricted queries fall back to Opus 4.8.",
+      "description": "Anthropic's Mythos-class Fable 5 (June 9, 2026) remains exceptional on software-engineering benchmarks and writing. As of late July 2026, Claude Opus 5 has taken the lead on several coding arenas (WebDev, Frontier-Bench) at half Fable's price, while Fable 5 still leads some text/knowledge boards. Available on the Claude API and Pro/Max/Team/Enterprise plans; restricted queries fall back to Opus 5.",
       "category": "Coding Models",
       "layer": "Coding",
       "sourceType": "Closed Source",
@@ -5034,7 +5152,6 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-15",
-      "weeklyHighlight": "Apache 2.0 Rust coding harness and TUI with local inference, ACP, skills and subagents",
       "description": "SpaceXAI's terminal coding agent and Rust harness, open-sourced under Apache 2.0 on July 15, 2026. Grok Build understands repositories, edits files, runs commands, searches the web, and manages long-running work interactively, headlessly in CI, or through ACP-compatible editors. Its extension system supports skills, plugins, hooks, MCP servers, and subagents, and it can run local-first against custom inference.",
       "githubStars": 21000,
       "githubForks": 3900,
@@ -5068,7 +5185,6 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-09",
-      "weeklyHighlight": "Enterprise coding platform adds parallel tools, subagents, background tasks and Bobalytics",
       "description": "IBM's enterprise agentic software-development platform received a major July 9, 2026 update. A shared agent harness now supports native tool calling, parallel execution, specialized subagents, background tasks, and reusable governed workflows across planning, coding, testing, CI/CD, and operations. Bobalytics adds visibility into adoption, productivity, quality, usage, governance, and cost.",
       "category": "Coding Agents",
       "layer": "Coding",
@@ -5167,6 +5283,140 @@
         "reinforcement-learning"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "qwen3-8-max",
+      "name": "Qwen3.8 Max",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-02",
+      "weeklyHighlight": "Alibaba's newest flagship MoE (2.4T / 95B active) for coding, research, and long-horizon agents",
+      "description": "Alibaba Cloud / Qwen Team released Qwen3.8 Max on August 2, 2026 — the newest proprietary flagship multimodal MoE for coding, research, professional workflows, and long-horizon agents. ~2.4T total parameters with ~95B active per token; text + image input. Available via Qwen Cloud / Model Studio API. Early community chatter on X and Chinese platforms claims strong coding vs GPT-class models; successor direction from the Qwen3.6/3.7 Max line.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://qwen.ai/blog?id=qwen3.8",
+      "githubUrl": "https://github.com/QwenLM/Qwen",
+      "country": "CN",
+      "logoUrl": "https://github.com/QwenLM.png",
+      "tags": [
+        "qwen3-8-max",
+        "2-4t-moe",
+        "multimodal",
+        "agentic-coding",
+        "long-horizon-agents",
+        "alibaba",
+        "flagship"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "agents-a1",
+      "name": "Agents-A1",
+      "state": "Assess",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-06-26",
+      "description": "Shanghai AI Lab InternScience's open-weight 35B MoE agentic model (built on Qwen3.5-35B-A3B), Apache 2.0. Trained for long-horizon agent work — multi-step search, scientific research, software engineering, instruction following, and tool use — with a 256K context window and quantized GGUF variants. Claims trillion-parameter-class agent performance by scaling agent horizon rather than parameter count; SOTA on SEAL-0, FrontierScience-Research, and IFBench among open agents. Served via vLLM/SGLang; discussed widely on X and LocalLLaMA in July 2026.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://internscience.github.io/Agents-A1/",
+      "githubUrl": "https://github.com/InternScience/Agents-A1",
+      "country": "CN",
+      "logoUrl": "https://github.com/InternScience.png",
+      "tags": [
+        "agents-a1",
+        "35b-moe",
+        "long-horizon-agents",
+        "apache-2-0",
+        "qwen3-5-base",
+        "shanghai-ai-lab",
+        "open-weights",
+        "tool-use"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "state": "Adopt",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-07-25",
+      "description": "The dominant local GGUF inference stack (C/C++). Late July 2026 added native stdio MCP support in llama-server (PR #26062) so a local model can launch MCP servers, discover tools, and run agentic loops without a separate bridge — config via Claude/Cursor-style mcpServers JSON. Combined with Qwen/DeepSeek GGUFs, it becomes a full local agent harness for files, web, databases, and coding MCPs like Serena. Also popular as a cost-saving MCP worker behind Claude Code.",
+      "category": "Inference Engines",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://github.com/ggml-org/llama.cpp",
+      "githubUrl": "https://github.com/ggml-org/llama.cpp",
+      "country": "US",
+      "logoUrl": "https://github.com/ggml-org.png",
+      "tags": [
+        "llama-cpp",
+        "gguf",
+        "local-inference",
+        "mcp",
+        "agent-harness",
+        "stdio",
+        "open-source"
+      ],
+      "icon": "Cpu"
+    },
+    {
+      "id": "unity-cli",
+      "name": "Unity CLI",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-07-21",
+      "description": "Unity's terminal-native path for connecting coding agents, CI pipelines, and custom tooling to the Unity engine. Announced mid-July 2026 as free with no concurrency limits; includes MCP Mode so existing MCP-based agents work without a full rewrite while Unity MCP remains supported. Aimed at agentic game-dev and automation workflows from Claude Code, Cursor, and other CLIs.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://unity.com",
+      "githubUrl": "https://github.com/Unity-Technologies",
+      "country": "US",
+      "logoUrl": "https://github.com/Unity-Technologies.png",
+      "tags": [
+        "unity",
+        "game-dev",
+        "mcp-mode",
+        "coding-agents",
+        "ci",
+        "free"
+      ],
+      "icon": "Terminal"
+    },
+    {
+      "id": "claude-agent-sdk",
+      "name": "Claude Agent SDK",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "description": "Anthropic's official SDK for building agents on Claude (renamed from Claude Code SDK in late 2025). Powers Claude Code and third-party agent products with query primitives, lifecycle hooks, subagents, streaming, isolation, MCP, and A2A. Tracks the Claude 5 / Opus 5 / Sonnet 5 lineup through 2026; widely used for production coding and knowledge-work agents alongside the Claude API.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://docs.anthropic.com",
+      "githubUrl": "https://github.com/anthropics",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "claude-agent-sdk",
+        "subagents",
+        "mcp",
+        "a2a",
+        "claude-code",
+        "hooks"
+      ],
+      "icon": "Network"
     }
   ],
   "toolRepositories": {
@@ -5256,7 +5506,7 @@
     },
     "google-adk": {
       "repo": "https://github.com/google/adk-python",
-      "docs": "https://developers.google.com/agent-development-kit/docs"
+      "docs": "https://developers.google.com/adk"
     },
     "openai-agentsdk": {
       "repo": "https://github.com/openai/openai-agents-python",
@@ -5524,19 +5774,19 @@
     },
     "opus": {
       "repo": "https://github.com/anthropics",
-      "docs": "https://docs.anthropic.com/en/docs/about-claude/models#claude-4-1-opus"
+      "docs": "https://www.anthropic.com/news/claude-opus-5"
     },
     "sonnet": {
       "repo": "https://github.com/anthropics",
-      "docs": "https://docs.anthropic.com/en/docs/about-claude/models#claude-4-sonnet"
+      "docs": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     "grok-code-models": {
       "repo": "https://github.com/xai-org",
       "docs": "https://x.ai/news/grok-code-fast-1"
     },
     "deepseek": {
-      "repo": "https://github.com/deepseek-ai/deepseek-coder",
-      "docs": "https://github.com/deepseek-ai/DeepSeek-Coder/blob/main/README.md"
+      "repo": "https://github.com/deepseek-ai/DeepSeek-V4",
+      "docs": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
     },
     "turbopuffer": {
       "repo": null,
@@ -5560,7 +5810,7 @@
     },
     "claude": {
       "repo": "https://github.com/anthropics",
-      "docs": "https://docs.anthropic.com/claude/"
+      "docs": "https://docs.anthropic.com/en/docs/about-claude/models/overview"
     },
     "mistral": {
       "repo": "https://github.com/mistralai",
@@ -6269,11 +6519,11 @@
     },
     "gemini": {
       "repo": "https://github.com/google-gemini",
-      "docs": "https://deepmind.google/models/gemini/"
+      "docs": "https://ai.google.dev/gemini-api/docs"
     },
     "gemini-3-pro-code": {
       "repo": "https://github.com/google-gemini",
-      "docs": "https://deepmind.google/models/gemini/"
+      "docs": "https://ai.google.dev/gemini-api/docs"
     },
     "google-antigravity": {
       "repo": "https://github.com/google-gemini",
@@ -6444,7 +6694,7 @@
       "docs": "https://github.blog/news-insights/company-news/welcome-home-agents/"
     },
     "deepagents-cli": {
-      "repo": "https://github.com/langchain-ai/deepagents-cli",
+      "repo": "https://github.com/langchain-ai/deepagents",
       "docs": "https://blog.langchain.com/introducing-deepagents-cli/"
     },
     "letta-code": {
@@ -6502,6 +6752,34 @@
     "robostral-navigate": {
       "repo": null,
       "docs": "https://mistral.ai/news/robostral-navigate/"
+    },
+    "deepseek-v3-2": {
+      "repo": "https://github.com/deepseek-ai/DeepSeek-V4",
+      "docs": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    "gemini-3-1-flash-lite": {
+      "repo": "https://github.com/google-gemini",
+      "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    },
+    "qwen3-8-max": {
+      "repo": "https://github.com/QwenLM/Qwen",
+      "docs": "https://docs.qwencloud.com/developer-guides/getting-started/text-generation-models"
+    },
+    "agents-a1": {
+      "repo": "https://github.com/InternScience/Agents-A1",
+      "docs": "https://huggingface.co/InternScience/Agents-A1"
+    },
+    "llama-cpp": {
+      "repo": "https://github.com/ggml-org/llama.cpp",
+      "docs": "https://github.com/ggml-org/llama.cpp"
+    },
+    "unity-cli": {
+      "repo": "https://github.com/Unity-Technologies",
+      "docs": "https://docs.unity3d.com"
+    },
+    "claude-agent-sdk": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://docs.anthropic.com"
     }
   }
 }

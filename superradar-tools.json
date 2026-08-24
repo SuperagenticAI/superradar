@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-23T11:20:15Z",
-  "featuredWeekLabel": "17\u201323 August 2026",
+  "updatedAt": "2026-08-24T22:56:19Z",
+  "featuredWeekLabel": "24\u201330 August 2026",
   "featuredToolIds": [
-    "slack-code",
-    "muse-code",
-    "deepseek-harness",
-    "gemini-3-7-flash",
-    "grok-4-6"
+    "grok-bot",
+    "chroma-foundation",
+    "muse-glimmer",
+    "z-ai",
+    "junie-local"
   ],
   "tools": [
     {
@@ -381,29 +381,29 @@
     },
     {
       "id": "z-ai",
-      "name": "GLM-5.2",
+      "name": "GLM-5.3",
       "state": "Trial",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Z.ai's (Zhipu AI) GLM-5.2 launched June 16, 2026 - the fourth GLM-5-family release in four months (after GLM-5 in Feb, GLM-5-Turbo in Mar, GLM-5.1 in Apr). A ~753B-total / ~40B-active MoE with MIT-licensed open weights, a 1M lossless-context window, dual thinking-effort modes, and an IndexShare optimization for long context. Reported to beat GPT-5.5 on several long-horizon coding benchmarks at roughly one-sixth the cost. Currently trending across the open-weight community.",
+      "description": "Z.ai (Zhipu) GLM-5.3 launched August 14, 2026 \u2014 a post-training upgrade of the GLM-5.2 ~743B MoE (~40B active) with a 1M-token context. Vendor-reported 50% coding gain over 5.2 on Z.ai Code Bench, Terminal-Bench 3.0 28.3 (from 4.6), DeepSWE v1.1 66.9, and CyberGym 84.5 (ahead of Mythos 5). Independent Artificial Analysis Intelligence Index 60, matching Kimi K3. API live; open weights promised after a staged safety review.",
       "category": "Foundational Models",
       "layer": "Models",
-      "sourceType": "Open Weights",
-      "websiteUrl": "https://z.ai/blog/glm-5.2",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://docs.z.ai/guides/llm/glm-5.3",
       "githubUrl": "https://huggingface.co/zai-org/GLM-5",
       "country": "CN",
       "logoUrl": "https://github.com/zai-org.png",
       "tags": [
-        "glm-5-2",
+        "glm-5-3",
         "moe",
         "1m-context",
-        "agentic",
-        "long-horizon-coding",
-        "open-weights",
-        "mit-license"
+        "agentic-coding",
+        "cybersecurity",
+        "open-weights-pending"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "releaseDate": "2026-08-14"
     },
     {
       "id": "lovable",
@@ -476,7 +476,7 @@
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Google's agent-first development platform. Antigravity 2.0 (May 19, 2026, Google I/O) added a redesigned desktop app, a Go-based Antigravity CLI, a public SDK, dynamic subagents, scheduled background tasks, and up to five parallel agents per editor, defaulting to Gemini 3.5 Flash. Google is migrating Gemini CLI users here (legacy Gemini CLI stops serving Pro/Ultra/free requests June 18, 2026).",
+      "description": "Google's agent-first development platform. Antigravity 2.0 added a redesigned desktop app, Go-based CLI, public SDK, dynamic subagents, and up to five parallel agents. August 20, 2026: ships inside eligible Gemini Enterprise subscriptions with admin/spend controls, plus VS Code, Visual Studio, JetBrains, and Zed extensions.",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -489,8 +489,8 @@
         "antigravity-cli",
         "agentic-ide",
         "google",
-        "parallel-agents",
-        "gemini-3-5-flash"
+        "gemini-enterprise",
+        "parallel-agents"
       ],
       "icon": "Code"
     },
@@ -637,7 +637,7 @@
       "name": "Claude Code",
       "state": "Adopt",
       "highlighted": true,
-      "description": "Anthropic's official Claude Code CLI for AI-powered development workflows. Now commonly paired with Claude Opus 5 (July 24, 2026) and Sonnet 5 for agentic coding, multi-step refactors, and long-running terminal work. Available across Free/Pro/Max/Team/Enterprise with raised rate limits for higher effort levels.",
+      "description": "Anthropic's terminal-native Claude Code agent. Defaults to Claude Opus 5 (July 24, 2026) with Sonnet 5 for cheaper turns. August 20 added /design (Claude Design artboards in the CLI). Computer use and browser toolsets plus Agent Skills left beta on the Claude API on August 19.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Closed Source",
@@ -645,7 +645,15 @@
       "country": "US",
       "logoUrl": "https://github.com/anthropics.png",
       "icon": "Code",
-      "trending": true
+      "trending": true,
+      "tags": [
+        "claude-code",
+        "opus-5",
+        "agentic-cli",
+        "computer-use",
+        "skills",
+        "design"
+      ]
     },
     {
       "id": "codex",
@@ -861,8 +869,8 @@
     {
       "id": "jetbrains-junie",
       "name": "Junie",
-      "state": "Assess",
-      "description": "JetBrains AI coding agent that autonomously plans and executes complex multistep actions with 53.6% task completion rate",
+      "state": "Trial",
+      "description": "JetBrains AI coding agent (IDE plugin + CLI). Junie Local (Aug 24, 2026) runs the full agent on-device on Apple M5 Macs with 64 GB RAM using a bundled Qwen3.6-27B 4-bit MLX runtime \u2014 no cloud, no tokens, code never leaves the machine. Cloud default is Gemini 3.7 Flash.",
       "category": "Extensions",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -870,7 +878,18 @@
       "githubUrl": "https://github.com/jetbrains",
       "country": "CZ",
       "logoUrl": "https://avatars.githubusercontent.com/u/878437?s=200&v=4",
-      "icon": "Bot"
+      "icon": "Bot",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "tags": [
+        "junie",
+        "junie-local",
+        "on-device",
+        "jetbrains",
+        "qwen3-6-27b",
+        "mlx"
+      ]
     },
     {
       "id": "jules",
@@ -1547,11 +1566,11 @@
       "id": "grok",
       "name": "Grok 4.5",
       "state": "Adopt",
-      "highlighted": true,
-      "trending": true,
-      "new": true,
+      "highlighted": false,
+      "trending": false,
+      "new": false,
       "releaseDate": "2026-07-16",
-      "description": "SpaceXAI's Grok 4.5 launched July 16, 2026 for coding, agentic tasks, and knowledge work. Trained alongside Cursor, it runs at roughly 80 tokens per second, emphasizes token-efficient long-horizon engineering, and is the default model in Grok Build. Available through the SpaceXAI API, Grok Build, and Cursor at $2/M input and $6/M output tokens.",
+      "description": "SpaceXAI Grok 4.5 (July 16, 2026) coding-and-agents model trained with Cursor. Succeeded as the flagship by Grok 4.6 (Aug 12) but remains available in Cursor and Grok Build as a cheaper/faster option at $2/$6 per 1M tokens.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -2017,7 +2036,7 @@
       "id": "chroma",
       "name": "Chroma",
       "state": "Adopt",
-      "description": "Open-source embedding database for AI applications",
+      "description": "Open-source embedding database for AI applications. Chroma Cloud now also ships Foundation (Aug 20, 2026), a self-improving agent memory wiki built on ChromaDB.",
       "category": "Vector Stores",
       "layer": "Knowledge",
       "sourceType": "Open Source",
@@ -3494,7 +3513,7 @@
       "id": "a2a",
       "name": "A2A",
       "state": "Trial",
-      "description": "The Agent2Agent (A2A) Protocol \u2014 open standard for communication and collaboration between AI agents across vendors and frameworks. Increasingly paired with MCP (tools) and ACP (editor clients): MCP for tools, A2A for agent-to-agent, ACP for IDE embedding. CrewAI and others added A2A task delegation through 2026.",
+      "description": "Agent2Agent (A2A) protocol \u2014 Linux Foundation-hosted open standard for discovery and collaboration between agents across vendors. 150+ supporting orgs; v1.0 added multi-protocol support, multi-tenancy, and production security flows. Complements MCP (tools) with Agent Cards at /.well-known/agent-card.json. Embedded in Azure AI Foundry, Copilot Studio, and Amazon Bedrock AgentCore.",
       "category": "Agent Protocols",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -3509,9 +3528,9 @@
       "tags": [
         "a2a",
         "agent-to-agent",
+        "linux-foundation",
         "interop",
-        "multi-agent",
-        "protocol"
+        "agent-cards"
       ]
     },
     {
@@ -4025,24 +4044,26 @@
     },
     {
       "id": "bytedance-doubao",
-      "name": "Doubao 1.5 Pro",
-      "state": "Assess",
-      "description": "ByteDance's Doubao 1.5 Pro family remains the core Doubao text-model line in Volcano Engine, with production 32K and 256K variants and newer thinking, vision, and UI-TARS extensions added across 2025.",
+      "name": "Seed 2.1",
+      "state": "Trial",
+      "description": "ByteDance Seed 2.1 family (June 23, 2026; Turbo build 20260810) \u2014 Pro and Turbo deep-thinking models for coding, long-horizon agents, and multimodal work. Live on Doubao, TRAE, and Volcengine Ark. Turbo is the low-cost production tier (~$0.50/$2.50 per 1M).",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Commercial",
-      "websiteUrl": "https://www.volcengine.com/docs/84313/1366813",
+      "websiteUrl": "https://seed.bytedance.com/seed2_1",
       "country": "CN",
       "logoUrl": "https://github.com/ByteDance-Seed.png",
       "tags": [
-        "doubao-1-5-pro",
-        "32k",
-        "256k",
-        "thinking",
-        "vision",
-        "volcano-engine"
+        "seed-2-1",
+        "seed-2-1-turbo",
+        "doubao",
+        "volcengine",
+        "agentic-coding"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-06-23"
     },
     {
       "id": "tencent-hunyuan",
@@ -4439,23 +4460,29 @@
     },
     {
       "id": "nvidia-nemotron",
-      "name": "Nemotron 3",
+      "name": "Nemotron 3.5 Lightning",
       "state": "Trial",
-      "description": "NVIDIA's Nemotron 3 (Dec 2025), open-source AI model family with Nano available now, larger versions in early 2026. Enhanced efficiency and cost-effectiveness for complex multi-step tasks",
+      "description": "NVIDIA Nemotron 3.5 Lightning (Aug 11, 2026) is a 31.6B MoE (3.6B active) hybrid Mamba-Transformer open model for high-volume always-on agents, distilled from Nemotron 3 Ultra. 1M context, OpenMDW-1.1 license, up to 4\u00d7 output speed vs similar-size models; Artificial Analysis Intelligence Index 24 (in line with gpt-oss-120b). Paired with the NeMo Switchyard router.",
       "category": "Foundational Models",
       "layer": "Models",
-      "sourceType": "Commercial",
-      "websiteUrl": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
       "githubUrl": "https://github.com/NVIDIA-NeMo/NeMo",
       "country": "US",
       "logoUrl": "https://github.com/NVIDIA-NeMo.png",
       "tags": [
-        "enterprise-ai",
-        "multimodal",
-        "agentic-ai",
-        "reasoning-models"
+        "nemotron-3-5-lightning",
+        "moe",
+        "open-weights",
+        "always-on-agents",
+        "1m-context",
+        "openmdw"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-11"
     },
     {
       "id": "ibm-granite-3",
@@ -5048,26 +5075,25 @@
     },
     {
       "id": "glm-5",
-      "name": "GLM-5.2",
+      "name": "GLM-5.3",
       "state": "Trial",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Z.ai's GLM-5.2 (June 16, 2026), a ~753B/40B-active MoE with MIT-licensed open weights and a 1M lossless-context window. Reported to beat GPT-5.5 on several long-horizon coding benchmarks at roughly one-sixth the cost, making it a strong open-weight option for agentic software engineering. Currently one of the most-talked-about open coding models.",
+      "description": "Z.ai GLM-5.3 coding/agentic model (Aug 14, 2026): same GLM-5.2 base with scaled RL post-training. 50% gain on Z.ai Code Bench, Terminal-Bench 3.0 4.6\u219228.3, DeepSWE v1.1 46.2\u219266.9. Available via GLM Coding Plan, ZCode, Claude Code, OpenCode, and the Z.ai API (model id glm-5.3).",
       "category": "Coding Models",
       "layer": "Coding",
-      "sourceType": "Open Weights",
-      "websiteUrl": "https://z.ai/blog/glm-5.2",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://docs.z.ai/guides/llm/glm-5.3",
       "githubUrl": "https://huggingface.co/zai-org/GLM-5",
       "country": "CN",
       "logoUrl": "https://github.com/zai-org.png",
       "tags": [
-        "glm-5-2",
-        "moe",
-        "1m-context",
+        "glm-5-3",
+        "coding",
         "agentic",
-        "long-horizon-coding",
-        "open-weights"
+        "1m-context",
+        "zcode"
       ],
       "icon": "Code"
     },
@@ -5293,7 +5319,7 @@
       "new": true,
       "releaseDate": "2026-08-02",
       "weeklyHighlight": "Alibaba's newest flagship MoE (2.4T / 95B active) for coding, research, and long-horizon agents",
-      "description": "Alibaba Cloud / Qwen Team released Qwen3.8 Max on August 2, 2026 \u2014 the newest proprietary flagship multimodal MoE for coding, research, professional workflows, and long-horizon agents. ~2.4T total parameters with ~95B active per token; text + image input. Available via Qwen Cloud / Model Studio API. Early community chatter on X and Chinese platforms claims strong coding vs GPT-class models; successor direction from the Qwen3.6/3.7 Max line.",
+      "description": "Alibaba Qwen3.8 Max (Aug 2, 2026) \u2014 proprietary multimodal MoE flagship (~2.4T total / ~95B active, 1M context) for coding, research, and long-horizon agents via Qwen Cloud / Model Studio. Open-weight siblings followed mid-August: Qwen3.8-2.4T-A95B-FP8 and the dense Qwen3.8-27B (Apache-2.0) on Hugging Face.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Commercial",
@@ -5306,7 +5332,6 @@
         "2-4t-moe",
         "multimodal",
         "agentic-coding",
-        "long-horizon-agents",
         "alibaba",
         "flagship"
       ],
@@ -5400,7 +5425,7 @@
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Anthropic's official SDK for building agents on Claude (renamed from Claude Code SDK in late 2025). Powers Claude Code and third-party agent products with query primitives, lifecycle hooks, subagents, streaming, isolation, MCP, and A2A. Tracks the Claude 5 / Opus 5 / Sonnet 5 lineup through 2026; widely used for production coding and knowledge-work agents alongside the Claude API.",
+      "description": "Anthropic's official SDK for building agents on Claude (renamed from Claude Code SDK). Powers Claude Code, Claude Cowork, and third-party agents with query primitives, hooks, subagents, MCP, and A2A. Computer use (computer_toolset_20260801) and browser use plus Files/Skills APIs went GA on August 19, 2026.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -5453,10 +5478,10 @@
       "id": "muse-spark-1-2",
       "name": "Muse Spark 1.2",
       "state": "Trial",
-      "description": "Meta Superintelligence Labs frontier model powering Muse Code. Improved code generation and long-horizon planning over Spark 1.1.",
+      "description": "Meta Superintelligence Labs frontier model (Aug 5, 2026) powering Muse Code. Closed API successor to Spark 1.1 with stronger code generation and long-horizon planning; the Apache-2.0 local distill is Muse Glimmer 30B.",
       "category": "Foundational Models",
       "layer": "Models",
-      "sourceType": "Open Weights",
+      "sourceType": "Closed Source",
       "websiteUrl": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
       "country": "US",
       "icon": "Brain",
@@ -5498,7 +5523,7 @@
       "id": "grok-4-6",
       "name": "Grok 4.6",
       "state": "Trial",
-      "description": "SpaceXAI Grok 4.6 (Aug 12, 2026) post-training refresh of Grok 4.5 \u2014 Intelligence Index 61 (tied GPT-5.6 Sol) at $2/$6 per 1M, 88.4% on Terminal-Bench v2.1 with half the turns of Opus 5.",
+      "description": "SpaceXAI Grok 4.6 (Aug 12, 2026) post-training refresh of Grok 4.5 for long-running agents, coding, and visual/interactive work. Ties GPT-5.6 Sol at 61 on the Artificial Analysis Intelligence Index at $2/$6 per 1M tokens; 88.4% on Terminal-Bench v2.1 in vendor reports. Live in Cursor, Grok Build, the SpaceXAI API, OpenRouter, Vercel, and Cloudflare.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -5507,7 +5532,8 @@
       "icon": "Brain",
       "new": true,
       "trending": true,
-      "releaseDate": "2026-08-12"
+      "releaseDate": "2026-08-12",
+      "highlighted": true
     },
     {
       "id": "trueforge",
@@ -5523,6 +5549,346 @@
       "icon": "Wrench",
       "new": true,
       "releaseDate": "2026-08-18"
+    },
+    {
+      "id": "grok-bot",
+      "name": "Grok Bot",
+      "state": "Assess",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-11",
+      "description": "Cursor/SpaceXAI early-beta AI teammates that each get a persistent cloud computer with a browser, filesystem, and terminal. Bots sign in to real tools, coordinate in parallel, and only return for approval. Available on desktop and iOS for SuperGrok Heavy, Cursor Ultra, and Cursor Teams Premium.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://forum.cursor.com/t/introducing-grok-bot/168053",
+      "country": "US",
+      "logoUrl": "https://github.com/xai-org.png",
+      "tags": [
+        "grok-bot",
+        "cursor",
+        "spacexai",
+        "computer-use",
+        "persistent-agents",
+        "multi-agent"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "muse-glimmer",
+      "name": "Muse Glimmer 30B",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-11",
+      "description": "Meta Superintelligence Labs 30B Apache-2.0 multimodal agentic model distilled from Muse Spark for local deployment. Runs on a single 24 GB GPU (~4-bit); 76.0% SWE-bench Verified, 51.2% SWE-bench Pro, 75.5 MCP Atlas. Ships BF16 weights, k-quants, a DFlash speculative-decoding drafter (233 tok/s on RTX 5090), and a perception encoder.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "githubUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "country": "US",
+      "logoUrl": "https://github.com/meta-llama.png",
+      "tags": [
+        "muse-glimmer",
+        "30b",
+        "apache-2",
+        "local-agents",
+        "open-weights",
+        "dflash",
+        "multimodal"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "chroma-foundation",
+      "name": "Chroma Foundation",
+      "state": "Assess",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-20",
+      "description": "Chroma's research-preview agent memory product (Aug 20, 2026). Builds a self-improving wiki from Codex, Claude Code, Cursor, and Slack sessions on top of ChromaDB and the Context-1 retrieval model. SOC 2 Type 2; starts at $30/user/month on Chroma Cloud.",
+      "category": "Memory Systems",
+      "layer": "Knowledge",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.trychroma.com/foundation",
+      "githubUrl": "https://github.com/chroma-core/chroma",
+      "country": "US",
+      "logoUrl": "https://github.com/chroma-core.png",
+      "tags": [
+        "foundation",
+        "agent-memory",
+        "wiki",
+        "mcp",
+        "chroma",
+        "context-1"
+      ],
+      "icon": "Database"
+    },
+    {
+      "id": "junie-local",
+      "name": "Junie Local",
+      "state": "Assess",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-24",
+      "description": "JetBrains on-device inference for Junie (Aug 24, 2026). One /local command downloads a Qwen3.6-27B 4-bit MLX runtime (~20 GB) and runs the full coding agent on Apple M5 Macs with 64 GB RAM \u2014 no credits, no cloud, code stays on the machine.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://blog.jetbrains.com/junie/2026/08/junie-local-launch/",
+      "githubUrl": "https://github.com/jetbrains",
+      "country": "CZ",
+      "logoUrl": "https://avatars.githubusercontent.com/u/878437?s=200&v=4",
+      "tags": [
+        "junie-local",
+        "on-device",
+        "mlx",
+        "qwen3-6-27b",
+        "apple-silicon",
+        "privacy"
+      ],
+      "icon": "Terminal"
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "description": "Open-source self-hosted personal AI assistant (MIT) that runs a local Gateway and meets you in WhatsApp, Telegram, Slack, Discord, iMessage, Signal, and other chats. ~387K GitHub stars; skills via ClawHub; model-agnostic (Claude, GPT, Gemini, local). Formerly Clawdbot/Moltbot.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://openclaw.ai",
+      "githubUrl": "https://github.com/openclaw/openclaw",
+      "country": "AT",
+      "logoUrl": "https://github.com/openclaw.png",
+      "tags": [
+        "openclaw",
+        "self-hosted",
+        "gateway",
+        "multi-channel",
+        "skills",
+        "personal-agent"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "kitesurf",
+      "name": "Kitesurf",
+      "state": "Assess",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-06",
+      "description": "Cloudflare's agent-first browser that runs in V8 isolates on Workers. Speaks CDP so Puppeteer, Playwright, and MCP clients work unchanged. 3\u20137\u00d7 less CPU/memory than Chromium on screenshots and HTML extraction; free during beta via Browser Run.",
+      "category": "Web, Browser & API",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://blog.cloudflare.com/kitesurf/",
+      "country": "US",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "tags": [
+        "kitesurf",
+        "agent-browser",
+        "cloudflare-workers",
+        "cdp",
+        "mcp"
+      ],
+      "icon": "Globe"
+    },
+    {
+      "id": "cloudflare-os",
+      "name": "Cloudflare OS",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-08-05",
+      "description": "Apache-2.0 agent workspace Cloudflare open-sourced from its internal operating model. Combines an agent chat UI preloaded with company context, sandboxed 'gadgets' (small apps), and Gatekeepers that scope MCP-style tool access with human approval for destructive actions.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://blog.cloudflare.com/cloudflare-os/",
+      "githubUrl": "https://github.com/cloudflare/cloudflare-os",
+      "country": "US",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "tags": [
+        "cloudflare-os",
+        "gatekeepers",
+        "gadgets",
+        "enterprise-agents",
+        "apache-2"
+      ],
+      "icon": "Blocks"
+    },
+    {
+      "id": "webmcp",
+      "name": "WebMCP",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-08-06",
+      "description": "Cloudflare developer-preview protocol that gives any website an agent-callable interface without new origin APIs. Complements MCP by making pages discoverable and usable by browser agents while the human stays in control.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://blog.cloudflare.com/webmcp/",
+      "country": "US",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "tags": [
+        "webmcp",
+        "mcp",
+        "agentic-web",
+        "cloudflare"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "gitlab-duo-agent-platform",
+      "name": "GitLab Duo Agent Platform",
+      "state": "Trial",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-20",
+      "description": "GitLab's agentic DevSecOps platform. GitLab 19.3 (Aug 20, 2026) made the Dedicated AI Gateway GA so Duo agents run in-region with BYO models, plus Flow Creator Agent (plain-language custom flows) and agentic SAST vulnerability resolution.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+      "githubUrl": "https://github.com/gitlab",
+      "country": "US",
+      "logoUrl": "https://github.com/gitlab.png",
+      "tags": [
+        "gitlab-duo",
+        "ai-gateway",
+        "flow-creator",
+        "devsecops",
+        "agentic-sast"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "claude-cowork",
+      "name": "Claude Cowork",
+      "state": "Trial",
+      "trending": true,
+      "new": true,
+      "description": "Anthropic's Claude Code-style agent for knowledge work. Runs multi-step tasks across files, calendar, email, Slack, and the browser on desktop, web, and mobile. Computer use and browser toolsets went GA on the Claude API on August 19, 2026.",
+      "category": "Web, Browser & API",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+      "githubUrl": "https://github.com/anthropics",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "claude-cowork",
+        "knowledge-work",
+        "computer-use",
+        "browser-use",
+        "anthropic"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "embabel",
+      "name": "Embabel",
+      "state": "Trial",
+      "new": true,
+      "releaseDate": "2026-07-20",
+      "description": "JVM agent framework by Spring creator Rod Johnson. Models agents as typed goals, actions, and conditions with a planner (GOAP) on top of Spring AI. 1.0 GA July 2026; 1.5.0 (Aug 12) adds Spring Boot 4 / Spring AI 2 support. Apache-2.0, Kotlin + Java.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://docs.embabel.com/embabel-agent/guide/1.5.0-SNAPSHOT/",
+      "githubUrl": "https://github.com/embabel/embabel-agent",
+      "country": "US",
+      "logoUrl": "https://github.com/embabel.png",
+      "tags": [
+        "embabel",
+        "jvm",
+        "spring-ai",
+        "java",
+        "kotlin",
+        "goap"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "qwen3-8-27b",
+      "name": "Qwen3.8-27B",
+      "state": "Trial",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-13",
+      "description": "Alibaba's Apache-2.0 dense 27B vision-language model in the Qwen3.8 generation. Native 262K context (extensible to 1M), hybrid Gated DeltaNet + Gated Attention, thinking control. Vendor-reported 73.0 Terminal-Bench 2.1 and 61.7 SWE-bench Pro \u2014 a compact open coder that runs on a 4090-class GPU.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "githubUrl": "https://github.com/QwenLM/Qwen",
+      "country": "CN",
+      "logoUrl": "https://github.com/QwenLM.png",
+      "tags": [
+        "qwen3-8-27b",
+        "open-weights",
+        "apache-2",
+        "dense-27b",
+        "agentic-coding",
+        "multimodal"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "nemo-switchyard",
+      "name": "NeMo Switchyard",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-08-11",
+      "description": "NVIDIA open-source routing library that sends each step of an agent workflow to the most capable and efficient model available. Ships with Nemotron 3.5 Lightning; partners include LangChain, Cognition, Kong, Boomi, and Siemens.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/NeMo",
+      "country": "US",
+      "logoUrl": "https://github.com/NVIDIA-NeMo.png",
+      "tags": [
+        "nemo-switchyard",
+        "model-routing",
+        "nvidia",
+        "agent-orchestration"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek-V4-Pro-0813",
+      "state": "Trial",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-13",
+      "description": "DeepSeek V4 Pro 0813 (Aug 13, 2026) \u2014 official ~1.6T MoE (49B active) MIT open-weight flagship with a 1M-token context, Responses API, and reasoning-effort controls. Complements the cheaper V4-Flash-0731 line for heavier agentic and coding workloads.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://api-docs.deepseek.com/news/news260813",
+      "githubUrl": "https://github.com/deepseek-ai/DeepSeek-V4",
+      "country": "CN",
+      "logoUrl": "https://github.com/deepseek-ai.png",
+      "tags": [
+        "deepseek-v4-pro",
+        "1-6t-moe",
+        "mit",
+        "1m-context",
+        "open-weights",
+        "agentic"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {
@@ -6465,7 +6831,7 @@
     },
     "z-ai": {
       "repo": "https://github.com/zai-org",
-      "docs": "https://www.zhipuai.cn/en"
+      "docs": "https://docs.z.ai/guides/llm/glm-5.3"
     },
     "cogvlm2": {
       "repo": "https://github.com/THUDM/CogVLM2",
@@ -6637,7 +7003,7 @@
     },
     "jetbrains-junie": {
       "repo": "https://github.com/jetbrains",
-      "docs": "https://github.com/jetbrains"
+      "docs": "https://www.jetbrains.com/junie/"
     },
     "kimi": {
       "repo": "https://github.com/MoonshotAI",
@@ -6914,6 +7280,62 @@
     "trueforge": {
       "repo": "https://github.com/truefoundry/trueforge",
       "docs": "https://github.com/truefoundry/trueforge"
+    },
+    "grok-bot": {
+      "repo": null,
+      "docs": "https://forum.cursor.com/t/introducing-grok-bot/168053"
+    },
+    "muse-glimmer": {
+      "repo": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "docs": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+    },
+    "chroma-foundation": {
+      "repo": "https://github.com/chroma-core/chroma",
+      "docs": "https://www.trychroma.com/foundation"
+    },
+    "junie-local": {
+      "repo": "https://github.com/jetbrains",
+      "docs": "https://junie.jetbrains.com/docs/junie-local.html"
+    },
+    "openclaw": {
+      "repo": "https://github.com/openclaw/openclaw",
+      "docs": "https://docs.openclaw.ai"
+    },
+    "kitesurf": {
+      "repo": "https://github.com/cloudflare",
+      "docs": "https://developers.cloudflare.com/browser-run/kitesurf/"
+    },
+    "cloudflare-os": {
+      "repo": "https://github.com/cloudflare/cloudflare-os",
+      "docs": "https://blog.cloudflare.com/cloudflare-os/"
+    },
+    "webmcp": {
+      "repo": "https://github.com/cloudflare",
+      "docs": "https://blog.cloudflare.com/webmcp/"
+    },
+    "gitlab-duo-agent-platform": {
+      "repo": "https://github.com/gitlab",
+      "docs": "https://about.gitlab.com/gitlab-duo-agent-platform/"
+    },
+    "claude-cowork": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
+    },
+    "embabel": {
+      "repo": "https://github.com/embabel/embabel-agent",
+      "docs": "https://docs.embabel.com/embabel-agent/guide/1.5.0-SNAPSHOT/"
+    },
+    "qwen3-8-27b": {
+      "repo": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "docs": "https://huggingface.co/Qwen/Qwen3.8-27B"
+    },
+    "nemo-switchyard": {
+      "repo": "https://github.com/NVIDIA-NeMo/NeMo",
+      "docs": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"
+    },
+    "deepseek-v4-pro": {
+      "repo": "https://github.com/deepseek-ai/DeepSeek-V4",
+      "docs": "https://api-docs.deepseek.com/news/news260813"
     }
   }
 }

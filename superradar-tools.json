@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T14:08:31Z",
+  "updatedAt": "2026-08-29T14:40:32Z",
   "featuredWeekLabel": "24\u201330 August 2026",
   "featuredToolIds": [
     "glm-5-3-flash",
@@ -9,6 +9,28 @@
     "junie-local"
   ],
   "tools": [
+    {
+      "id": "codearts-agent",
+      "name": "CodeArts Agent",
+      "state": "Trial",
+      "new": true,
+      "releaseDate": "2026-08-28",
+      "description": "Huawei Cloud's intelligent coding product with AI-native IDE, plugins, and CLI/TUI. Basic and Professional editions moved to commercial availability for international Asia Pacific users on 28 Aug 2026.",
+      "category": "Agentic IDE",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.huaweicloud.com/intl/en-us/product/codearts/ai.html",
+      "country": "CN",
+      "logoUrl": "https://www.huaweicloud.com/favicon.ico",
+      "tags": [
+        "codearts",
+        "huawei-cloud",
+        "agentic-ide",
+        "asia-pacific",
+        "enterprise"
+      ],
+      "icon": "Code"
+    },
     {
       "id": "glm-5-3-flash",
       "name": "GLM-5.3-Flash",
@@ -7422,6 +7444,10 @@
     "hindsight": {
       "repo": "https://github.com/vectorize-io/hindsight",
       "docs": "https://hindsight.vectorize.io/developer/mcp-server"
+    },
+    "codearts-agent": {
+      "repo": null,
+      "docs": "https://www.huaweicloud.com/intl/en-us/product/codearts/ai.html"
     }
   }
 }

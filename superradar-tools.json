@@ -1,14 +1,88 @@
 {
-  "updatedAt": "2026-08-24T22:56:19Z",
+  "updatedAt": "2026-08-29T14:08:31Z",
   "featuredWeekLabel": "24\u201330 August 2026",
   "featuredToolIds": [
+    "glm-5-3-flash",
+    "harness-ai-code-review",
     "grok-bot",
     "chroma-foundation",
-    "muse-glimmer",
-    "z-ai",
     "junie-local"
   ],
   "tools": [
+    {
+      "id": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-26",
+      "description": "Z.ai's first natively multimodal GLM-5 model (26 Aug 2026): 320B-A18B MoE with hybrid sparse/linear attention, 1M context, and MIT open weights. Previously served anonymously as ox-alpha.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://z.ai/blog/glm-5.3-flash",
+      "githubUrl": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "country": "CN",
+      "logoUrl": "https://github.com/zai-org.png",
+      "tags": [
+        "glm-5-3-flash",
+        "moe",
+        "multimodal",
+        "1m-context",
+        "ox-alpha",
+        "open-weights",
+        "mit"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "harness-ai-code-review",
+      "name": "Harness AI Code Review",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-08-27",
+      "description": "Harness AI agent that reviews pull requests on GitHub or Harness Code (launched 27 Aug 2026), posting criterion-based comments grounded in org review policy and SDLC context via MCP. The agent cannot push or merge.",
+      "category": "Code Review",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.harness.io/blog/agent-ready-code-repository-ai-code-review",
+      "githubUrl": "https://github.com/harness",
+      "country": "US",
+      "logoUrl": "https://github.com/harness.png",
+      "tags": [
+        "ai-code-review",
+        "mcp",
+        "github",
+        "harness-code",
+        "sdlc"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "hindsight",
+      "name": "Hindsight",
+      "state": "Trial",
+      "new": true,
+      "releaseDate": "2026-08-25",
+      "description": "Vectorize's MIT-licensed agent memory with retain/recall/reflect over MCP. v0.9.2 (25 Aug 2026) added seven native knowledge-base MCP tools so an agent can browse, search, and curate its own wiki on the same connection.",
+      "category": "Memory Systems",
+      "layer": "Knowledge",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://hindsight.vectorize.io/",
+      "githubUrl": "https://github.com/vectorize-io/hindsight",
+      "country": "US",
+      "logoUrl": "https://github.com/vectorize-io.png",
+      "tags": [
+        "agent-memory",
+        "mcp",
+        "knowledge-base",
+        "retain-recall-reflect"
+      ],
+      "icon": "Database"
+    },
     {
       "id": "pulumi-neo",
       "name": "Pulumi",
@@ -7336,6 +7410,18 @@
     "deepseek-v4-pro": {
       "repo": "https://github.com/deepseek-ai/DeepSeek-V4",
       "docs": "https://api-docs.deepseek.com/news/news260813"
+    },
+    "glm-5-3-flash": {
+      "repo": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "docs": "https://docs.z.ai/guides/vlm/glm-5.3-flash"
+    },
+    "harness-ai-code-review": {
+      "repo": "https://github.com/harness",
+      "docs": "https://developer.harness.io/docs/ai-code-review/overview/"
+    },
+    "hindsight": {
+      "repo": "https://github.com/vectorize-io/hindsight",
+      "docs": "https://hindsight.vectorize.io/developer/mcp-server"
     }
   }
 }

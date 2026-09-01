@@ -1,14 +1,62 @@
 {
-  "updatedAt": "2026-08-29T14:40:32Z",
-  "featuredWeekLabel": "24\u201330 August 2026",
+  "updatedAt": "2026-09-01T22:14:51Z",
+  "featuredWeekLabel": "31 August\u20136 September 2026",
   "featuredToolIds": [
+    "fable-5-1",
     "glm-5-3-flash",
+    "muse-code",
     "harness-ai-code-review",
-    "grok-bot",
-    "chroma-foundation",
-    "junie-local"
+    "codearts-agent"
   ],
   "tools": [
+    {
+      "id": "fable-5-1",
+      "name": "Fable 5.1",
+      "state": "Adopt",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-09-01",
+      "description": "Anthropic's Claude Fable 5.1 (1 Sep 2026): generally available Mythos-class successor to Fable 5 for coding and knowledge work, with lower cache-read pricing (~25% typical / up to ~45% on heavy agentic workloads) and API id claude-fable-5-1.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "githubUrl": "https://github.com/anthropics",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "fable-5-1",
+        "mythos-class",
+        "agentic-coding",
+        "anthropic",
+        "cache-reads"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "mythos-5-1",
+      "name": "Mythos 5.1",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-01",
+      "description": "Anthropic's Claude Mythos 5.1 (1 Sep 2026): the same underlying model as Fable 5.1 with more permissive cyber and life-sciences safeguards, available only through trusted access programs (CVP / LSVP).",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "githubUrl": "https://github.com/anthropics",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "mythos-5-1",
+        "trusted-access",
+        "cyber",
+        "life-sciences",
+        "anthropic"
+      ],
+      "icon": "Shield"
+    },
     {
       "id": "codearts-agent",
       "name": "CodeArts Agent",
@@ -5558,11 +5606,11 @@
       "id": "muse-code",
       "name": "Muse Code",
       "state": "Trial",
-      "description": "Meta terminal coding agent powered by Muse Spark 1.2 with background sub-agents, isolated worktrees and model-agnostic harness. Available via curl installer and API.",
+      "description": "Meta's coding agent for the terminal and CI, built on Muse Spark 1.2: plans, edits, and runs commands with approvals and an OS sandbox, plus skills, hooks, MCP, and headless muse exec.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Open Source",
-      "websiteUrl": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "websiteUrl": "https://dev.meta.ai/docs/muse-code",
       "githubUrl": "https://github.com/meta-llama",
       "country": "US",
       "icon": "Terminal",
@@ -7355,7 +7403,7 @@
     },
     "muse-code": {
       "repo": "https://github.com/meta-llama",
-      "docs": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+      "docs": "https://dev.meta.ai/docs/muse-code"
     },
     "muse-spark-1-2": {
       "repo": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
@@ -7448,6 +7496,14 @@
     "codearts-agent": {
       "repo": null,
       "docs": "https://www.huaweicloud.com/intl/en-us/product/codearts/ai.html"
+    },
+    "fable-5-1": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    "mythos-5-1": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
     }
   }
 }

@@ -1,14 +1,136 @@
 {
-  "updatedAt": "2026-09-02T05:05:21Z",
+  "updatedAt": "2026-09-03T05:12:18Z",
   "featuredWeekLabel": "31 August–6 September 2026",
   "featuredToolIds": [
-    "fastmcp",
-    "kong-ai-gateway",
+    "gemini-3-8-flash",
+    "kilo-code",
     "fable-5-1",
-    "hermes-agent",
-    "muse-code"
+    "fastmcp",
+    "kong-ai-gateway"
   ],
   "tools": [
+    {
+      "id": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "state": "Adopt",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Google Gemini 3.8 Flash (2 Sep 2026): next Flash workhorse for software engineering and agentic multi-step reasoning, same intro price as 3.7 Flash ($0.75/$3.75 per 1M tokens through 31 Dec 2026), available in Gemini API, AI Studio, Antigravity, and Gemini Enterprise.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "githubUrl": "https://github.com/google-gemini",
+      "country": "US",
+      "logoUrl": "https://github.com/google-gemini.png",
+      "tags": [
+        "gemini-3-8-flash",
+        "agentic",
+        "coding",
+        "flash",
+        "google"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "gemini-3-8-flash-cyber",
+      "name": "Gemini 3.8 Flash Cyber",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Google Gemini 3.8 Flash Cyber (2 Sep 2026): cybersecurity-tuned Flash for vulnerability discovery and automated patching, available to trusted defenders through Google's Fairwind Program.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "githubUrl": "https://github.com/google-gemini",
+      "country": "US",
+      "logoUrl": "https://github.com/google-gemini.png",
+      "tags": [
+        "gemini-3-8-flash-cyber",
+        "fairwind",
+        "cybersecurity",
+        "vulnerability",
+        "google"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "kilo-code",
+      "name": "Kilo Code",
+      "state": "Trial",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-09-01",
+      "description": "Open-source AI coding agent across VS Code, JetBrains, CLI, and cloud (~27K GitHub stars). The native JetBrains plugin launch (1 Sep 2026) turns the IDE into a multi-agent control room with parallel agents in isolated git worktrees, Run Configurations, and PR tracking across 600+ models.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://kilo.ai/",
+      "githubUrl": "https://github.com/Kilo-Org/kilocode",
+      "country": "US",
+      "logoUrl": "https://github.com/Kilo-Org.png",
+      "tags": [
+        "kilo-code",
+        "jetbrains",
+        "vscode",
+        "cli",
+        "multi-agent",
+        "open-source"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "coder-agent-relay",
+      "name": "Coder Agent Relay",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Coder's self-hosted execution bridge for cloud coding agents (2 Sep 2026): Cursor Cloud Agents keep cloud orchestration/inference while tool calls run inside customer-controlled Coder workspaces. Private preview with design partners.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://coder.com/cursor",
+      "githubUrl": "https://github.com/coder/coder",
+      "country": "US",
+      "logoUrl": "https://github.com/coder.png",
+      "tags": [
+        "coder",
+        "agent-relay",
+        "cursor",
+        "self-hosted",
+        "enterprise",
+        "sandbox"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "useagent",
+      "name": "UseAgent",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-08-29",
+      "description": "Open-source AI coworker runtime (AGPL) that gives Claude Code, Codex, OpenCode, or Pi a cloud computer, team tools, and Slack/web interface to hand back finished work (sites, decks, PRs). Alpha self-host; cloud forthcoming.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://useagent.org/",
+      "githubUrl": "https://github.com/useagenthq/useagent",
+      "country": "US",
+      "logoUrl": "https://github.com/useagenthq.png",
+      "tags": [
+        "useagent",
+        "coworker",
+        "slack",
+        "claude-code",
+        "codex",
+        "opencode",
+        "self-host"
+      ],
+      "icon": "Users"
+    },
     {
       "id": "fastmcp",
       "name": "FastMCP",
@@ -5707,7 +5829,7 @@
       "country": "US",
       "icon": "Brain",
       "new": true,
-      "trending": true,
+      "trending": false,
       "releaseDate": "2026-08-13"
     },
     {
@@ -7563,6 +7685,26 @@
     "hermes-agent": {
       "repo": "https://github.com/NousResearch/hermes-agent",
       "docs": "https://hermes-agent.nousresearch.com/docs/"
+    },
+    "kilo-code": {
+      "repo": "https://github.com/Kilo-Org/kilocode",
+      "docs": "https://kilo.ai/"
+    },
+    "useagent": {
+      "repo": "https://github.com/useagenthq/useagent",
+      "docs": "https://useagent.org/"
+    },
+    "coder-agent-relay": {
+      "repo": "https://github.com/coder/coder",
+      "docs": "https://coder.com/cursor"
+    },
+    "gemini-3-8-flash": {
+      "repo": "https://github.com/google-gemini",
+      "docs": "https://ai.google.dev/gemini-api/docs"
+    },
+    "gemini-3-8-flash-cyber": {
+      "repo": "https://github.com/google-gemini",
+      "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
     }
   }
 }

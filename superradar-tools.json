@@ -1,14 +1,89 @@
 {
-  "updatedAt": "2026-09-03T05:12:18Z",
+  "updatedAt": "2026-09-04T05:04:20Z",
   "featuredWeekLabel": "31 August–6 September 2026",
   "featuredToolIds": [
+    "gpt-6-astra",
+    "muse-spark-1-3",
     "gemini-3-8-flash",
-    "kilo-code",
     "fable-5-1",
-    "fastmcp",
-    "kong-ai-gateway"
+    "orcareplay"
   ],
   "tools": [
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "state": "Adopt",
+      "new": true,
+      "releaseDate": "2026-09-03",
+      "description": "OpenAI's GPT-6 Astra (3 Sep 2026): flagship agentic model for software engineering, computer use, browsing, cybersecurity, science, and professional work; API id gpt-6-astra, rolling out via ChatGPT Plus/Pro/Business/Enterprise, OpenAI API, Azure, and AWS Bedrock.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/gpt-6-astra/",
+      "githubUrl": "https://github.com/openai",
+      "country": "US",
+      "logoUrl": "https://github.com/openai.png",
+      "trending": true,
+      "highlighted": true,
+      "tags": [
+        "gpt-6-astra",
+        "openai",
+        "computer-use",
+        "agentic-coding",
+        "cybersecurity",
+        "arc-agi-3"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "muse-spark-1-3",
+      "name": "Muse Spark 1.3",
+      "state": "Trial",
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Meta Superintelligence Labs Muse Spark 1.3 (2 Sep 2026): agentic and coding update over Spark 1.2 with longer-horizon collaboration, fewer tool calls (~20%) and tokens (~25%), stronger prompt-injection resistance; available in Muse Code and Meta Model API.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "githubUrl": null,
+      "country": "US",
+      "logoUrl": "https://github.com/meta-llama.png",
+      "trending": true,
+      "highlighted": true,
+      "tags": [
+        "muse-spark-1-3",
+        "meta",
+        "muse-code",
+        "meta-model-api",
+        "agentic-coding"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "orcareplay",
+      "name": "OrcaReplay",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Open-source record-and-replay engine (2 Sep 2026) from the OrcaRouter team: capture coding-agent runs, replay offline byte-for-byte, and fork from any step onto another model for debugging and eval.",
+      "category": "Observability",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.orcarouter.ai",
+      "githubUrl": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "country": "US",
+      "logoUrl": "https://github.com/Continuum-AI-Corp.png",
+      "trending": true,
+      "tags": [
+        "orcareplay",
+        "agent-debugging",
+        "record-replay",
+        "tracing",
+        "orcarouter"
+      ],
+      "icon": "Activity"
+    },
     {
       "id": "gemini-3-8-flash",
       "name": "Gemini 3.8 Flash",
@@ -672,7 +747,7 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-09",
-      "description": "OpenAI's GPT-5.6 family launched July 9, 2026 across ChatGPT, Codex, and the API. Sol is the flagship, Terra balances capability and cost, and Luna targets fast, economical workloads. The Responses API adds Programmatic Tool Calling for in-memory tool coordination and a multi-agent beta for concurrent subagents. On July 30 OpenAI cut Luna pricing ~80% to $0.20/$1.20 and Terra ~20% to $2/$12 per 1M tokens (Sol holds at $5/$30). ChatGPT default since July 9; GPT-6 / Astra rumored for later 2026.",
+      "description": "OpenAI's GPT-5.6 family launched July 9, 2026 across ChatGPT, Codex, and the API. Sol is the prior flagship, Terra balances capability and cost, and Luna targets fast, economical workloads. The Responses API adds Programmatic Tool Calling for in-memory tool coordination and a multi-agent beta for concurrent subagents. On July 30 OpenAI cut Luna pricing ~80% to $0.20/$1.20 and Terra ~20% to $2/$12 per 1M tokens (Sol holds at $5/$30). Superseded as the frontier default by GPT-6 Astra (3 Sep 2026); see gpt-6-astra.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -7705,6 +7780,18 @@
     "gemini-3-8-flash-cyber": {
       "repo": "https://github.com/google-gemini",
       "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+    },
+    "gpt-6-astra": {
+      "repo": "https://github.com/openai",
+      "docs": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+    },
+    "muse-spark-1-3": {
+      "repo": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "docs": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+    },
+    "orcareplay": {
+      "repo": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "docs": "https://www.orcarouter.ai"
     }
   }
 }

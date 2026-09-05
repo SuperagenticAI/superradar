@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T05:04:20Z",
+  "updatedAt": "2026-09-05T05:09:49Z",
   "featuredWeekLabel": "31 August–6 September 2026",
   "featuredToolIds": [
     "gpt-6-astra",
@@ -4761,7 +4761,7 @@
       "id": "baseten",
       "name": "Baseten",
       "state": "Trial",
-      "description": "Baseten is a serverless backend for building AI-powered applications. It allows developers to deploy and scale machine learning models without managing infrastructure.",
+      "description": "Serverless backend for deploying and scaling ML models. On 2 Sep 2026 Baseten shipped a remote platform MCP (api.baseten.co/mcp), docs MCP, and baseten-skills so coding agents can deploy, debug, and tune inference with annotated read/write tools.",
       "category": "Model Serving",
       "layer": "AgentOps",
       "sourceType": "Commercial",
@@ -4769,7 +4769,9 @@
       "githubUrl": "https://github.com/basetenlabs",
       "country": "US",
       "logoUrl": "https://github.com/basetenlabs.png",
-      "icon": "Server"
+      "icon": "Server",
+      "new": true,
+      "trending": true
     },
     {
       "id": "predibase",
@@ -6277,6 +6279,121 @@
         "agentic"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "prime-agent",
+      "name": "Prime Agent",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-08-05",
+      "description": "Prime Intellect's open-source self-improving coding harness (~20K GitHub stars) built on Recursive Language Models and a Continual Harness: persistent IPython control, programmable subagents, and online refinement of prompts, skills, memory, and subagent specs.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.primeintellect.ai/blog/prime-agent",
+      "githubUrl": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "country": "US",
+      "logoUrl": "https://github.com/PrimeIntellect-ai.png",
+      "tags": [
+        "rlm",
+        "continual-harness",
+        "coding-agent",
+        "self-improving",
+        "prime-intellect"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "runway-dev-mcp",
+      "name": "Runway Dev MCP",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Hosted MCP server (2 Sep 2026) that lets coding agents research Runway models, configure Model Routers and Characters, and debug generative-media API integrations from Claude Code, Codex, Cursor, or ChatGPT.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://runway.com/news/company-news/runway-dev-mcp",
+      "country": "US",
+      "logoUrl": "https://github.com/runwayml.png",
+      "tags": [
+        "mcp",
+        "runway",
+        "generative-media",
+        "model-router",
+        "coding-agents"
+      ],
+      "icon": "Wrench"
+    },
+    {
+      "id": "supernova-editor-mcp",
+      "name": "Supernova Editor MCP",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-01",
+      "description": "Public-beta hosted MCP (1 Sep 2026) giving Cursor, Claude, VS Code, Codex, and ChatGPT write access to Supernova design systems — docs, tokens, components, skills, contexts, and pipelines — via https://mcp.supernova.io/mcp.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.supernova.io/blog/introducing-supernova-editor-mcp",
+      "country": "CZ",
+      "logoUrl": "https://www.supernova.io/favicon.ico",
+      "tags": [
+        "mcp",
+        "design-system",
+        "supernova",
+        "tokens",
+        "documentation"
+      ],
+      "icon": "Wrench"
+    },
+    {
+      "id": "aws-mcp",
+      "name": "AWS MCP Server",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-04",
+      "description": "AWS-managed remote MCP in the Agent Toolkit for AWS: coding agents get SigV4/IAM-secured access to 300+ services, docs search, skills, and (4 Sep 2026) serverless Lambda diagnostics across API Gateway, EventBridge, S3, DynamoDB, and more.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/",
+      "githubUrl": "https://github.com/aws/agent-toolkit-for-aws",
+      "country": "US",
+      "logoUrl": "https://github.com/aws.png",
+      "tags": [
+        "mcp",
+        "aws",
+        "agent-toolkit",
+        "lambda",
+        "kiro"
+      ],
+      "icon": "Cloud"
+    },
+    {
+      "id": "openjiuwen",
+      "name": "openJiuwen",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-08-28",
+      "description": "Huawei's open-source long-horizon coding-agent harness (paper 28 Aug 2026) emphasizing Rail-based capability composition and runtime adaptivity; reports 82.6% on SWE-bench Verified and 87.19% on Terminal-Bench 2.1, with agent-core SDK and JiuwenSwarm.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://arxiv.org/abs/2608.27969",
+      "githubUrl": "https://github.com/openJiuwen-ai/agent-core",
+      "country": "CN",
+      "logoUrl": "https://github.com/openJiuwen-ai.png",
+      "tags": [
+        "openjiuwen",
+        "harness",
+        "coding-agents",
+        "huawei",
+        "swarm"
+      ],
+      "icon": "Network"
     }
   ],
   "toolRepositories": {
@@ -7792,6 +7909,26 @@
     "orcareplay": {
       "repo": "https://github.com/Continuum-AI-Corp/OrcaReplay",
       "docs": "https://www.orcarouter.ai"
+    },
+    "prime-agent": {
+      "repo": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "docs": "https://www.primeintellect.ai/blog/prime-agent"
+    },
+    "runway-dev-mcp": {
+      "repo": null,
+      "docs": "https://dev.runwayml.com/"
+    },
+    "supernova-editor-mcp": {
+      "repo": null,
+      "docs": "https://learn.supernova.io/latest/ai/mcp/editor-mcp-zZuzFobd"
+    },
+    "aws-mcp": {
+      "repo": "https://github.com/aws/agent-toolkit-for-aws",
+      "docs": "https://docs.aws.amazon.com/agent-toolkit/latest/userguide/what-is-agent-toolkit.html"
+    },
+    "openjiuwen": {
+      "repo": "https://github.com/openJiuwen-ai/agent-core",
+      "docs": "https://github.com/openJiuwen-ai/jiuwenswarm"
     }
   }
 }

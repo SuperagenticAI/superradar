@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T05:09:49Z",
+  "updatedAt": "2026-09-06T05:09:24Z",
   "featuredWeekLabel": "31 August–6 September 2026",
   "featuredToolIds": [
     "gpt-6-astra",
@@ -9,6 +9,88 @@
     "orcareplay"
   ],
   "tools": [
+    {
+      "id": "ahp",
+      "name": "AHP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-02",
+      "description": "Agent Host Protocol — Microsoft's open JSON-RPC standard for synchronized multi-client AI agent sessions (immutable state, channel URIs, write-ahead reconciliation). Powers VS Code 1.136's Agent Host so sessions persist across windows/devices and third-party harnesses (Copilot SDK, Claude Agent SDK) can plug in. Complements ACP (editor↔agent) and MCP (tools).",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://microsoft.github.io/agent-host-protocol/",
+      "githubUrl": "https://github.com/microsoft/agent-host-protocol",
+      "githubStars": 303,
+      "country": "US",
+      "logoUrl": "https://github.com/microsoft.png",
+      "license": "MIT",
+      "tags": [
+        "ahp",
+        "agent-host-protocol",
+        "vscode",
+        "json-rpc",
+        "multi-client",
+        "sessions",
+        "interop"
+      ],
+      "icon": "Network",
+      "highlighted": true
+    },
+    {
+      "id": "pharos",
+      "name": "Pharos",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Open-source Go CLI and registry for searching, installing, locking, and auditing MCP servers across multiple registries (mcp.io, Glama, Smithery, and more), with client config patching and an Agent SDK so agents can discover and manage MCP lifecycle themselves.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://getpharos.dev",
+      "githubUrl": "https://github.com/Wpnx330/pharos-cli",
+      "githubStars": 8,
+      "country": "US",
+      "logoUrl": "https://github.com/Wpnx330.png",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "package-manager",
+        "registry",
+        "cli",
+        "lockfiles",
+        "agent-sdk"
+      ],
+      "icon": "Package"
+    },
+    {
+      "id": "scoot",
+      "name": "scoot",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-05",
+      "description": "Tiny stdlib-only Python terminal coding agent (MIT): natural-language REPL that reads, searches, edits, and runs in a sandboxed workspace with approvals, sessions, OpenAI/Anthropic/Ollama providers, and zero third-party dependencies (wheel or single-file zipapp).",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://github.com/sergenes/scootcli",
+      "githubUrl": "https://github.com/sergenes/scootcli",
+      "githubStars": 0,
+      "country": "US",
+      "logoUrl": "https://github.com/sergenes.png",
+      "license": "MIT",
+      "tags": [
+        "coding-agent",
+        "cli",
+        "stdlib",
+        "openai",
+        "anthropic",
+        "ollama",
+        "approvals"
+      ],
+      "icon": "Terminal"
+    },
     {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
@@ -1378,7 +1460,7 @@
       "id": "vscode",
       "name": "VSCode",
       "state": "Adopt",
-      "description": "Microsoft's popular code editor with extensive AI coding extensions and integrated development features",
+      "description": "Microsoft's open-source editor; VS Code 1.136 (2 Sep 2026) ships Agent Host (AHP) for persistent multi-window agent sessions, Agent Merge preview for finishing PRs, multi-root agent workspaces, and deeper Copilot/Claude agent orchestration.",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Open Source",
@@ -1386,7 +1468,17 @@
       "githubUrl": "https://github.com/microsoft/vscode",
       "country": "US",
       "logoUrl": "https://github.com/microsoft/vscode",
-      "icon": "Code"
+      "icon": "Code",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-02",
+      "tags": [
+        "agent-host",
+        "ahp",
+        "agent-merge",
+        "copilot",
+        "claude"
+      ]
     },
     {
       "id": "trae",
@@ -7929,6 +8021,18 @@
     "openjiuwen": {
       "repo": "https://github.com/openJiuwen-ai/agent-core",
       "docs": "https://github.com/openJiuwen-ai/jiuwenswarm"
+    },
+    "ahp": {
+      "repo": "https://github.com/microsoft/agent-host-protocol",
+      "docs": "https://microsoft.github.io/agent-host-protocol/"
+    },
+    "pharos": {
+      "repo": "https://github.com/Wpnx330/pharos-cli",
+      "docs": "https://getpharos.dev"
+    },
+    "scoot": {
+      "repo": "https://github.com/sergenes/scootcli",
+      "docs": "https://github.com/sergenes/scootcli"
     }
   }
 }

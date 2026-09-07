@@ -1,14 +1,90 @@
 {
-  "updatedAt": "2026-09-06T05:09:24Z",
-  "featuredWeekLabel": "31 August–6 September 2026",
+  "updatedAt": "2026-09-07T05:09:39Z",
+  "featuredWeekLabel": "7–13 September 2026",
   "featuredToolIds": [
     "gpt-6-astra",
-    "muse-spark-1-3",
     "gemini-3-8-flash",
     "fable-5-1",
-    "orcareplay"
+    "qveris",
+    "launchdarkly-ai-sdk"
   ],
   "tools": [
+    {
+      "id": "qveris",
+      "name": "QVeris",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-06",
+      "description": "Capability routing network for agents (toolkit spotlight 6 Sep 2026): discover/inspect/probe/call across 10,000+ verified tools via open-source MCP server, CLI, and Python/TS SDKs instead of loading giant static catalogs.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://qveris.ai",
+      "githubUrl": "https://github.com/QVerisAI/qveris-agent-toolkit",
+      "githubStars": 260,
+      "country": "US",
+      "logoUrl": "https://github.com/QVerisAI.png",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "capability-routing",
+        "cli",
+        "tool-discovery",
+        "agent-toolkit"
+      ],
+      "icon": "Wrench"
+    },
+    {
+      "id": "apsaradb-mcp",
+      "name": "ApsaraDB MCP Server",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-02",
+      "description": "Alibaba Cloud open-source MCP server (2 Sep 2026) for ApsaraDB: coding agents can create instances, run SQL via ephemeral accounts, and call ApsaraDB Agent diagnostics across PolarDB, Tair, MongoDB, and more without long-lived DB passwords.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.alibabacloud.com/blog/open-source-apsaradb-mcp-server-%E2%80%94-an-out-of-the-box-database-ai-collaborator_603525",
+      "githubUrl": "https://github.com/aliyun/alibabacloud-yaochi-db-mcp-server",
+      "githubStars": 5,
+      "country": "CN",
+      "logoUrl": "https://github.com/aliyun.png",
+      "license": "Apache-2.0",
+      "tags": [
+        "mcp",
+        "apsaradb",
+        "alibaba-cloud",
+        "polardb",
+        "database",
+        "yaochi"
+      ],
+      "icon": "Database"
+    },
+    {
+      "id": "launchdarkly-ai-sdk",
+      "name": "LaunchDarkly AI SDK",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-03",
+      "description": "LaunchDarkly's recommended Python/JS SDK for AgentControl (3 Sep 2026): one install to invoke provider-routed completions and multi-step agent graphs, attach judges, and auto-record metrics/traces without hand-built telemetry.",
+      "category": "Observability",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://launchdarkly.com/blog/introducing-the-launchdarkly-ai-sdk/",
+      "githubUrl": "https://github.com/launchdarkly/python-ai-sdk",
+      "country": "US",
+      "logoUrl": "https://github.com/launchdarkly.png",
+      "tags": [
+        "agentcontrol",
+        "observability",
+        "feature-flags",
+        "agent-graphs",
+        "evaluation"
+      ],
+      "icon": "Activity"
+    },
     {
       "id": "ahp",
       "name": "AHP",
@@ -3912,7 +3988,7 @@
       "id": "langchain",
       "name": "LangChain",
       "state": "Assess",
-      "description": "Modular agent framework for integrating LLMs with data, tools, and logic. LangChain 1.0 - its first stable major release - refocuses on the core agent loop, adds a middleware concept, and commits to no breaking changes until 2.0, alongside the LangGraph 1.0 runtime and the new Deep Agents harness.",
+      "description": "Modular agent framework for integrating LLMs with data, tools, and logic. Sep 2026: first-class MCP lands in langchain.mcp (via FastMCP) with stateless-spec support, elicitation as LangGraph interrupts, and client-side tool-list caching (langchain[mcp]>=1.4.0).",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -3920,7 +3996,9 @@
       "githubUrl": "https://github.com/langchain-ai/langchain",
       "country": "US",
       "logoUrl": "https://avatars.githubusercontent.com/u/126733545?s=200&v=4",
-      "icon": "Brain"
+      "icon": "Brain",
+      "new": true,
+      "trending": true
     },
     {
       "id": "replit",
@@ -4453,7 +4531,7 @@
       "id": "browser-use",
       "name": "Browser Use",
       "state": "Assess",
-      "description": "Open-source AI agent for web automation that makes websites accessible for AI agents with no-code GUI",
+      "description": "Open-source browser automation framework for AI agents. On 6 Sep 2026 it added native WebMCP support so agents can call structured tools sites expose, while still driving the DOM when WebMCP is unavailable.",
       "category": "Web, Browser & API",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -4461,7 +4539,10 @@
       "githubUrl": "https://github.com/browser-use/browser-use",
       "country": "US",
       "logoUrl": "https://github.com/browser-use.png",
-      "icon": "Bot"
+      "icon": "Bot",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-06"
     },
     {
       "id": "stripe-agent-sdk",
@@ -8033,6 +8114,18 @@
     "scoot": {
       "repo": "https://github.com/sergenes/scootcli",
       "docs": "https://github.com/sergenes/scootcli"
+    },
+    "qveris": {
+      "repo": "https://github.com/QVerisAI/qveris-agent-toolkit",
+      "docs": "https://qveris.ai"
+    },
+    "apsaradb-mcp": {
+      "repo": "https://github.com/aliyun/alibabacloud-yaochi-db-mcp-server",
+      "docs": "https://github.com/aliyun/alibabacloud-yaochi-db-mcp-server"
+    },
+    "launchdarkly-ai-sdk": {
+      "repo": "https://github.com/launchdarkly/python-ai-sdk",
+      "docs": "https://docs.launchdarkly.com/sdk/ai/python/"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-07T05:09:39Z",
+  "updatedAt": "2026-09-08T05:10:29Z",
   "featuredWeekLabel": "7–13 September 2026",
   "featuredToolIds": [
     "gpt-6-astra",
-    "gemini-3-8-flash",
     "fable-5-1",
-    "qveris",
-    "launchdarkly-ai-sdk"
+    "gemini-3-8-flash",
+    "hydrafusion",
+    "speakeasy-kit"
   ],
   "tools": [
     {
@@ -6567,6 +6567,58 @@
         "swarm"
       ],
       "icon": "Network"
+    },
+    {
+      "id": "speakeasy-kit",
+      "name": "Kit",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-06",
+      "description": "Speakeasy's MIT-licensed coding-agent runtime (Product Hunt 6 Sep 2026): one static binary with a terminal client, ACP server, A2A endpoint, and subagent orchestrator; models use a single compose tool (Runlet) for shell, edits, tests, skills, MCP, and harness delegation.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://github.com/speakeasy-api/kit",
+      "githubUrl": "https://github.com/speakeasy-api/kit",
+      "githubStars": 34,
+      "country": "US",
+      "logoUrl": "https://github.com/speakeasy-api.png",
+      "license": "MIT",
+      "tags": [
+        "kit",
+        "speakeasy",
+        "acp",
+        "a2a",
+        "compose",
+        "coding-agent-runtime"
+      ],
+      "icon": "Terminal"
+    },
+    {
+      "id": "hydrafusion",
+      "name": "HydraFusion",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-04",
+      "description": "GitHub Copilot research preview (4 Sep 2026): runtime multi-model orchestration that picks single, cascade, or critique workflows across providers to balance quality, cost, and latency; available via /experimental in Copilot CLI.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "githubUrl": "https://github.com/github/copilot-cli",
+      "country": "US",
+      "logoUrl": "https://github.com/github.png",
+      "tags": [
+        "hydrafusion",
+        "github-copilot",
+        "multi-model",
+        "orchestration",
+        "research-preview"
+      ],
+      "icon": "Network"
     }
   ],
   "toolRepositories": {
@@ -8126,6 +8178,14 @@
     "launchdarkly-ai-sdk": {
       "repo": "https://github.com/launchdarkly/python-ai-sdk",
       "docs": "https://docs.launchdarkly.com/sdk/ai/python/"
+    },
+    "speakeasy-kit": {
+      "repo": "https://github.com/speakeasy-api/kit",
+      "docs": "https://github.com/speakeasy-api/kit"
+    },
+    "hydrafusion": {
+      "repo": "https://github.com/github/copilot-cli",
+      "docs": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
     }
   }
 }

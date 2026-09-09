@@ -1,14 +1,83 @@
 {
-  "updatedAt": "2026-09-08T05:10:29Z",
-  "featuredWeekLabel": "7–13 September 2026",
+  "updatedAt": "2026-09-09T05:10:38Z",
+  "featuredWeekLabel": "8–14 September 2026",
   "featuredToolIds": [
+    "muse",
     "gpt-6-astra",
     "fable-5-1",
     "gemini-3-8-flash",
-    "hydrafusion",
-    "speakeasy-kit"
+    "hydrafusion"
   ],
   "tools": [
+    {
+      "id": "muse",
+      "name": "Muse",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-08",
+      "description": "Meta's personal AI agent (8 Sep 2026): runs on Muse Secure VM with browser, app connectors, and a Sentinel gate; US rollout via Muse app, WhatsApp, and muse.ai, powered by Muse Spark.",
+      "category": "Web, Browser & API",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "country": "US",
+      "logoUrl": "https://github.com/facebook.png",
+      "tags": [
+        "muse",
+        "meta",
+        "personal-agent",
+        "secure-vm",
+        "whatsapp"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "copilotkit",
+      "name": "CopilotKit",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-03",
+      "description": "Open-source frontend stack for in-app agents and generative UI (~37K GitHub stars). Ships AG-UI and, as of 3 Sep 2026, WebMCP so useFrontendTool handlers become discoverable by browser agents.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.copilotkit.ai",
+      "githubUrl": "https://github.com/CopilotKit/CopilotKit",
+      "country": "US",
+      "logoUrl": "https://github.com/CopilotKit.png",
+      "tags": [
+        "copilotkit",
+        "ag-ui",
+        "webmcp",
+        "generative-ui",
+        "react"
+      ],
+      "icon": "Blocks"
+    },
+    {
+      "id": "docusign-mcp",
+      "name": "Docusign MCP Server",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-04",
+      "description": "Docusign's MCP bridge to Intelligent Agreement Management and Iris (open beta; global GA announced for 30 Sep 2026): agents on Claude, ChatGPT, Gemini, Copilot, and Slack can read and act on agreements under account admin controls.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.docusign.com/company/news-center/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent",
+      "country": "US",
+      "logoUrl": "https://www.docusign.com/favicon.ico",
+      "tags": [
+        "mcp",
+        "docusign",
+        "agreements",
+        "iris",
+        "enterprise"
+      ],
+      "icon": "FileText"
+    },
     {
       "id": "qveris",
       "name": "QVeris",
@@ -8186,6 +8255,16 @@
     "hydrafusion": {
       "repo": "https://github.com/github/copilot-cli",
       "docs": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
+    },
+    "muse": {
+      "docs": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+    },
+    "copilotkit": {
+      "repo": "https://github.com/CopilotKit/CopilotKit",
+      "docs": "https://docs.copilotkit.ai"
+    },
+    "docusign-mcp": {
+      "docs": "https://www.docusign.com/blog/developers/developers-guide-docusign-iris-agentic-capabilities"
     }
   }
 }

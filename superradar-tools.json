@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T05:10:38Z",
+  "updatedAt": "2026-09-10T05:17:15Z",
   "featuredWeekLabel": "8–14 September 2026",
   "featuredToolIds": [
     "muse",
@@ -9,6 +9,74 @@
     "hydrafusion"
   ],
   "tools": [
+    {
+      "id": "nightfall-mcp-gateway",
+      "name": "Nightfall MCP Gateway",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-09",
+      "description": "Nightfall's early-access governed MCP proxy (9 Sep 2026): intercepts tool calls from Cursor, Claude Code, VS Code, and Claude Cowork for policy enforcement, per-tenant credential brokering, and audit before execution.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.nightfall.ai/news/nightfall-launches-mcp-gateway-to-govern-ai-agents-before-they-act",
+      "country": "US",
+      "icon": "Shield",
+      "tags": [
+        "mcp",
+        "security",
+        "gateway",
+        "governance",
+        "credentials"
+      ]
+    },
+    {
+      "id": "aura",
+      "name": "Aura",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-09",
+      "description": "Ramen's multi-agent coding assistant for Unity and Unreal (1.0 on 9 Sep 2026): Blueprint/C++/C# editing, project memory, custom subagents, and an in-engine Verification Agent that playtests without a developer at the controls; Mac + Fab store launch.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.tryaura.dev",
+      "country": "US",
+      "icon": "Bot",
+      "tags": [
+        "game-dev",
+        "unity",
+        "unreal",
+        "coding-agent",
+        "verification"
+      ]
+    },
+    {
+      "id": "adk-kotlin",
+      "name": "ADK for Kotlin",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-09",
+      "description": "Google's Kotlin Multiplatform Agent Development Kit (1.0 GA, 9 Sep 2026): full ADK Core parity for JVM/Android agents with KSP @Tool codegen, HITL confirmation, skills, plus on-device extensions for LiteRT-LM, ML Kit, Firebase AI Logic, Room, and AppSearch.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://developers.googleblog.com/en/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+      "githubUrl": "https://github.com/google/adk-kotlin",
+      "country": "US",
+      "logoUrl": "https://avatars.githubusercontent.com/u/1342004?s=200&v=4",
+      "icon": "Brain",
+      "tags": [
+        "adk",
+        "kotlin",
+        "android",
+        "multiagent",
+        "on-device"
+      ]
+    },
     {
       "id": "muse",
       "name": "Muse",
@@ -1179,7 +1247,7 @@
       "id": "qodo",
       "name": "Qodo AI",
       "state": "Trial",
-      "description": "Agentic code review and refactoring assistant integrated with Git providers",
+      "description": "Agentic code review and refactoring assistant for Git providers; on 9 Sep 2026 shipped Agentic Toolbox skills so Claude Code, Codex, and Kiro can pull Context Engine context, run independent local reviews, and manage repo rules via MCP.",
       "category": "Code Review",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -1187,7 +1255,9 @@
       "githubUrl": "https://github.com/qodo-ai",
       "country": "US",
       "logoUrl": "https://avatars.githubusercontent.com/u/183290039?s=200&v=4",
-      "icon": "Code"
+      "icon": "Code",
+      "new": true,
+      "trending": true
     },
     {
       "id": "amazon-q-code-reviewer",
@@ -2333,7 +2403,7 @@
       "id": "google-adk",
       "name": "Google ADK",
       "state": "Trial",
-      "description": "Google's Agent Development Kit for building multi-agent systems with tools, orchestration, and evaluation. Early 2026 expanded to four language SDKs (Python, TypeScript, Java 1.0, Go 1.0). Integrates with Gemini, Vertex AI, Antigravity, and the broader Google agent stack for production agentic apps.",
+      "description": "Google's Agent Development Kit for building multi-agent systems with tools, orchestration, and evaluation. Language SDKs cover Python, TypeScript, Java 1.0, Go 1.0, and (9 Sep 2026) Kotlin 1.0 GA with Android on-device extensions. Integrates with Gemini, Vertex AI, Antigravity, and the broader Google agent stack.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -8265,6 +8335,16 @@
     },
     "docusign-mcp": {
       "docs": "https://www.docusign.com/blog/developers/developers-guide-docusign-iris-agentic-capabilities"
+    },
+    "nightfall-mcp-gateway": {
+      "docs": "https://help.nightfall.ai/data-exfiltration-prevention/ai-agent-security/ai-governance/mcp-gateway"
+    },
+    "aura": {
+      "docs": "https://www.tryaura.dev/documentation/"
+    },
+    "adk-kotlin": {
+      "repo": "https://github.com/google/adk-kotlin",
+      "docs": "https://github.com/google/adk-kotlin"
     }
   }
 }

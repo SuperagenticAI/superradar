@@ -1,14 +1,135 @@
 {
-  "updatedAt": "2026-09-10T05:17:15Z",
+  "updatedAt": "2026-09-11T05:03:15Z",
   "featuredWeekLabel": "8–14 September 2026",
   "featuredToolIds": [
+    "swe-2",
+    "cursor-projects",
+    "openai-agents-api",
     "muse",
-    "gpt-6-astra",
-    "fable-5-1",
-    "gemini-3-8-flash",
-    "hydrafusion"
+    "gpt-6-astra"
   ],
   "tools": [
+    {
+      "id": "swe-2",
+      "name": "SWE-2",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-10",
+      "description": "Cognition's SWE-2 coding model (10 Sep 2026): multi-trillion-param RL agent model scoring 50.0% on FrontierCode 1.1 Main within one point of Fable 5.1 at ~64% lower cost; available in Devin Desktop, CLI, Web, and Fusion.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cognition.com/blog/swe-2",
+      "githubUrl": "https://github.com/CognitionAI",
+      "country": "US",
+      "logoUrl": "/custom_logos/devin-ai.ico",
+      "tags": [
+        "swe-2",
+        "cognition",
+        "devin",
+        "coding-model",
+        "pareto"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "cursor-projects",
+      "name": "Cursor Projects",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-10",
+      "description": "Cursor Projects (10 Sep 2026, beta): persistent coordinator agent that maintains shared context across months of work, delegates to cloud and local subagents, and acts on Slack/PR/schedule subscriptions for features, migrations, and gardening.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cursor.com/blog/projects",
+      "githubUrl": "https://github.com/cursor",
+      "country": "US",
+      "logoUrl": "https://github.com/cursor.png",
+      "tags": [
+        "cursor",
+        "projects",
+        "coordinator",
+        "cloud-agents",
+        "subscriptions"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "openai-agents-api",
+      "name": "OpenAI Agents API",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-10",
+      "description": "OpenAI Agents API (public beta, Sep 2026): managed Codex-harness runtime for long-running cloud agents with sessions, MCP/tools, multi-agent orchestration, and OpenAI-hosted or self-hosted sandboxes; distinct from the in-process Agents SDK.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://developers.openai.com/api/docs/guides/agents",
+      "githubUrl": "https://github.com/openai",
+      "country": "US",
+      "logoUrl": "https://github.com/openai.png",
+      "tags": [
+        "agents-api",
+        "openai",
+        "codex-harness",
+        "sandbox",
+        "mcp"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "eclipse-enclave",
+      "name": "Eclipse Enclave",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-08",
+      "description": "Eclipse Foundation open-source sandbox (8 Sep 2026) for autonomous coding agents: per-session containers, network-gateway allowlists, and host-safe YOLO mode for Claude Code, Codex CLI, OpenCode, and more (MIT).",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://enclave.eclipse.dev",
+      "githubUrl": "https://github.com/eclipse-enclave/enclave",
+      "country": "DE",
+      "logoUrl": "https://github.com/eclipse-enclave.png",
+      "tags": [
+        "enclave",
+        "eclipse",
+        "sandbox",
+        "network-allowlist",
+        "coding-agents"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "grepr-agent-sessions",
+      "name": "Grepr Agent Sessions",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-09",
+      "description": "Grepr Agent Sessions (preview, Sep 2026): observability pipeline that captures OpenTelemetry coding-agent sessions into a searchable lake with transcripts, tool/error drill-down, token cost, and intent clustering for Claude Code, Codex, and OpenCode.",
+      "category": "Observability",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.grepr.ai/blog/agent-sessions-preview",
+      "country": "US",
+      "logoUrl": "https://www.grepr.ai/favicon.ico",
+      "tags": [
+        "grepr",
+        "agent-sessions",
+        "observability",
+        "otel",
+        "coding-agents"
+      ],
+      "icon": "Activity"
+    },
     {
       "id": "nightfall-mcp-gateway",
       "name": "Nightfall MCP Gateway",
@@ -8345,6 +8466,25 @@
     "adk-kotlin": {
       "repo": "https://github.com/google/adk-kotlin",
       "docs": "https://github.com/google/adk-kotlin"
+    },
+    "swe-2": {
+      "repo": "https://github.com/CognitionAI",
+      "docs": "https://cognition.com/blog/swe-2"
+    },
+    "cursor-projects": {
+      "repo": "https://github.com/cursor",
+      "docs": "https://cursor.com/blog/projects"
+    },
+    "openai-agents-api": {
+      "repo": "https://github.com/openai",
+      "docs": "https://developers.openai.com/api/docs/guides/agents-api/quickstart"
+    },
+    "eclipse-enclave": {
+      "repo": "https://github.com/eclipse-enclave/enclave",
+      "docs": "https://enclave.eclipse.dev"
+    },
+    "grepr-agent-sessions": {
+      "docs": "https://www.grepr.ai/blog/agent-sessions-preview"
     }
   }
 }

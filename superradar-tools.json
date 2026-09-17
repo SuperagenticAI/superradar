@@ -1,14 +1,72 @@
 {
-  "updatedAt": "2026-09-12T05:13:46Z",
-  "featuredWeekLabel": "7–13 September 2026",
+  "updatedAt": "2026-09-17T05:13:25Z",
+  "featuredWeekLabel": "15–21 September 2026",
   "featuredToolIds": [
-    "swe-2",
-    "blaxel",
-    "openai-agents-api",
-    "herdr",
-    "cursor-projects"
+    "brig",
+    "reef",
+    "wso2-agent-manager",
+    "akuity-agentic-control-plane",
+    "openai-agents-api"
   ],
   "tools": [
+    {
+      "id": "brig",
+      "name": "Brig",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "description": "NOFire open-source microVM sandbox (15 Sep 2026, Apache 2.0) for AI coding agents on macOS and Linux: hardware-isolated ephemeral VMs with curated profiles for Claude Code, Codex, Cursor, Gemini, Grok, and OpenCode.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://brig.sh",
+      "githubUrl": "https://github.com/brig-sh/brig",
+      "icon": "Shield",
+      "country": "GR"
+    },
+    {
+      "id": "reef",
+      "name": "Reef",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "description": "Open-source continual self-improvement infrastructure (15 Sep 2026): serves agents via standard inference APIs, learns from live trajectories/feedback, and version-gates model and harness updates before hot-releasing them.",
+      "category": "Inference Engines",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://huggingface.co/blog/quao627/your-inference-server-is-secretly-a-learner-reef",
+      "githubUrl": "https://github.com/Human-Agent-Society/reef",
+      "icon": "Cpu"
+    },
+    {
+      "id": "wso2-agent-manager",
+      "name": "WSO2 Agent Manager",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "description": "Open enterprise agent control plane (GA 15 Sep 2026, Apache 2.0): framework-agnostic identity, MCP/LLM guardrails, sandboxed runtime, OpenTelemetry tracing, and evaluations for governing agent sprawl self-hosted or as SaaS.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://wso2.com/agent-platform/agent-manager/",
+      "githubUrl": "https://github.com/wso2/agent-manager",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "akuity-agentic-control-plane",
+      "name": "Akuity Agentic Control Plane",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "description": "Akuity Agentic Control Plane and MCP Server (14 Sep 2026): lets coding agents deploy, promote, and operate via Argo CD/Kargo while inheriting operator identity, release rules, and full audit for every MCP action.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://akuity.io/blog/agentic-control-plane-mcp-server",
+      "githubUrl": "https://github.com/akuity",
+      "icon": "Shield",
+      "country": "US"
+    },
     {
       "id": "blaxel",
       "name": "Blaxel",
@@ -8576,6 +8634,22 @@
     "herdr": {
       "repo": "https://github.com/herdrdev/herdr",
       "docs": "https://herdr.dev/docs/"
+    },
+    "brig": {
+      "repo": "https://github.com/brig-sh/brig",
+      "docs": "https://brig.sh"
+    },
+    "reef": {
+      "repo": "https://github.com/Human-Agent-Society/reef",
+      "docs": "https://github.com/Human-Agent-Society/reef"
+    },
+    "wso2-agent-manager": {
+      "repo": "https://github.com/wso2/agent-manager",
+      "docs": "https://wso2.github.io/agent-manager/"
+    },
+    "akuity-agentic-control-plane": {
+      "repo": "https://github.com/akuity",
+      "docs": "https://akuity.io/blog/agentic-control-plane-mcp-server"
     }
   }
 }

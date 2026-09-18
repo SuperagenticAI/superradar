@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-17T05:13:25Z",
+  "updatedAt": "2026-09-18T05:11:27Z",
   "featuredWeekLabel": "15–21 September 2026",
   "featuredToolIds": [
-    "brig",
-    "reef",
-    "wso2-agent-manager",
-    "akuity-agentic-control-plane",
-    "openai-agents-api"
+    "gemini-3-8-live",
+    "paper2agent",
+    "mcpjam",
+    "chalk-mcp",
+    "claude-code"
   ],
   "tools": [
     {
@@ -1577,7 +1577,7 @@
       "name": "Claude Code",
       "state": "Adopt",
       "highlighted": true,
-      "description": "Anthropic's terminal-native Claude Code agent. Defaults to Claude Opus 5 (July 24, 2026) with Sonnet 5 for cheaper turns. August 20 added /design (Claude Design artboards in the CLI). Computer use and browser toolsets plus Agent Skills left beta on the Claude API on August 19.",
+      "description": "Anthropic's terminal-native Claude Code agent. Defaults to Claude Opus 5 with Sonnet 5 for cheaper turns. Projects redesigned (beta, 17 Sep 2026) turns a goal into coordinated parallel Claude Code cloud threads with shared memory, artifacts, and a coordinator. Computer use, browser tools, and Agent Skills are GA on the Claude API.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Closed Source",
@@ -1592,7 +1592,8 @@
         "agentic-cli",
         "computer-use",
         "skills",
-        "design"
+        "design",
+        "projects"
       ]
     },
     {
@@ -7016,6 +7017,103 @@
         "research-preview"
       ],
       "icon": "Network"
+    },
+    {
+      "id": "gemini-3-8-live",
+      "name": "Gemini 3.8 Live",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-15",
+      "description": "Google Gemini 3.8 Live and 3.8 Live Extended Thinking (15 Sep 2026): real-time voice/dialogue models for voice agents with visual grounding, background tool/API calls, and multi-step live reasoning via the Gemini Live API.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "githubUrl": "https://github.com/google-gemini",
+      "country": "US",
+      "logoUrl": "https://github.com/google-gemini.png",
+      "tags": [
+        "gemini",
+        "live",
+        "voice-agents",
+        "google",
+        "extended-thinking"
+      ],
+      "icon": "Sparkles"
+    },
+    {
+      "id": "paper2agent",
+      "name": "Paper2Agent",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-16",
+      "description": "Stanford multi-agent system (Nature, 16 Sep 2026) that turns research papers and codebases into verified MCP servers and interactive agents; demos include AlphaGenome, Scanpy, and TISSUE.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://paper2agent.ai",
+      "githubUrl": "https://github.com/jmiao24/Paper2Agent",
+      "githubStars": 2940,
+      "country": "US",
+      "logoUrl": "https://github.com/jmiao24.png",
+      "tags": [
+        "paper2agent",
+        "mcp",
+        "stanford",
+        "research-agents",
+        "nature"
+      ],
+      "icon": "FlaskConical"
+    },
+    {
+      "id": "mcpjam",
+      "name": "MCPJam",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-17",
+      "description": "Open-source MCP testing and evaluation platform (Product Hunt launch 17 Sep 2026): Inspector/CLI/SDK for JSON-RPC debugging, OAuth conformance, cross-client matrix checks, and CI regression gates for MCP servers and apps.",
+      "category": "Evaluation",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.mcpjam.com/",
+      "githubUrl": "https://github.com/MCPJam/inspector",
+      "githubStars": 2217,
+      "country": "US",
+      "logoUrl": "https://github.com/MCPJam.png",
+      "tags": [
+        "mcpjam",
+        "mcp",
+        "evaluation",
+        "inspector",
+        "ci"
+      ],
+      "icon": "CheckCircle"
+    },
+    {
+      "id": "chalk-mcp",
+      "name": "Chalk MCP Server",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-11",
+      "description": "Chalk MCP Server and Chalk Assistant (11 Sep 2026): connect AI agents to Chalk feature/resolver tooling for online queries, feature engineering, backtests, and in-product agentic ML investigation.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://chalk.ai/blog/announcing-chalk-mcp-server",
+      "country": "US",
+      "tags": [
+        "chalk",
+        "mcp",
+        "ml",
+        "feature-store",
+        "agentic-ml"
+      ],
+      "icon": "Network"
     }
   ],
   "toolRepositories": {
@@ -8650,6 +8748,21 @@
     "akuity-agentic-control-plane": {
       "repo": "https://github.com/akuity",
       "docs": "https://akuity.io/blog/agentic-control-plane-mcp-server"
+    },
+    "gemini-3-8-live": {
+      "repo": "https://github.com/google-gemini",
+      "docs": "https://ai.google.dev/gemini-api/docs"
+    },
+    "paper2agent": {
+      "repo": "https://github.com/jmiao24/Paper2Agent",
+      "docs": "https://paper2agent.ai"
+    },
+    "mcpjam": {
+      "repo": "https://github.com/MCPJam/inspector",
+      "docs": "https://docs.mcpjam.com/"
+    },
+    "chalk-mcp": {
+      "docs": "https://chalk.ai/blog/announcing-chalk-mcp-server"
     }
   }
 }

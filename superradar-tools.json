@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-18T05:11:27Z",
+  "updatedAt": "2026-09-19T05:10:42Z",
   "featuredWeekLabel": "15–21 September 2026",
   "featuredToolIds": [
-    "gemini-3-8-live",
-    "paper2agent",
-    "mcpjam",
-    "chalk-mcp",
-    "claude-code"
+    "safari-mcp",
+    "laravel-mcp",
+    "sourcegraph-agentic-batch-changes",
+    "arcjet-agent-runtime-security",
+    "appsignal-mcp"
   ],
   "tools": [
     {
@@ -6715,7 +6715,7 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-08-20",
-      "description": "GitLab's agentic DevSecOps platform. GitLab 19.3 (Aug 20, 2026) made the Dedicated AI Gateway GA so Duo agents run in-region with BYO models, plus Flow Creator Agent (plain-language custom flows) and agentic SAST vulnerability resolution.",
+      "description": "GitLab's agentic DevSecOps platform. GitLab 19.4 (17 Sep 2026) expands the GitLab MCP server (beta) with CI/CD, MR, work-item, vulnerability, and project tools under the same Duo tool governance (Always allow / Always ask / Always deny), plus a merge-request-created trigger.",
       "category": "Multi-Agent Orchestration",
       "layer": "Frameworks",
       "sourceType": "Commercial",
@@ -7114,6 +7114,118 @@
         "agentic-ml"
       ],
       "icon": "Network"
+    },
+    {
+      "id": "safari-mcp",
+      "name": "Safari MCP Server",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-17",
+      "description": "Apple's built-in Safari MCP server shipping in Safari 27.0 (17 Sep 2026): local safaridriver --mcp gives coding agents DOM, screenshots, console, network, and page interactions without leaving the terminal.",
+      "category": "Web, Browser & API",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://webkit.org/blog/18325/webkit-features-for-safari-27-0/",
+      "githubUrl": null,
+      "country": "US",
+      "tags": [
+        "safari",
+        "webkit",
+        "mcp",
+        "browser",
+        "apple"
+      ],
+      "icon": "Globe"
+    },
+    {
+      "id": "laravel-mcp",
+      "name": "Laravel MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-14",
+      "description": "Official Laravel package for building MCP servers and clients; v1.0.0 (14 Sep 2026) targets MCP 2026-07-28 with searchable tool catalogs, cache hints, stateless servers, PKCE OAuth, and Client ID Metadata Documents.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://laravel.com/docs/mcp",
+      "githubUrl": "https://github.com/laravel/mcp",
+      "country": "US",
+      "tags": [
+        "laravel",
+        "mcp",
+        "php",
+        "oauth"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "sourcegraph-agentic-batch-changes",
+      "name": "Sourcegraph Agentic Batch Changes",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-14",
+      "description": "Sourcegraph agent for large-scale code change (GA 14 Sep 2026 on Cloud; self-hosted with 8.0 on 16 Sep): plans with Deep Search, applies Batch Changes across repos, and can delegate per-repo work to Claude Code or Codex via Sourcegraph MCP.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://sourcegraph.com/agentic-batch-changes",
+      "githubUrl": "https://github.com/sourcegraph",
+      "country": "US",
+      "tags": [
+        "sourcegraph",
+        "batch-changes",
+        "coding-agent",
+        "enterprise"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "arcjet-agent-runtime-security",
+      "name": "Arcjet Agent Runtime Security",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-17",
+      "description": "Arcjet agent runtime security (17 Sep 2026): observe agents via OpenTelemetry, enforce Arcjet Guards (Rego/OPA) before/after tools, APIs, DB, and LLM calls, and audit decisions; SDKs for Claude, OpenAI Agents, LangChain, Mastra, and more.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://blog.arcjet.com/introducing-agent-runtime-security-observe-enforce-audit/",
+      "githubUrl": null,
+      "country": "GB",
+      "tags": [
+        "arcjet",
+        "security",
+        "guards",
+        "opa",
+        "agent-runtime"
+      ],
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "appsignal-mcp",
+      "name": "AppSignal MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-16",
+      "description": "Hosted AppSignal MCP endpoint at appsignal.com/api/mcp left preview for GA on 16 Sep 2026: agents get OAuth or scoped-token access to incidents, performance, anomalies, logs, metrics, dashboards, and app discovery without a local server.",
+      "category": "Observability",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.appsignal.com/changelog/tools/2026-09-16-mcp-general-availability",
+      "githubUrl": null,
+      "country": "NL",
+      "tags": [
+        "appsignal",
+        "mcp",
+        "observability",
+        "apm"
+      ],
+      "icon": "Activity"
     }
   ],
   "toolRepositories": {
@@ -8763,6 +8875,23 @@
     },
     "chalk-mcp": {
       "docs": "https://chalk.ai/blog/announcing-chalk-mcp-server"
+    },
+    "safari-mcp": {
+      "docs": "https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari"
+    },
+    "laravel-mcp": {
+      "repo": "https://github.com/laravel/mcp",
+      "docs": "https://laravel.com/docs/mcp"
+    },
+    "sourcegraph-agentic-batch-changes": {
+      "repo": "https://github.com/sourcegraph",
+      "docs": "https://sourcegraph.com/agentic-batch-changes"
+    },
+    "arcjet-agent-runtime-security": {
+      "docs": "https://docs.arcjet.com/guards/"
+    },
+    "appsignal-mcp": {
+      "docs": "https://docs.appsignal.com/mcp-server"
     }
   }
 }

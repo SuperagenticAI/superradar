@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-19T05:10:42Z",
+  "updatedAt": "2026-09-20T05:08:38Z",
   "featuredWeekLabel": "15–21 September 2026",
   "featuredToolIds": [
+    "google-home-mcp",
     "safari-mcp",
     "laravel-mcp",
-    "sourcegraph-agentic-batch-changes",
-    "arcjet-agent-runtime-security",
-    "appsignal-mcp"
+    "algolia-mcp",
+    "sourcegraph-agentic-batch-changes"
   ],
   "tools": [
     {
@@ -4614,7 +4614,7 @@
       "state": "Assess",
       "highlighted": true,
       "trending": true,
-      "description": "Microsoft's open-source SDK and runtime for AI agents and multi-agent workflows (.NET and Python), unifying AutoGen and Semantic Kernel. Reached 1.0 GA in April 2026 with chat clients, tools, MCP, context providers, middleware, and multi-step workflows. BUILD 2026 added an Agent Harness (shell/filesystem, human-in-the-loop, long-session context) and GitHub Copilot SDK backend integration for coding-oriented agents with MCP and OpenTelemetry.",
+      "description": "Microsoft's open-source SDK and runtime for AI agents and multi-agent workflows (.NET and Python), unifying AutoGen and Semantic Kernel. Sep 2026: docs and samples for distributed Agent Skills over MCP (skill:// discovery, UseMcpSkills / MCPSkillsSource) so advisors load domain procedures and typed tools instead of nesting specialist agent loops.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -7226,6 +7226,75 @@
         "apm"
       ],
       "icon": "Activity"
+    },
+    {
+      "id": "google-home-mcp",
+      "name": "Google Home MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-16",
+      "description": "Google's Early Access Home MCP (announced 16 Sep 2026): OAuth-connected personal agents (Antigravity, Claude, OpenClaw, Hermes) list homes, monitor device state, run safe actions, and query history across Nest and Matter devices for Premium Advanced users.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://developers.home.google.com/mcp/home",
+      "githubUrl": null,
+      "country": "US",
+      "tags": [
+        "google-home",
+        "nest",
+        "mcp",
+        "smart-home",
+        "antigravity"
+      ],
+      "icon": "Globe"
+    },
+    {
+      "id": "google-home-developer-mcp",
+      "name": "Google Home Developer MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-16",
+      "description": "Google Home Developer MCP server: coding agents (Antigravity, Claude Code, Cursor, Copilot) search live Home Developer Center, Matter, Thread, and OpenThread docs via search_documents, with unauthenticated trial or API-key paths.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://developers.home.google.com/mcp/developer",
+      "githubUrl": null,
+      "country": "US",
+      "tags": [
+        "google-home",
+        "mcp",
+        "docs",
+        "matter",
+        "openthread"
+      ],
+      "icon": "FileText"
+    },
+    {
+      "id": "algolia-mcp",
+      "name": "Algolia MCP Server",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-15",
+      "description": "Algolia's production MCP suite (15 Sep 2026): Public MCP for live catalog search/recommend, Productivity MCP for permissioned analytics, and DevEx MCP for version-matched API client snippets, plus Agent Studio for agentic commerce.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.algolia.com/doc/guides/model-context-protocol",
+      "githubUrl": null,
+      "country": "US",
+      "tags": [
+        "algolia",
+        "mcp",
+        "search",
+        "commerce",
+        "agent-studio"
+      ],
+      "icon": "Search"
     }
   ],
   "toolRepositories": {
@@ -8892,6 +8961,15 @@
     },
     "appsignal-mcp": {
       "docs": "https://docs.appsignal.com/mcp-server"
+    },
+    "google-home-mcp": {
+      "docs": "https://developers.home.google.com/mcp/home"
+    },
+    "google-home-developer-mcp": {
+      "docs": "https://developers.home.google.com/mcp/developer"
+    },
+    "algolia-mcp": {
+      "docs": "https://www.algolia.com/doc/guides/model-context-protocol"
     }
   }
 }

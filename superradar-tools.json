@@ -1,14 +1,66 @@
 {
-  "updatedAt": "2026-09-21T05:06:31Z",
-  "featuredWeekLabel": "21–27 September 2026",
+  "updatedAt": "2026-09-22T05:04:19Z",
+  "featuredWeekLabel": "22–28 September 2026",
   "featuredToolIds": [
+    "strands-harness",
+    "minimax-code",
     "zed-delta",
     "openai-agents-api",
-    "jev",
-    "contextsbase",
-    "claude-code"
+    "jev"
   ],
   "tools": [
+    {
+      "id": "strands-harness",
+      "name": "Strands Harness",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-21",
+      "description": "AWS Strands batteries-included agent harness (Apache 2.0, 21 Sep 2026): one-call Python/TypeScript create_harness() with shell/file/web tools, context compaction, sessions, memory, subagents, and MCP; companion Strands CLI for English prototyping and /export.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://strandsagents.com/blog/introducing-strands-harness/",
+      "githubUrl": "https://github.com/strands-agents/harness-sdk",
+      "country": "US",
+      "logoUrl": "https://github.com/strands-agents.png",
+      "tags": [
+        "strands",
+        "harness",
+        "aws",
+        "agent-framework",
+        "cli",
+        "mcp"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "minimax-code",
+      "name": "MiniMax Code",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-21",
+      "description": "MiniMax open-source terminal coding agent (MIT first-party, mcode CLI): interactive TUI, headless exec for CI, ACP for editors, plan mode, subagents, plugins/MCP, and BYOK across OpenAI- and Anthropic-compatible providers.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://agent.minimax.io/docs/cli/quick-start",
+      "githubUrl": "https://github.com/MiniMax-AI/minimax-code",
+      "country": "CN",
+      "logoUrl": "https://github.com/MiniMax-AI.png",
+      "tags": [
+        "minimax",
+        "mcode",
+        "agentic-cli",
+        "tui",
+        "acp",
+        "open-source"
+      ],
+      "icon": "Terminal"
+    },
     {
       "id": "zed-delta",
       "name": "Zed Delta",
@@ -9084,6 +9136,14 @@
     },
     "whatsapp-business-tools-mcp": {
       "docs": "https://developers.facebook.com/documentation/mcp"
+    },
+    "strands-harness": {
+      "repo": "https://github.com/strands-agents/harness-sdk",
+      "docs": "https://strandsagents.com"
+    },
+    "minimax-code": {
+      "repo": "https://github.com/MiniMax-AI/minimax-code",
+      "docs": "https://agent.minimax.io/docs/cli/quick-start"
     }
   }
 }

@@ -1,14 +1,89 @@
 {
-  "updatedAt": "2026-09-22T05:04:19Z",
+  "updatedAt": "2026-09-23T05:13:45Z",
   "featuredWeekLabel": "22–28 September 2026",
   "featuredToolIds": [
+    "unreal-agent",
+    "google-ax",
+    "jetbrains-air",
     "strands-harness",
-    "minimax-code",
-    "zed-delta",
-    "openai-agents-api",
-    "jev"
+    "minimax-code"
   ],
   "tools": [
+    {
+      "id": "unreal-agent",
+      "name": "Unreal Agent",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-22",
+      "description": "Unreal Labs async-first Go agent harness (22 Sep 2026): manages tool calls in the background so models skip waits, polls, and heartbeats; claims up to 40% cost savings vs Codex, with Go library, runner CLI, and Harbor-compatible benchmarks.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://unreallabs.ai/blog/unreal-agent/",
+      "githubUrl": "https://github.com/unreallabsai/unreal-agent",
+      "logoUrl": "https://github.com/unreallabsai.png",
+      "tags": [
+        "unreal",
+        "harness",
+        "async",
+        "go",
+        "agent-framework"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "google-ax",
+      "name": "Google AX",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-20",
+      "description": "Google Agent Executor (AX): open-source Apache-2.0 Kubernetes-oriented distributed agent runtime with declarative Task, Workspace, Gateway, and Model primitives; v0.3 (Sep 2026) moves task state to Redis Streams for high-churn agent workloads on Agent Substrate.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://agentexecutor.io/",
+      "githubUrl": "https://github.com/google/ax",
+      "country": "US",
+      "logoUrl": "https://github.com/google.png",
+      "tags": [
+        "google",
+        "ax",
+        "agent-executor",
+        "kubernetes",
+        "orchestration",
+        "agent-substrate"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "jetbrains-air",
+      "name": "JetBrains Air",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-22",
+      "description": "JetBrains open system of products for agentic software development (22 Sep 2026): Air in IDEs, Air Teams, and Air Governance (formerly Central), with multi-vendor ACP agents and Junie across surfaces.",
+      "category": "Agentic IDE",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.jetbrains.com/air/",
+      "githubUrl": "https://github.com/jetbrains",
+      "logoUrl": "https://github.com/jetbrains.png",
+      "tags": [
+        "jetbrains",
+        "air",
+        "agentic-ide",
+        "governance",
+        "acp",
+        "junie"
+      ],
+      "icon": "Layers"
+    },
     {
       "id": "strands-harness",
       "name": "Strands Harness",
@@ -9144,6 +9219,18 @@
     "minimax-code": {
       "repo": "https://github.com/MiniMax-AI/minimax-code",
       "docs": "https://agent.minimax.io/docs/cli/quick-start"
+    },
+    "unreal-agent": {
+      "repo": "https://github.com/unreallabsai/unreal-agent",
+      "docs": "https://unreallabs.ai/blog/unreal-agent/"
+    },
+    "google-ax": {
+      "repo": "https://github.com/google/ax",
+      "docs": "https://agentexecutor.io/"
+    },
+    "jetbrains-air": {
+      "repo": "https://github.com/jetbrains",
+      "docs": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/"
     }
   }
 }

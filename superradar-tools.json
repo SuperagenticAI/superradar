@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-23T05:13:45Z",
+  "updatedAt": "2026-09-24T05:06:35Z",
   "featuredWeekLabel": "22–28 September 2026",
   "featuredToolIds": [
-    "unreal-agent",
-    "google-ax",
-    "jetbrains-air",
-    "strands-harness",
-    "minimax-code"
+    "claude-opus-5-5",
+    "grok-4-7",
+    "cursor-rollouts",
+    "cursor-security-reviewer",
+    "jetbrains-air"
   ],
   "tools": [
     {
@@ -7522,6 +7522,145 @@
         "cloud-api"
       ],
       "icon": "MessageSquare"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "state": "Adopt",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-09-22",
+      "description": "Anthropic's Claude Opus 5.5 (22 Sep 2026), first of the Claude 5.5 family: frontier agentic coding and knowledge work at ~40% lower typical cost than Opus 5, with API id claude-opus-5-5 and availability across Claude platforms, AWS, Google Cloud, and Azure.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.anthropic.com/claude-opus-5-5",
+      "githubUrl": "https://github.com/anthropics",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "claude-opus-5-5",
+        "opus-5-5",
+        "agentic-coding",
+        "anthropic",
+        "claude-5-5"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "grok-4-7",
+      "name": "Grok 4.7",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-09-21",
+      "description": "SpaceXAI Grok 4.7 for coding and knowledge work: larger base than Grok 4.6, stronger long-horizon verification, native Grok Bot harness awareness, priced from $2/$6 per 1M tokens, live in Cursor, Grok Build, and the Grok API.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://x.ai/news/grok-4-7",
+      "country": "US",
+      "icon": "Brain",
+      "tags": [
+        "grok-4-7",
+        "spacexai",
+        "coding",
+        "agents"
+      ]
+    },
+    {
+      "id": "cursor-rollouts",
+      "name": "Cursor Rollouts",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-09-23",
+      "description": "Cursor Teams/Enterprise bot (23 Sep 2026) that plans monitoring from a PR diff, watches deploy telemetry against baseline, and can ping, pause progressive rollout, or open a revert PR when it suspects a regression.",
+      "category": "Observability",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cursor.com/blog/rollouts-and-security-reviewer",
+      "githubUrl": "https://github.com/cursor",
+      "country": "US",
+      "logoUrl": "https://github.com/cursor.png",
+      "tags": [
+        "cursor",
+        "rollouts",
+        "deploy",
+        "regression",
+        "telemetry"
+      ],
+      "icon": "Activity"
+    },
+    {
+      "id": "cursor-security-reviewer",
+      "name": "Cursor Security Reviewer",
+      "state": "Trial",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-09-23",
+      "description": "Cursor Teams/Enterprise PR security bot (23 Sep 2026) that reviews each change in full-codebase context for injection, auth gaps, secrets, unsafe deserialization, vulnerable deps, and insecure defaults, with severity, attack path, and one-click fix.",
+      "category": "Code Review",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cursor.com/blog/rollouts-and-security-reviewer",
+      "githubUrl": "https://github.com/cursor",
+      "country": "US",
+      "logoUrl": "https://github.com/cursor.png",
+      "tags": [
+        "cursor",
+        "security-reviewer",
+        "code-review",
+        "vulnerabilities"
+      ],
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "genie-one-mcp",
+      "name": "Genie One MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-22",
+      "description": "Databricks Genie One MCP (GA 22 Sep 2026): managed MCP Service in Unity Gateway so any agent can query Genie One for governed structured and unstructured insights grounded in Genie Ontology, with audit logging and fine-grained policies.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.databricks.com/blog/genie-one-mcp-now-generally-available",
+      "country": "US",
+      "tags": [
+        "databricks",
+        "genie-one",
+        "mcp",
+        "ontology",
+        "unity-gateway"
+      ],
+      "icon": "Database"
+    },
+    {
+      "id": "samsara-mcp",
+      "name": "Samsara MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-22",
+      "description": "Samsara hosted MCP at mcp.samsara.com (GA 22 Sep 2026): permissioned read-only fleet data (40+ tools for vehicles, drivers, safety, HOS) plus Samsara Assistant access, with per-user OAuth and no shared API keys.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.samsara.com/blog/introducing-samsara-mcp",
+      "country": "US",
+      "tags": [
+        "samsara",
+        "mcp",
+        "fleet",
+        "operations"
+      ],
+      "icon": "Globe"
     }
   ],
   "toolRepositories": {
@@ -9231,6 +9370,28 @@
     "jetbrains-air": {
       "repo": "https://github.com/jetbrains",
       "docs": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/"
+    },
+    "claude-opus-5-5": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    "grok-4-7": {
+      "repo": "https://x.ai/news/grok-4-7",
+      "docs": "https://x.ai/news/grok-4-7"
+    },
+    "cursor-rollouts": {
+      "repo": "https://github.com/cursor",
+      "docs": "https://cursor.com/blog/rollouts-and-security-reviewer"
+    },
+    "cursor-security-reviewer": {
+      "repo": "https://github.com/cursor",
+      "docs": "https://cursor.com/blog/rollouts-and-security-reviewer"
+    },
+    "genie-one-mcp": {
+      "docs": "https://www.databricks.com/blog/genie-one-mcp-now-generally-available"
+    },
+    "samsara-mcp": {
+      "docs": "https://www.samsara.com/blog/introducing-samsara-mcp"
     }
   }
 }

@@ -1,14 +1,132 @@
 {
-  "updatedAt": "2026-09-24T05:06:35Z",
+  "updatedAt": "2026-09-25T04:53:01Z",
   "featuredWeekLabel": "22–28 September 2026",
   "featuredToolIds": [
+    "digitalocean-managed-agents",
     "claude-opus-5-5",
     "grok-4-7",
-    "cursor-rollouts",
-    "cursor-security-reviewer",
-    "jetbrains-air"
+    "jetbrains-air",
+    "cursor-rollouts"
   ],
   "tools": [
+    {
+      "id": "digitalocean-managed-agents",
+      "name": "DigitalOcean Managed Agents",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-22",
+      "description": "DigitalOcean Managed Agents public preview (22 Sep 2026): Harness Runtime Firecracker sessions with pause/resume/fork plus Action Gateway managed MCP for 16,000+ tools, integrated Inference Engine, and active-CPU billing.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.digitalocean.com/products/managed-agents",
+      "logoUrl": "https://github.com/digitalocean.png",
+      "country": "US",
+      "tags": [
+        "digitalocean",
+        "managed-agents",
+        "harness-runtime",
+        "action-gateway",
+        "mcp",
+        "sandbox"
+      ],
+      "icon": "Cloud"
+    },
+    {
+      "id": "uipath-cartographer",
+      "name": "UiPath Cartographer",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-23",
+      "description": "UiPath Cartographer (launched 23 Sep 2026): builds a governed Map of Work from process knowledge, then emits design docs and build-ready specs for coding agents, Maestro orchestration, and continuous improvement.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.uipath.com/product/cartographer",
+      "country": "US",
+      "tags": [
+        "uipath",
+        "cartographer",
+        "map-of-work",
+        "process",
+        "agents",
+        "maestro"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "google-api-gateway-mcp",
+      "name": "Google Cloud API Gateway MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-24",
+      "description": "Google Cloud API Gateway as a remote MCP server (public preview 24 Sep 2026): annotate OpenAPI 3.x specs so existing REST operations become agent-ready MCP tools with shared auth, quota, and logging.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://docs.cloud.google.com/api-gateway/docs/mcp-overview",
+      "country": "US",
+      "tags": [
+        "google-cloud",
+        "api-gateway",
+        "mcp",
+        "openapi",
+        "rest"
+      ],
+      "icon": "Globe"
+    },
+    {
+      "id": "semaphore-sem-ai",
+      "name": "Semaphore sem-ai",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-24",
+      "description": "Semaphore sem-ai (announced 24 Sep 2026): open-source agent-first CI/CD CLI with 80+ tools, embedded MCP server, diagnose/status flows, and Claude Code/Codex plugin skills for pipeline bootstrap and failure iteration.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://docs.semaphore.io/using-semaphore/ai/sem-ai",
+      "githubUrl": "https://github.com/semaphoreio/sem-ai",
+      "logoUrl": "https://github.com/semaphoreio.png",
+      "country": "GB",
+      "tags": [
+        "semaphore",
+        "sem-ai",
+        "cicd",
+        "mcp",
+        "cli",
+        "coding-agents"
+      ],
+      "icon": "Terminal"
+    },
+    {
+      "id": "elementor-mcp",
+      "name": "Elementor MCP",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-23",
+      "description": "Elementor MCP (23 Sep 2026): first-party WordPress connector so Claude, Codex, Cursor, and other MCP clients can build and edit real Elementor structure, design system classes, theme parts, and components as drafts.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://elementor.com/blog/elementor-mcp-launch/",
+      "country": "IL",
+      "tags": [
+        "elementor",
+        "mcp",
+        "wordpress",
+        "web",
+        "design"
+      ],
+      "icon": "Blocks"
+    },
     {
       "id": "unreal-agent",
       "name": "Unreal Agent",
@@ -9392,6 +9510,22 @@
     },
     "samsara-mcp": {
       "docs": "https://www.samsara.com/blog/introducing-samsara-mcp"
+    },
+    "digitalocean-managed-agents": {
+      "docs": "https://www.digitalocean.com/blog/managed-agents-public-preview"
+    },
+    "uipath-cartographer": {
+      "docs": "https://www.uipath.com/newsroom/uipath-launches-uipath-cartographer-map-of-work"
+    },
+    "google-api-gateway-mcp": {
+      "docs": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/"
+    },
+    "semaphore-sem-ai": {
+      "repo": "https://github.com/semaphoreio/sem-ai",
+      "docs": "https://docs.semaphore.io/using-semaphore/ai/sem-ai"
+    },
+    "elementor-mcp": {
+      "docs": "https://elementor.com/blog/elementor-mcp-launch/"
     }
   }
 }

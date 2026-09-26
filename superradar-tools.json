@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-25T04:53:01Z",
+  "updatedAt": "2026-09-26T04:50:00Z",
   "featuredWeekLabel": "22–28 September 2026",
   "featuredToolIds": [
-    "digitalocean-managed-agents",
-    "claude-opus-5-5",
-    "grok-4-7",
-    "jetbrains-air",
-    "cursor-rollouts"
+    "gpt-6-sol",
+    "zcode",
+    "docker-cloud-sandboxes",
+    "mimo-v2-6-pro",
+    "databricks-unity-gateway"
   ],
   "tools": [
     {
@@ -7779,6 +7779,160 @@
         "operations"
       ],
       "icon": "Globe"
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "state": "Adopt",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-22",
+      "description": "OpenAI GPT-6 Sol (22 Sep 2026): faster, lower-cost sibling of GPT-6 Astra for complex coding and agentic workflows; API id gpt-6-sol, ~1M context, available in ChatGPT Work, Codex, the API, and Amazon Bedrock at ~50% lower API prices vs GPT-5.6 promotional rates.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "githubUrl": "https://github.com/openai",
+      "country": "US",
+      "logoUrl": "https://github.com/openai.png",
+      "tags": [
+        "gpt-6-sol",
+        "openai",
+        "agentic-coding",
+        "codex",
+        "bedrock"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "state": "Adopt",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-22",
+      "description": "OpenAI GPT-6 Luna (22 Sep 2026): most efficient GPT-6 model for high-volume focused tasks (summarization, extraction, classification, routing); API id gpt-6-luna, ~1M context, in ChatGPT/Codex/API/Bedrock, with Free and Go desktop access.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "githubUrl": "https://github.com/openai",
+      "country": "US",
+      "logoUrl": "https://github.com/openai.png",
+      "tags": [
+        "gpt-6-luna",
+        "openai",
+        "efficient",
+        "high-volume",
+        "bedrock"
+      ],
+      "icon": "Zap"
+    },
+    {
+      "id": "mimo-v2-6-pro",
+      "name": "MiMo-V2.6-Pro",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-22",
+      "description": "Xiaomi MiMo-V2.6-Pro (22 Sep 2026): open-weight multimodal foundation model scaled with large RL for agentic coding, computer use, and world-building; API ids mimo-v2.6-pro and mimo-v2.6-pro-ultraspeed, with Flash sibling and open RL resources on Hugging Face.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://mimo.mi.com/docs/en-US/news/latest/v2-6",
+      "githubUrl": "https://huggingface.co/collections/XiaomiMiMo/mimo-v26",
+      "country": "CN",
+      "logoUrl": "/github_logos/xiaomi.png",
+      "tags": [
+        "mimo-v2-6",
+        "xiaomi",
+        "open-weights",
+        "rl",
+        "agentic",
+        "multimodal"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "zcode",
+      "name": "ZCode",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-20",
+      "description": "Z.ai open-source coding agent harness (Apache-2.0, repo public 20 Sep 2026): Electron desktop, browser workspace, and terminal Agent CLI/runtime optimized for GLM-5.3, with goals, multi-agent collaboration, and remote control.",
+      "category": "Agentic IDE",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://zcode.z.ai/",
+      "githubUrl": "https://github.com/zai-org/ZCode",
+      "country": "CN",
+      "logoUrl": "https://github.com/zai-org.png",
+      "tags": [
+        "zcode",
+        "z-ai",
+        "glm",
+        "agentic-ide",
+        "agent-cli",
+        "open-source"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "databricks-unity-gateway",
+      "name": "Unity Gateway CLI",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-24",
+      "description": "Databricks Unity Gateway CLI (ug, announced 24 Sep 2026): centrally configures and launches Claude Code, Codex, Gemini CLI, OpenCode, Copilot CLI, Pi, and Cursor with governed models, MCP servers, skills, Smart Routing, budgets, and tracing.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
+      "githubUrl": "https://github.com/databricks/unity-gateway",
+      "country": "US",
+      "logoUrl": "https://github.com/databricks.png",
+      "tags": [
+        "databricks",
+        "unity-gateway",
+        "ug",
+        "coding-agents",
+        "governance",
+        "mcp"
+      ],
+      "icon": "Terminal"
+    },
+    {
+      "id": "docker-cloud-sandboxes",
+      "name": "Docker Cloud Sandboxes",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-24",
+      "description": "Docker Cloud Sandboxes (24 Sep 2026): same microVM agent isolation as local Docker Sandboxes, on Docker-managed always-on compute, with sbx --cloud run, sbx move between laptop and cloud, kits for major coding agents, shared MCP gateway, secrets proxy, and network policies.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/",
+      "githubUrl": "https://github.com/docker",
+      "country": "US",
+      "logoUrl": "https://github.com/docker.png",
+      "tags": [
+        "docker",
+        "cloud-sandboxes",
+        "sbx",
+        "microvm",
+        "agents",
+        "mcp"
+      ],
+      "icon": "Cloud"
     }
   ],
   "toolRepositories": {
@@ -9526,6 +9680,30 @@
     },
     "elementor-mcp": {
       "docs": "https://elementor.com/blog/elementor-mcp-launch/"
+    },
+    "gpt-6-sol": {
+      "repo": "https://github.com/openai",
+      "docs": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+    },
+    "gpt-6-luna": {
+      "repo": "https://github.com/openai",
+      "docs": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+    },
+    "mimo-v2-6-pro": {
+      "repo": "https://huggingface.co/collections/XiaomiMiMo/mimo-v26",
+      "docs": "https://mimo.mi.com/docs/en-US/news/latest/v2-6"
+    },
+    "zcode": {
+      "repo": "https://github.com/zai-org/ZCode",
+      "docs": "https://zcode.z.ai/"
+    },
+    "databricks-unity-gateway": {
+      "repo": "https://github.com/databricks/unity-gateway",
+      "docs": "https://docs.databricks.com/aws/en/ai-gateway/coding-agent-ug-cli"
+    },
+    "docker-cloud-sandboxes": {
+      "repo": "https://github.com/docker",
+      "docs": "https://docs.docker.com/ai/sandboxes/cloud/"
     }
   }
 }

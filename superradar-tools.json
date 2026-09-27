@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T04:50:00Z",
+  "updatedAt": "2026-09-27T05:00:00Z",
   "featuredWeekLabel": "22–28 September 2026",
   "featuredToolIds": [
     "gpt-6-sol",
@@ -7933,6 +7933,160 @@
         "mcp"
       ],
       "icon": "Cloud"
+    },
+    {
+      "id": "ida-mcp",
+      "name": "Hex-Rays IDA MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-25",
+      "description": "Official Hex-Rays IDA MCP server (25 Sep 2026, MIT): agents disassemble and decompile via Code Mode IDAPython over ida-nexus, with multi-agent IDB sharing, headless idalib, and one-command HCLI installs for Claude Code, Codex, Copilot, and Pi.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://hex-rays.com/blog/hex-rays-ida-mcp-server",
+      "githubUrl": "https://github.com/HexRaysSA/ida-mcp",
+      "country": "BE",
+      "logoUrl": "https://github.com/HexRaysSA.png",
+      "tags": [
+        "ida",
+        "hex-rays",
+        "mcp",
+        "reverse-engineering",
+        "code-mode",
+        "open-source"
+      ],
+      "icon": "Wrench"
+    },
+    {
+      "id": "cloudflare-mcp-portals",
+      "name": "Cloudflare MCP Server Portals",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-24",
+      "description": "Cloudflare One MCP server portals GA (24 Sep 2026): one Access-governed endpoint for approved remote MCP servers, with Gateway/DLP routing, Code Mode policies, service-token agent auth, session management, and Logpush export.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://developers.cloudflare.com/cloudflare-one/access-controls/ai-controls/mcp-portals/",
+      "country": "US",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "tags": [
+        "cloudflare",
+        "mcp",
+        "portals",
+        "zero-trust",
+        "dlp",
+        "code-mode"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "prime-sandboxes",
+      "name": "Prime Sandboxes",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-23",
+      "description": "Prime Intellect microVM sandboxes GA (23 Sep 2026): full Linux VMs for agentic RL at tens of thousands of concurrent instances, Docker Compose fidelity, 365k+ environments, CLI/SDK, and native verifiers/prime-rl/Prime Tunnels hooks.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.primeintellect.ai/blog/sandboxes",
+      "githubUrl": "https://github.com/PrimeIntellect-ai/prime",
+      "country": "US",
+      "logoUrl": "https://github.com/PrimeIntellect-ai.png",
+      "tags": [
+        "prime-intellect",
+        "sandboxes",
+        "microvm",
+        "rl",
+        "agentops",
+        "cli"
+      ],
+      "icon": "Server"
+    },
+    {
+      "id": "cloudflare-worker-previews",
+      "name": "Cloudflare Worker Previews",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-22",
+      "description": "Cloudflare Worker Previews (22 Sep 2026): each Git branch gets an isolated production-like Worker environment with its own URL, Durable Object/Container state, observability, and wrangler preview workflow for agent development loops.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://blog.cloudflare.com/worker-previews/",
+      "country": "US",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "tags": [
+        "cloudflare",
+        "workers",
+        "previews",
+        "sandbox",
+        "agents",
+        "observability"
+      ],
+      "icon": "Cloud"
+    },
+    {
+      "id": "docker-sandbox-kit-spec",
+      "name": "Docker Sandbox Kit Spec",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-24",
+      "description": "Docker Sandbox Kit Spec (24 Sep 2026, Apache-2.0 toward CNCF): OCI-image format packaging an agent, its tools, and a typed capability/permission list so authority travels with the agent across conforming runtimes.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/",
+      "githubUrl": "https://github.com/docker/sandbox-kit-spec",
+      "country": "US",
+      "logoUrl": "https://github.com/docker.png",
+      "tags": [
+        "docker",
+        "sandbox-kit",
+        "oci",
+        "cncf",
+        "permissions",
+        "agent-protocols"
+      ],
+      "icon": "Package"
+    },
+    {
+      "id": "tembo",
+      "name": "Tembo",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-24",
+      "description": "Tembo engineering-agent platform with public API, TypeScript SDK, and hosted MCP (24 Sep 2026): start/inspect/steer cloud coding sessions across repos from scripts, internal tools, or MCP clients at mcp.tembo.io.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.tembo.io/blog/announcing-tembo-api-sdk-mcp",
+      "githubUrl": "https://github.com/tembo/tembo",
+      "country": "US",
+      "logoUrl": "https://github.com/tembo.png",
+      "tags": [
+        "tembo",
+        "coding-agents",
+        "api",
+        "sdk",
+        "mcp",
+        "software-factory"
+      ],
+      "icon": "Bot"
     }
   ],
   "toolRepositories": {
@@ -9704,6 +9858,28 @@
     "docker-cloud-sandboxes": {
       "repo": "https://github.com/docker",
       "docs": "https://docs.docker.com/ai/sandboxes/cloud/"
+    },
+    "ida-mcp": {
+      "repo": "https://github.com/HexRaysSA/ida-mcp",
+      "docs": "https://hex-rays.com/blog/hex-rays-ida-mcp-server"
+    },
+    "cloudflare-mcp-portals": {
+      "docs": "https://developers.cloudflare.com/cloudflare-one/access-controls/ai-controls/mcp-portals/"
+    },
+    "prime-sandboxes": {
+      "repo": "https://github.com/PrimeIntellect-ai/prime",
+      "docs": "https://primeintellect.mintlify.app/sandboxes/overview"
+    },
+    "cloudflare-worker-previews": {
+      "docs": "https://blog.cloudflare.com/worker-previews/"
+    },
+    "docker-sandbox-kit-spec": {
+      "repo": "https://github.com/docker/sandbox-kit-spec",
+      "docs": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/"
+    },
+    "tembo": {
+      "repo": "https://github.com/tembo/tembo",
+      "docs": "https://docs.tembo.io/api"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-27T05:00:00Z",
-  "featuredWeekLabel": "22–28 September 2026",
+  "updatedAt": "2026-09-28T05:00:00Z",
+  "featuredWeekLabel": "28 September – 4 October 2026",
   "featuredToolIds": [
-    "gpt-6-sol",
-    "zcode",
-    "docker-cloud-sandboxes",
-    "mimo-v2-6-pro",
-    "databricks-unity-gateway"
+    "liteagents",
+    "managed-deep-agents",
+    "engrams",
+    "nvidia-skillspector",
+    "deepseek-dsec"
   ],
   "tools": [
     {
@@ -8087,6 +8087,182 @@
         "software-factory"
       ],
       "icon": "Bot"
+    },
+    {
+      "id": "liteagents",
+      "name": "LiteAgents",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-25",
+      "description": "LiteLLM LiteAgents SDK (preview, 25 Sep 2026): Claude Agent SDK-style query() interface to switch agent harnesses (Deep Agents, Pydantic AI, Claude Agent SDK, Codex, OpenCode) while keeping tools, MCP, and model config; optional Temporal durability.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://docs.litellm.ai/blog/liteagents-sdk",
+      "githubUrl": "https://github.com/BerriAI/liteagents",
+      "country": "US",
+      "logoUrl": "https://github.com/BerriAI.png",
+      "tags": [
+        "liteagents",
+        "litellm",
+        "harness",
+        "agent-sdk",
+        "mcp",
+        "temporal"
+      ],
+      "icon": "Layers"
+    },
+    {
+      "id": "engrams",
+      "name": "Engrams",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-24",
+      "description": "Cortex Engrams open-source software factory (24 Sep 2026, AGPL-3.0): run Claude Code, Codex, or custom agents in your cloud on microVMs, with Slack/Linear automations for upgrades, triage, and long-running delivery.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://builders.cortex.io/blog/introducing-engrams/",
+      "githubUrl": "https://github.com/cortexapps/engrams",
+      "country": "US",
+      "logoUrl": "https://github.com/cortexapps.png",
+      "tags": [
+        "engrams",
+        "cortex",
+        "software-factory",
+        "coding-agents",
+        "microvm",
+        "open-source"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "managed-deep-agents",
+      "name": "Managed Deep Agents",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-24",
+      "description": "LangSmith Managed Deep Agents 0.8 (24 Sep 2026): production Deep Agents harness with user-owned credentials, user-level memory, Slack file transfer, HTTP channels, and built-in Parallel web search; deploy via mda CLI.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+      "githubUrl": "https://github.com/langchain-ai/managed-deepagents",
+      "country": "US",
+      "logoUrl": "https://github.com/langchain-ai.png",
+      "tags": [
+        "managed-deep-agents",
+        "langchain",
+        "langsmith",
+        "deep-agents",
+        "production",
+        "channels"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "nvidia-skillspector",
+      "name": "NVIDIA SkillSpector",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-23",
+      "description": "NVIDIA SkillSpector security scanner for AI agent skills (v2.12 candidate 23 Sep 2026): static and optional LLM analysis for prompt injection, exfiltration, MCP tool poisoning, and supply-chain risk before install; CLI, SARIF, and MCP gate.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://docs.nvidia.com/skills/scanning-agent-skills",
+      "githubUrl": "https://github.com/NVIDIA/SkillSpector",
+      "country": "US",
+      "logoUrl": "https://github.com/NVIDIA.png",
+      "tags": [
+        "nvidia",
+        "skillspector",
+        "security",
+        "skills",
+        "mcp",
+        "supply-chain"
+      ],
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "deepseek-dsec",
+      "name": "DeepSeek Elastic Compute",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-25",
+      "description": "DeepSeek Elastic Compute (DSec) production sandbox platform (tech report 25 Sep 2026): FnCall/container/microVM/full-VM backends via libdsec, ~380k concurrent sandboxes, on-demand image load, and RL-training co-design for agentic rollouts.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://arxiv.org/abs/2609.22978",
+      "country": "CN",
+      "logoUrl": "https://github.com/deepseek-ai.png",
+      "tags": [
+        "deepseek",
+        "dsec",
+        "sandbox",
+        "microvm",
+        "agentic-rl",
+        "libdsec"
+      ],
+      "icon": "Server"
+    },
+    {
+      "id": "splunk-mcp",
+      "name": "Splunk MCP Server",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-08",
+      "description": "Splunk MCP Server 2.0 (8 Sep 2026): preinstalled with Splunk Cloud 10.6 for agent search (SPL2/federated), data discovery, read-only alert tools, BYOT app tools, OAuth, role-to-tool governance, and _audit provenance.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.splunk.com/en_us/blog/artificial-intelligence/splunk-mcp-server-2-0.html",
+      "country": "US",
+      "tags": [
+        "splunk",
+        "mcp",
+        "observability",
+        "spl2",
+        "connectors",
+        "governance"
+      ],
+      "icon": "Activity"
+    },
+    {
+      "id": "sley",
+      "name": "Sley 2.0",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-24",
+      "description": "Sley 2.0 machine-native programming system for AI agents (24 Sep 2026, Apache-2.0): typed semantic graphs instead of source text, agents propose verified mutations, deterministic kernel validation, content-addressed commits.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://greyforge.tech/chronicles/sley-2-0-release",
+      "githubUrl": "https://github.com/sley-lang/sley",
+      "country": "US",
+      "logoUrl": "https://github.com/sley-lang.png",
+      "tags": [
+        "sley",
+        "machine-native",
+        "semantic-graph",
+        "agents",
+        "open-source"
+      ],
+      "icon": "Cpu"
     }
   ],
   "toolRepositories": {
@@ -9880,6 +10056,32 @@
     "tembo": {
       "repo": "https://github.com/tembo/tembo",
       "docs": "https://docs.tembo.io/api"
+    },
+    "liteagents": {
+      "repo": "https://github.com/BerriAI/liteagents",
+      "docs": "https://docs.litellm.ai/blog/liteagents-sdk"
+    },
+    "engrams": {
+      "repo": "https://github.com/cortexapps/engrams",
+      "docs": "https://builders.cortex.io/blog/introducing-engrams/"
+    },
+    "managed-deep-agents": {
+      "repo": "https://github.com/langchain-ai/managed-deepagents",
+      "docs": "https://docs.langchain.com/langsmith/python/managed-deep-agents-overview"
+    },
+    "nvidia-skillspector": {
+      "repo": "https://github.com/NVIDIA/SkillSpector",
+      "docs": "https://docs.nvidia.com/skills/scanning-agent-skills"
+    },
+    "sley": {
+      "repo": "https://github.com/sley-lang/sley",
+      "docs": "https://sleylang.org"
+    },
+    "splunk-mcp": {
+      "docs": "https://www.splunk.com/en_us/blog/artificial-intelligence/splunk-mcp-server-2-0.html"
+    },
+    "deepseek-dsec": {
+      "docs": "https://arxiv.org/abs/2609.22978"
     }
   }
 }

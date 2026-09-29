@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-28T05:00:00Z",
+  "updatedAt": "2026-09-29T05:00:00Z",
   "featuredWeekLabel": "28 September – 4 October 2026",
   "featuredToolIds": [
+    "nvidia-openshell",
+    "holo4",
+    "cloudflare-cf",
     "liteagents",
-    "managed-deep-agents",
-    "engrams",
-    "nvidia-skillspector",
-    "deepseek-dsec"
+    "managed-deep-agents"
   ],
   "tools": [
     {
@@ -8120,7 +8120,6 @@
       "state": "Assess",
       "new": true,
       "trending": true,
-      "highlighted": true,
       "releaseDate": "2026-09-24",
       "description": "Cortex Engrams open-source software factory (24 Sep 2026, AGPL-3.0): run Claude Code, Codex, or custom agents in your cloud on microVMs, with Slack/Linear automations for upgrades, triage, and long-running delivery.",
       "category": "Coding Agents",
@@ -8172,7 +8171,6 @@
       "state": "Trial",
       "new": true,
       "trending": true,
-      "highlighted": true,
       "releaseDate": "2026-09-23",
       "description": "NVIDIA SkillSpector security scanner for AI agent skills (v2.12 candidate 23 Sep 2026): static and optional LLM analysis for prompt injection, exfiltration, MCP tool poisoning, and supply-chain risk before install; CLI, SARIF, and MCP gate.",
       "category": "Security",
@@ -8198,7 +8196,6 @@
       "state": "Assess",
       "new": true,
       "trending": true,
-      "highlighted": true,
       "releaseDate": "2026-09-25",
       "description": "DeepSeek Elastic Compute (DSec) production sandbox platform (tech report 25 Sep 2026): FnCall/container/microVM/full-VM backends via libdsec, ~380k concurrent sandboxes, on-demand image load, and RL-training co-design for agentic rollouts.",
       "category": "Sandbox",
@@ -8263,6 +8260,112 @@
         "open-source"
       ],
       "icon": "Cpu"
+    },
+    {
+      "id": "nvidia-openshell",
+      "name": "NVIDIA OpenShell",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-28",
+      "description": "NVIDIA OpenShell open-source agent runtime (28 Sep 2026): sandboxed execution with YAML policy, credential proxying, formal policy prover, and MCP/HTTP inspection as the software layer of NVIDIA Open Agent Safety Platform.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://docs.nvidia.com/openshell/latest/",
+      "githubUrl": "https://github.com/NVIDIA/openshell",
+      "country": "US",
+      "logoUrl": "https://github.com/NVIDIA.png",
+      "tags": [
+        "nvidia",
+        "openshell",
+        "security",
+        "sandbox",
+        "policy",
+        "mcp",
+        "agent-runtime"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "holo4",
+      "name": "Holo4",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-28",
+      "description": "H Company Holo4 agentic computer-use models (28 Sep 2026): 27B dense and 35B-A3B MoE that drive GUIs, code, MCP, and APIs across desktop, web, and Android; open weights plus H Models API.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://hcompany.ai/newsroom/holo4",
+      "githubUrl": "https://huggingface.co/Hcompany/Holo4-27B",
+      "country": "FR",
+      "logoUrl": "https://huggingface.co/Hcompany.png",
+      "tags": [
+        "holo4",
+        "h-company",
+        "computer-use",
+        "gui",
+        "mcp",
+        "open-weights",
+        "agentic"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "cloudflare-cf",
+      "name": "Cloudflare cf",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-28",
+      "description": "Cloudflare cf agentic CLI (open beta, 28 Sep 2026): generated coverage of 3,000+ Cloudflare API operations with natural-language command search, JSON-default output, and TypeScript cloudflare.config.ts for agent-driven Workers workflows.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "githubUrl": "https://github.com/cloudflare/cf",
+      "country": "US",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "tags": [
+        "cloudflare",
+        "cf",
+        "cli",
+        "agentic",
+        "workers",
+        "api",
+        "open-source"
+      ],
+      "icon": "Terminal"
+    },
+    {
+      "id": "autotrust-jev-27b",
+      "name": "AutoTrust JEV-27B",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-27",
+      "description": "AutoTrust JEV-27B open Apache-2.0 decision model (27 Sep 2026): Blocks-of-Experts System 1 typed calibrated decisions plus untouched Qwen3.8-27B System 2 from one vLLM engine for agent routing, gates, and triage (distinct from TypeSafe Jev).",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/blog/autotrust/autotrustjev-27b-fast-calibrated-decisions-and-ful",
+      "githubUrl": "https://huggingface.co/autotrust/JEV-27B",
+      "country": "SG",
+      "logoUrl": "https://huggingface.co/autotrust.png",
+      "tags": [
+        "autotrust",
+        "jev-27b",
+        "decision-model",
+        "system-one",
+        "open-weights",
+        "agent-routing"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {
@@ -10082,6 +10185,22 @@
     },
     "deepseek-dsec": {
       "docs": "https://arxiv.org/abs/2609.22978"
+    },
+    "nvidia-openshell": {
+      "repo": "https://github.com/NVIDIA/openshell",
+      "docs": "https://docs.nvidia.com/openshell/latest/"
+    },
+    "cloudflare-cf": {
+      "repo": "https://github.com/cloudflare/cf",
+      "docs": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/"
+    },
+    "holo4": {
+      "repo": "https://huggingface.co/Hcompany/Holo4-27B",
+      "docs": "https://hcompany.ai/newsroom/holo4"
+    },
+    "autotrust-jev-27b": {
+      "repo": "https://huggingface.co/autotrust/JEV-27B",
+      "docs": "https://huggingface.co/blog/autotrust/autotrustjev-27b-fast-calibrated-decisions-and-ful"
     }
   }
 }

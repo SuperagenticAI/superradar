@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-29T05:00:00Z",
+  "updatedAt": "2026-09-30T05:00:00Z",
   "featuredWeekLabel": "28 September – 4 October 2026",
   "featuredToolIds": [
-    "nvidia-openshell",
-    "holo4",
-    "cloudflare-cf",
-    "liteagents",
-    "managed-deep-agents"
+    "mongodb-atlas-agent-engine",
+    "sigma-agents",
+    "oracle-fusion-claw",
+    "honeycomb-canvas",
+    "evermind-raven"
   ],
   "tools": [
     {
@@ -8366,6 +8366,161 @@
         "agent-routing"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "mongodb-atlas-agent-engine",
+      "name": "MongoDB Atlas Agent Engine",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-29",
+      "description": "MongoDB Atlas Agent Engine public preview (29 Sep 2026): unified execution, memory, and governance layer for production agents with Voyage AI retrieval, MCP/A2A, identity-scoped sandboxed tool calls, and consumption pricing on Atlas.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.mongodb.com/products/platform/atlas-agent-engine",
+      "logoUrl": "https://github.com/mongodb.png",
+      "country": "US",
+      "tags": [
+        "mongodb",
+        "atlas",
+        "agent-engine",
+        "memory",
+        "governance",
+        "mcp",
+        "a2a",
+        "voyage"
+      ],
+      "icon": "Database"
+    },
+    {
+      "id": "sigma-agents",
+      "name": "Sigma Agents",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-29",
+      "description": "Sigma Agents generally available (29 Sep 2026): governed warehouse agents that act on live data, write back via Input Tables, and run from workbooks, schedules, REST API, or AI assistants through the Sigma MCP server.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.sigmacomputing.com/blog/sigma-agents-enterprise-scale",
+      "logoUrl": "https://www.sigmacomputing.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "sigma",
+        "agents",
+        "warehouse",
+        "mcp",
+        "rest-api",
+        "governance",
+        "analytics"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "oracle-fusion-claw",
+      "name": "Oracle Fusion Claw",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-29",
+      "description": "Oracle Fusion Claw (29 Sep 2026): governed agentic execution runtime for Fusion Agentic Applications that pairs frontier-model reasoning with deterministic enterprise computation, Enterprise Operating Envelope controls, and auditable Outcome Receipts.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.oracle.com/news/announcement/oracle-extends-fusion-agentic-applications-with-introduction-of-fusion-claw-2026-09-29/",
+      "logoUrl": "https://www.oracle.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "oracle",
+        "fusion-claw",
+        "agentic-applications",
+        "governance",
+        "enterprise",
+        "runtime"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "evermind-raven",
+      "name": "EverMind Raven",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-27",
+      "description": "EverMind Raven 0.2.3 open-source multi-agent harness (27 Sep 2026): orchestrates built-in Research/Code/Design/Oncall agents plus third-party coding agents over ACP with DAG task graphs, EverOS memory, and experimental Curator self-improvement.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://raven.evermind.ai/",
+      "githubUrl": "https://github.com/EverMind-AI/Raven",
+      "logoUrl": "https://github.com/EverMind-AI.png",
+      "country": "US",
+      "githubStars": 4847,
+      "tags": [
+        "raven",
+        "evermind",
+        "multi-agent",
+        "harness",
+        "acp",
+        "orchestration",
+        "open-source"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "honeycomb-canvas",
+      "name": "Honeycomb Canvas",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-29",
+      "description": "Honeycomb Canvas Connectors GA and AI Ecosystem early access (29 Sep 2026): multiplayer AI observability workspace with MCP-based stack connectors, fleet-wide agent performance/cost views, Agent Timeline drill-down, and coding-agent MCP onboarding.",
+      "category": "Observability",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.honeycomb.io/platform/canvas",
+      "logoUrl": "https://www.honeycomb.io/favicon.ico",
+      "country": "US",
+      "tags": [
+        "honeycomb",
+        "canvas",
+        "observability",
+        "mcp",
+        "connectors",
+        "agent-timeline",
+        "ai-ecosystem"
+      ],
+      "icon": "Activity"
+    },
+    {
+      "id": "komprise-universal-file-mcp",
+      "name": "Komprise Universal File MCP",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-09-29",
+      "description": "Komprise Universal File MCP early access (29 Sep 2026): single MCP interface for AI agents to query governed unstructured file data across NAS, cloud, and hybrid silos with progressive disclosure and permission-aware responses.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.komprise.com/MCP/",
+      "logoUrl": "https://www.komprise.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "komprise",
+        "mcp",
+        "unstructured-data",
+        "files",
+        "nas",
+        "connectors"
+      ],
+      "icon": "FileText"
     }
   ],
   "toolRepositories": {
@@ -10201,6 +10356,25 @@
     "autotrust-jev-27b": {
       "repo": "https://huggingface.co/autotrust/JEV-27B",
       "docs": "https://huggingface.co/blog/autotrust/autotrustjev-27b-fast-calibrated-decisions-and-ful"
+    },
+    "mongodb-atlas-agent-engine": {
+      "docs": "https://www.mongodb.com/products/platform/atlas-agent-engine"
+    },
+    "sigma-agents": {
+      "docs": "https://www.sigmacomputing.com/blog/sigma-agents-enterprise-scale"
+    },
+    "oracle-fusion-claw": {
+      "docs": "https://www.oracle.com/news/announcement/oracle-extends-fusion-agentic-applications-with-introduction-of-fusion-claw-2026-09-29/"
+    },
+    "evermind-raven": {
+      "repo": "https://github.com/EverMind-AI/Raven",
+      "docs": "https://raven.evermind.ai/"
+    },
+    "honeycomb-canvas": {
+      "docs": "https://www.honeycomb.io/blog/agents-need-context-canvas-connectors-ai-agent-visibility"
+    },
+    "komprise-universal-file-mcp": {
+      "docs": "https://www.komprise.com/MCP/"
     }
   }
 }

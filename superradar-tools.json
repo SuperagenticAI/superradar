@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-02T05:00:00Z",
+  "updatedAt": "2026-10-03T05:00:00Z",
   "featuredWeekLabel": "28 September – 4 October 2026",
   "featuredToolIds": [
-    "pi",
-    "dogwood-local-engine",
-    "modal-vm-sandboxes",
-    "openrig",
-    "neuron-ai"
+    "magnitude",
+    "openai-dots",
+    "gemini-4-argon",
+    "gpt-6-1-sol",
+    "rasa-mantle"
   ],
   "tools": [
     {
@@ -8877,6 +8877,154 @@
         "linux"
       ],
       "icon": "Cpu"
+    },
+    {
+      "id": "magnitude",
+      "name": "Magnitude",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-30",
+      "description": "Magnitude (YC S25, Launch HN 30 Sep 2026): Apache-2.0 local inference engine that compiles and tunes kernels on your hardware for agent sessions, up to ~2x faster decode than llama.cpp, with desktop app, magnitude serve, and one-click Pi/OpenCode/Hermes/Codex connections.",
+      "category": "Inference Engines",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://magnitude.dev/",
+      "githubUrl": "https://github.com/magnitudedev/magnitude",
+      "logoUrl": "https://github.com/magnitudedev.png",
+      "country": "US",
+      "githubStars": 6296,
+      "tags": [
+        "magnitude",
+        "inference",
+        "local",
+        "yc",
+        "agents",
+        "llama-cpp"
+      ],
+      "icon": "Cpu"
+    },
+    {
+      "id": "openai-dots",
+      "name": "OpenAI Dots",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-29",
+      "description": "OpenAI dots (29 Sep 2026): always-on GPT-6 Astra agents with a dedicated cloud computer, 4,000+ app plugins, proactive read-only research, and ChatGPT/Slack/Teams reach; rolling out to Pro, Business Premium, and Enterprise (admin-enabled).",
+      "category": "Web, Browser & API",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/introducing-dots/",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "dots",
+        "persistent-agent",
+        "chatgpt",
+        "gpt-6-astra"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-30",
+      "description": "Google Gemini 4 Argon (30 Sep 2026): frontier model for long-horizon coding, enterprise knowledge work, and cyber defense with up to 1M output tokens; initial Fairwind trusted-defender access only, broader API and AI Ultra rollout forthcoming.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "logoUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "country": "US",
+      "tags": [
+        "gemini",
+        "google",
+        "argon",
+        "frontier",
+        "fairwind",
+        "cyber"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
+      "state": "Adopt",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-29",
+      "description": "OpenAI GPT-6.1 Sol (29 Sep 2026): faster, lower-cost successor to GPT-6 Sol approaching GPT-6 Astra on agentic coding, computer use, and professional work at about one-fifth Astra API token prices; in ChatGPT Work and Codex (not Chat yet).",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "gpt-6",
+        "sol",
+        "coding",
+        "agents"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "rasa-mantle",
+      "name": "Rasa Mantle",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-28",
+      "description": "Rasa Mantle (28 Sep 2026): orchestrator at the center of Rasa's agent factory for natural-language agent building, simulated-customer evaluation, safe live updates, and continuous improvement across terminal, IDE, and visual builders.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://rasa.com/blog/you-have-an-agent-platform-rasa-gives-you-an-agent-factory",
+      "logoUrl": "https://rasa.com/favicon.ico",
+      "country": "DE",
+      "tags": [
+        "rasa",
+        "mantle",
+        "orchestration",
+        "agent-factory",
+        "evaluation"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "perplexity-agent-api",
+      "name": "Perplexity Agent API",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-28",
+      "description": "Perplexity Agent API Profiles (28 Sep 2026): reusable versioned agent configs bundling model, instructions, tools, Skills, and managed connectors under one ID for consistent runs across apps and workflows.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.perplexity.ai/hub/blog/agent-api-now-supports-reusable-agents",
+      "logoUrl": "https://www.perplexity.ai/favicon.ico",
+      "country": "US",
+      "tags": [
+        "perplexity",
+        "agent-api",
+        "profiles",
+        "skills",
+        "connectors"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {
@@ -10777,6 +10925,30 @@
     "modal-vm-sandboxes": {
       "repo": "https://github.com/modal-labs",
       "docs": "https://modal.com/docs/guide/vm-sandboxes"
+    },
+    "magnitude": {
+      "repo": "https://github.com/magnitudedev/magnitude",
+      "docs": "https://magnitude.dev/"
+    },
+    "openai-dots": {
+      "repo": "https://github.com/openai",
+      "docs": "https://openai.com/index/introducing-dots/"
+    },
+    "gemini-4-argon": {
+      "repo": "https://github.com/google-gemini",
+      "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    "gpt-6-1-sol": {
+      "repo": "https://github.com/openai",
+      "docs": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    "rasa-mantle": {
+      "repo": "https://github.com/RasaHQ/rasa",
+      "docs": "https://rasa.com/docs/"
+    },
+    "perplexity-agent-api": {
+      "repo": "https://github.com/ppl-ai",
+      "docs": "https://docs.perplexity.ai/docs/agent-api/profiles"
     }
   }
 }

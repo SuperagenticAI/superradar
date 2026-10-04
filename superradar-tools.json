@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-04T05:00:00Z",
+  "updatedAt": "2026-10-04T06:40:51Z",
   "featuredWeekLabel": "28 September – 4 October 2026",
   "featuredToolIds": [
-    "magnitude",
-    "openai-dots",
-    "gemini-4-argon",
+    "claude-sonnet-5-5",
+    "cloudflare-clef",
+    "openai-decisions-api",
     "gpt-6-1-sol",
-    "rasa-mantle"
+    "gemini-4-argon"
   ],
   "tools": [
     {
@@ -9027,104 +9027,131 @@
       "icon": "Brain"
     },
     {
-      "id": "comfy-agent",
-      "name": "Comfy Agent",
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-28",
+      "description": "Anthropic Claude Sonnet 5.5 (28 Sep 2026): mid-tier Claude 5.5 model, faster and lower-cost per task than Sonnet 5, strong on agentic coding; priced at $2/$10 per million input/output tokens and available as claude-sonnet-5-5.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+      "githubUrl": "https://github.com/anthropics",
+      "logoUrl": "https://github.com/anthropics.png",
+      "country": "US",
+      "tags": [
+        "claude",
+        "sonnet-5-5",
+        "anthropic",
+        "agentic-coding",
+        "mid-tier"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "openai-decisions-api",
+      "name": "OpenAI Decisions API",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-29",
+      "description": "OpenAI Decisions API (DevDay, 29 Sep 2026, limited preview): focuses Luna on developer-defined questions with finite answers so apps can classify content, route requests, or choose an agent's next action from text or image context.",
+      "category": "Model Serving",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/devday-2026-recap/",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "decisions-api",
+        "luna",
+        "routing",
+        "classification",
+        "limited-preview"
+      ],
+      "icon": "Zap"
+    },
+    {
+      "id": "cloudflare-clef",
+      "name": "Cloudflare Clef",
       "state": "Trial",
       "new": true,
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-10-01",
-      "description": "Comfy Agent (1 Oct 2026, beta): in-app ComfyUI assistant on Comfy Cloud that plans, builds, runs, and iterates image/video workflows from natural language on the shared canvas, with skills and up to five parallel chats; Desktop/local coming soon.",
-      "category": "Coding Agents",
-      "layer": "Coding",
-      "sourceType": "Commercial",
-      "websiteUrl": "https://blog.comfy.org/p/comfy-agent-the-first-agent-for-craft",
-      "githubUrl": "https://github.com/Comfy-Org",
-      "logoUrl": "https://github.com/Comfy-Org.png",
+      "description": "Cloudflare Clef (1 Oct 2026): open-source Apache-2.0 decision models Clef and Clef-flash on Workers AI, Jev-API compatible, with an RL fine-tune path; weights are published on Hugging Face.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://blog.cloudflare.com/clef-decision-models/",
+      "githubUrl": "https://huggingface.co/Cloudflare/clef",
+      "logoUrl": "https://github.com/cloudflare.png",
       "country": "US",
       "tags": [
-        "comfy",
-        "comfyui",
-        "creative-agent",
-        "workflows",
-        "comfy-cloud"
+        "cloudflare",
+        "clef",
+        "decision-model",
+        "workers-ai",
+        "jev-api",
+        "apache-2"
       ],
-      "icon": "Sparkles"
+      "icon": "Brain"
     },
     {
-      "id": "yokka",
-      "name": "Yokka",
+      "id": "codex-security-cloud",
+      "name": "Codex Security Cloud",
       "state": "Trial",
       "new": true,
       "trending": true,
       "highlighted": true,
-      "releaseDate": "2026-10-02",
-      "description": "Yokka (2 Oct 2026): kanban board for coding agents where Claude Code, Codex, Cursor, and other MCP clients claim cards, report progress, and request input; open-source local runner starts agents on your machine while code stays local (EU-hosted).",
+      "releaseDate": "2026-09-29",
+      "description": "Codex Security Cloud (DevDay, 29 Sep 2026): OpenAI cloud agent that threat-models GitHub repositories, validates potential vulnerabilities in an isolated environment, and proposes patches for review.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/devday-2026-recap/",
+      "githubUrl": "https://github.com/openai/codex",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "codex",
+        "security",
+        "vulnerability-research",
+        "threat-model",
+        "cloud"
+      ],
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-25",
+      "description": "Microsoft Copilot (25 Sep 2026): the Copilot app update with Home (Chat and Cowork, plus Office in Copilot), Code (tenant-hosted building on the same technology as GitHub Copilot), and Autopilot, a persistent agent that keeps working when you are away.",
       "category": "Multi-Agent Orchestration",
       "layer": "Frameworks",
       "sourceType": "Commercial",
-      "websiteUrl": "https://yokka.ai/",
-      "githubUrl": "https://github.com/yokka-ai/runner",
-      "logoUrl": "https://github.com/yokka-ai.png",
-      "tags": [
-        "yokka",
-        "kanban",
-        "coding-agents",
-        "mcp",
-        "human-in-the-loop",
-        "runner"
-      ],
-      "icon": "Layers"
-    },
-    {
-      "id": "zyte-mcp",
-      "name": "Zyte MCP",
-      "state": "Trial",
-      "new": true,
-      "trending": true,
-      "highlighted": true,
-      "releaseDate": "2026-09-30",
-      "description": "Zyte MCP Server (30 Sep 2026): hosted MCP at mcp.zyte.com exposing Zyte API web fetch/extraction and Scrapy Cloud job control to Claude Code, Cursor, Codex, and Copilot, with clean Markdown responses and OAuth (no separate MCP fee).",
-      "category": "Connectors",
-      "layer": "AgentOps",
-      "sourceType": "Commercial",
-      "websiteUrl": "https://www.zyte.com/blog/introducing-zyte-mcp/",
-      "logoUrl": "https://www.zyte.com/favicon.ico",
+      "websiteUrl": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "logoUrl": "https://github.com/microsoft.png",
       "country": "US",
       "tags": [
-        "zyte",
-        "mcp",
-        "web-scraping",
-        "scrapy-cloud",
-        "extraction",
-        "hosted"
+        "microsoft",
+        "copilot",
+        "home",
+        "code",
+        "autopilot",
+        "cowork"
       ],
-      "icon": "Globe"
-    },
-    {
-      "id": "decagon-personal-agent-gateway",
-      "name": "Decagon Personal Agent Gateway",
-      "state": "Trial",
-      "new": true,
-      "trending": true,
-      "highlighted": true,
-      "releaseDate": "2026-10-01",
-      "description": "Decagon Personal Agent Gateway (1 Oct 2026): enterprise channel that detects personal agents in chat/voice, routes them under Agent Operating Procedures with scoped permissions, and introduces PACT (OAuth-based delegated auth on A2A) for consent and trust.",
-      "category": "Agent Protocols",
-      "layer": "Frameworks",
-      "sourceType": "Commercial",
-      "websiteUrl": "https://decagon.ai/blog/personal-agents-are-here",
-      "logoUrl": "https://decagon.ai/favicon.ico",
-      "country": "US",
-      "tags": [
-        "decagon",
-        "personal-agents",
-        "pact",
-        "a2a",
-        "authorization",
-        "cx"
-      ],
-      "icon": "Network"
+      "icon": "Bot"
     }
   ],
   "toolRepositories": {
@@ -11050,19 +11077,24 @@
       "repo": "https://github.com/ppl-ai",
       "docs": "https://docs.perplexity.ai/docs/agent-api/profiles"
     },
-    "comfy-agent": {
-      "repo": "https://github.com/Comfy-Org",
-      "docs": "https://blog.comfy.org/p/comfy-agent-the-first-agent-for-craft"
+    "claude-sonnet-5-5": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://www.anthropic.com/claude-sonnet-5-5"
     },
-    "yokka": {
-      "repo": "https://github.com/yokka-ai/runner",
-      "docs": "https://yokka.ai/docs/concepts/runners/"
+    "openai-decisions-api": {
+      "repo": "https://github.com/openai",
+      "docs": "https://openai.com/index/devday-2026-recap/"
     },
-    "zyte-mcp": {
-      "docs": "https://www.zyte.com/blog/introducing-zyte-mcp/"
+    "cloudflare-clef": {
+      "repo": "https://huggingface.co/Cloudflare/clef",
+      "docs": "https://blog.cloudflare.com/clef-decision-models/"
     },
-    "decagon-personal-agent-gateway": {
-      "docs": "https://decagon.ai/blog/personal-agents-are-here"
+    "codex-security-cloud": {
+      "repo": "https://github.com/openai/codex",
+      "docs": "https://help.openai.com/en/articles/20001107-codex-security"
+    },
+    "microsoft-copilot": {
+      "docs": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
     }
   }
 }

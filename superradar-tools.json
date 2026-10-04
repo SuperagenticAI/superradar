@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T05:00:00Z",
+  "updatedAt": "2026-10-04T05:00:00Z",
   "featuredWeekLabel": "28 September – 4 October 2026",
   "featuredToolIds": [
     "magnitude",
@@ -9025,6 +9025,106 @@
         "connectors"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "comfy-agent",
+      "name": "Comfy Agent",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-01",
+      "description": "Comfy Agent (1 Oct 2026, beta): in-app ComfyUI assistant on Comfy Cloud that plans, builds, runs, and iterates image/video workflows from natural language on the shared canvas, with skills and up to five parallel chats; Desktop/local coming soon.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://blog.comfy.org/p/comfy-agent-the-first-agent-for-craft",
+      "githubUrl": "https://github.com/Comfy-Org",
+      "logoUrl": "https://github.com/Comfy-Org.png",
+      "country": "US",
+      "tags": [
+        "comfy",
+        "comfyui",
+        "creative-agent",
+        "workflows",
+        "comfy-cloud"
+      ],
+      "icon": "Sparkles"
+    },
+    {
+      "id": "yokka",
+      "name": "Yokka",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-02",
+      "description": "Yokka (2 Oct 2026): kanban board for coding agents where Claude Code, Codex, Cursor, and other MCP clients claim cards, report progress, and request input; open-source local runner starts agents on your machine while code stays local (EU-hosted).",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://yokka.ai/",
+      "githubUrl": "https://github.com/yokka-ai/runner",
+      "logoUrl": "https://github.com/yokka-ai.png",
+      "tags": [
+        "yokka",
+        "kanban",
+        "coding-agents",
+        "mcp",
+        "human-in-the-loop",
+        "runner"
+      ],
+      "icon": "Layers"
+    },
+    {
+      "id": "zyte-mcp",
+      "name": "Zyte MCP",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-09-30",
+      "description": "Zyte MCP Server (30 Sep 2026): hosted MCP at mcp.zyte.com exposing Zyte API web fetch/extraction and Scrapy Cloud job control to Claude Code, Cursor, Codex, and Copilot, with clean Markdown responses and OAuth (no separate MCP fee).",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.zyte.com/blog/introducing-zyte-mcp/",
+      "logoUrl": "https://www.zyte.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "zyte",
+        "mcp",
+        "web-scraping",
+        "scrapy-cloud",
+        "extraction",
+        "hosted"
+      ],
+      "icon": "Globe"
+    },
+    {
+      "id": "decagon-personal-agent-gateway",
+      "name": "Decagon Personal Agent Gateway",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-01",
+      "description": "Decagon Personal Agent Gateway (1 Oct 2026): enterprise channel that detects personal agents in chat/voice, routes them under Agent Operating Procedures with scoped permissions, and introduces PACT (OAuth-based delegated auth on A2A) for consent and trust.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://decagon.ai/blog/personal-agents-are-here",
+      "logoUrl": "https://decagon.ai/favicon.ico",
+      "country": "US",
+      "tags": [
+        "decagon",
+        "personal-agents",
+        "pact",
+        "a2a",
+        "authorization",
+        "cx"
+      ],
+      "icon": "Network"
     }
   ],
   "toolRepositories": {
@@ -10949,6 +11049,20 @@
     "perplexity-agent-api": {
       "repo": "https://github.com/ppl-ai",
       "docs": "https://docs.perplexity.ai/docs/agent-api/profiles"
+    },
+    "comfy-agent": {
+      "repo": "https://github.com/Comfy-Org",
+      "docs": "https://blog.comfy.org/p/comfy-agent-the-first-agent-for-craft"
+    },
+    "yokka": {
+      "repo": "https://github.com/yokka-ai/runner",
+      "docs": "https://yokka.ai/docs/concepts/runners/"
+    },
+    "zyte-mcp": {
+      "docs": "https://www.zyte.com/blog/introducing-zyte-mcp/"
+    },
+    "decagon-personal-agent-gateway": {
+      "docs": "https://decagon.ai/blog/personal-agents-are-here"
     }
   }
 }

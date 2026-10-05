@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-04T06:40:51Z",
-  "featuredWeekLabel": "28 September – 4 October 2026",
+  "updatedAt": "2026-10-05T05:00:27Z",
+  "featuredWeekLabel": "5–11 October 2026",
   "featuredToolIds": [
+    "strands-decider-2b",
+    "vista-harness",
+    "liquid-d1",
     "claude-sonnet-5-5",
-    "cloudflare-clef",
-    "openai-decisions-api",
-    "gpt-6-1-sol",
-    "gemini-4-argon"
+    "gpt-6-1-sol"
   ],
   "tools": [
     {
@@ -9152,6 +9152,82 @@
         "cowork"
       ],
       "icon": "Bot"
+    },
+    {
+      "id": "strands-decider-2b",
+      "name": "Strands Decider 2B",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-01",
+      "description": "AWS Strands Labs open Apache-2.0 decision model (1 Oct 2026): a 1.9B Qwen3.5-2B-Base LoRA with a pointer head that returns calibrated choice, yes/no, and score answers in about 115 ms locally for agent routing, tool selection, and guardrails, with weights, training data, and recipe published.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "githubUrl": "https://github.com/strands-labs/strands-decider",
+      "logoUrl": "https://github.com/strands-labs.png",
+      "country": "US",
+      "tags": [
+        "aws",
+        "strands",
+        "decision-model",
+        "system-one",
+        "open-weights",
+        "agent-routing"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "liquid-d1",
+      "name": "Liquid d1",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-09-29",
+      "description": "Liquid AI's first decision model (29 Sep 2026): a hosted API model that answers typed Noul, Choice, and Score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; also listed on OpenRouter.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://docs.liquid.ai/lfm/models/decision-models",
+      "githubUrl": "https://github.com/Liquid4All",
+      "logoUrl": "https://github.com/Liquid4All.png",
+      "country": "US",
+      "tags": [
+        "liquid-ai",
+        "d1",
+        "decision-model",
+        "system-one",
+        "agent-routing",
+        "openrouter"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "vista-harness",
+      "name": "VISTA",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-01",
+      "description": "MIT's open-source visual harness for multimodal agents (arXiv 1 Oct 2026, Kaiming He et al.): keeps raw environment frames as lossless visual memory the model can revisit and zoom into, lifting Claude Opus 5.0 to a perfect 100 RHAE on the 25 public ARC-AGI-3 games.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://vista-research.github.io/",
+      "githubUrl": "https://github.com/joshhhhhan/VISTA",
+      "logoUrl": "https://github.com/joshhhhhan.png",
+      "country": "US",
+      "tags": [
+        "vista",
+        "harness",
+        "arc-agi-3",
+        "multimodal",
+        "visual-memory",
+        "mit"
+      ],
+      "icon": "Layers"
     }
   ],
   "toolRepositories": {
@@ -11095,6 +11171,18 @@
     },
     "microsoft-copilot": {
       "docs": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+    },
+    "strands-decider-2b": {
+      "repo": "https://github.com/strands-labs/strands-decider",
+      "docs": "https://strandsagents.com/blog/introducing-strands-decider/"
+    },
+    "liquid-d1": {
+      "repo": "https://github.com/Liquid4All",
+      "docs": "https://docs.liquid.ai/lfm/models/decision-models"
+    },
+    "vista-harness": {
+      "repo": "https://github.com/joshhhhhan/VISTA",
+      "docs": "https://arxiv.org/abs/2610.02200"
     }
   }
 }

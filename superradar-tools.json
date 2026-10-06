@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-05T05:00:27Z",
+  "updatedAt": "2026-10-06T04:50:22Z",
   "featuredWeekLabel": "5–11 October 2026",
   "featuredToolIds": [
+    "cohere-north-2",
     "strands-decider-2b",
     "vista-harness",
     "liquid-d1",
-    "claude-sonnet-5-5",
-    "gpt-6-1-sol"
+    "claude-sonnet-5-5"
   ],
   "tools": [
     {
@@ -9228,6 +9228,32 @@
         "mit"
       ],
       "icon": "Layers"
+    },
+    {
+      "id": "cohere-north-2",
+      "name": "Cohere North 2",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-05",
+      "description": "Cohere's enterprise agent platform, version 2 (5 Oct 2026): a redesigned agent orchestration harness with cross-session memory, shared skills and libraries, automations, app creation, and North Admin token quotas and spend caps; model-agnostic and deployable in cloud, on-prem, or air-gapped environments.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cohere.com/north",
+      "logoUrl": "https://github.com/cohere-ai.png",
+      "country": "CA",
+      "tags": [
+        "cohere",
+        "north",
+        "agent-platform",
+        "enterprise",
+        "memory",
+        "air-gapped",
+        "governance"
+      ],
+      "icon": "Network"
     }
   ],
   "toolRepositories": {
@@ -11183,6 +11209,10 @@
     "vista-harness": {
       "repo": "https://github.com/joshhhhhan/VISTA",
       "docs": "https://arxiv.org/abs/2610.02200"
+    },
+    "cohere-north-2": {
+      "repo": "https://github.com/cohere-ai",
+      "docs": "https://cohere.com/blog/introducing-north-2"
     }
   }
 }

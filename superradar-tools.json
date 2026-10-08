@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-06T04:50:22Z",
+  "updatedAt": "2026-10-08T04:57:16Z",
   "featuredWeekLabel": "5–11 October 2026",
   "featuredToolIds": [
+    "reflection-beam",
+    "embeddinggemma-2",
     "cohere-north-2",
-    "strands-decider-2b",
-    "vista-harness",
-    "liquid-d1",
-    "claude-sonnet-5-5"
+    "kolibri-1",
+    "liquid-d1"
   ],
   "tools": [
     {
@@ -9186,7 +9186,7 @@
       "new": true,
       "trending": true,
       "releaseDate": "2026-09-29",
-      "description": "Liquid AI's first decision model (29 Sep 2026): a hosted API model that answers typed Noul, Choice, and Score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; also listed on OpenRouter.",
+      "description": "Liquid AI's decision model family: d1 (29 Sep 2026) is a hosted API model that answers typed yes/no, choice, and score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; on 7 Oct 2026 Liquid added open-weight d1-3B (text and vision) and experimental d1-omni-600M (text with image or audio) on Hugging Face for edge use.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -9200,9 +9200,13 @@
         "decision-model",
         "system-one",
         "agent-routing",
-        "openrouter"
+        "openrouter",
+        "open-weights",
+        "edge",
+        "d1-3b"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "lastUpdate": "2026-10-07"
     },
     {
       "id": "vista-harness",
@@ -9254,6 +9258,111 @@
         "governance"
       ],
       "icon": "Network"
+    },
+    {
+      "id": "reflection-beam",
+      "name": "Reflection Beam",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-05",
+      "description": "Reflection AI's first open-weight model (announced 5 Oct 2026): a 501B-parameter sparse MoE with 23B active per token, built for coding, reasoning, and agentic workloads; early access by waitlist now, with Apache 2.0 weights, technical report, and fine-tuning stack due later in October 2026.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://reflection.ai/blog/introducing-beam",
+      "logoUrl": "https://github.com/reflection-ai.png",
+      "country": "US",
+      "tags": [
+        "reflection-ai",
+        "beam",
+        "moe",
+        "open-weights",
+        "coding",
+        "agents",
+        "apache-2-0"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "embeddinggemma-2",
+      "name": "EmbeddingGemma 2",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-06",
+      "description": "Google DeepMind's open Apache 2.0 multimodal embedding model (6 Oct 2026): 740M parameters built on Gemma 4 that map text, code, images, video, and audio into one 768-dimensional space, with modular encoders (270M text-only up to full multimodal), Matryoshka truncation to 128d, and an 8K context for on-device RAG and search.",
+      "category": "Embedding Model Providers",
+      "layer": "Knowledge",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "githubUrl": "https://github.com/google-deepmind/gemma",
+      "logoUrl": "https://github.com/google-deepmind.png",
+      "country": "US",
+      "tags": [
+        "google",
+        "gemma",
+        "embeddings",
+        "multimodal",
+        "on-device",
+        "rag",
+        "apache-2-0"
+      ],
+      "icon": "Database"
+    },
+    {
+      "id": "kolibri-1",
+      "name": "Kolibri 1",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-03",
+      "description": "Aleph Alpha's sovereign open-weight model (3 Oct 2026): a German-English MoE trained from scratch in Europe with 78B total and about 3.5B active parameters, up to 1M-token context, reasoning effort control, and native tool calling; Apache 2.0 weights on Hugging Face, served via the aleph-alpha-inference vLLM plugin.",
+      "category": "Sovereign AI",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "githubUrl": "https://github.com/Aleph-Alpha/aleph-alpha-inference",
+      "logoUrl": "https://github.com/Aleph-Alpha.png",
+      "country": "DE",
+      "tags": [
+        "aleph-alpha",
+        "kolibri",
+        "sovereign-ai",
+        "moe",
+        "open-weights",
+        "german",
+        "tool-calling"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "agent-memory-repo",
+      "name": "Agent Memory Repo",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-05",
+      "description": "Cognition's open MIT-licensed standard for agent memory (released with Devin Memory and Dreaming, 5 Oct 2026): long-term memory as a git repo of Markdown files with a MEMORY.md entry point, one-line entries, metadata, and wiki-style cross-links, plus an installable skill for Devin and Claude-compatible agents.",
+      "category": "Memory Systems",
+      "layer": "Knowledge",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://cognition.ai/agent-memory-repo",
+      "githubUrl": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+      "logoUrl": "https://github.com/AgentMemoryRepo.png",
+      "country": "US",
+      "tags": [
+        "cognition",
+        "devin",
+        "memory",
+        "git",
+        "markdown",
+        "skills",
+        "open-standard"
+      ],
+      "icon": "GitBranch"
     }
   ],
   "toolRepositories": {
@@ -11213,6 +11322,22 @@
     "cohere-north-2": {
       "repo": "https://github.com/cohere-ai",
       "docs": "https://cohere.com/blog/introducing-north-2"
+    },
+    "reflection-beam": {
+      "repo": "https://github.com/reflection-ai",
+      "docs": "https://reflection.ai/blog/introducing-beam"
+    },
+    "embeddinggemma-2": {
+      "repo": "https://github.com/google-deepmind/gemma",
+      "docs": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2"
+    },
+    "kolibri-1": {
+      "repo": "https://github.com/Aleph-Alpha/aleph-alpha-inference",
+      "docs": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+    },
+    "agent-memory-repo": {
+      "repo": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+      "docs": "https://cognition.ai/agent-memory-repo"
     }
   }
 }

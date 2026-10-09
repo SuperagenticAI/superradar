@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-08T04:57:16Z",
+  "updatedAt": "2026-10-09T04:52:20Z",
   "featuredWeekLabel": "5–11 October 2026",
   "featuredToolIds": [
+    "claude-haiku-5-5",
+    "google-gemini-agent",
+    "mellum-2-1",
     "reflection-beam",
-    "embeddinggemma-2",
-    "cohere-north-2",
-    "kolibri-1",
-    "liquid-d1"
+    "embeddinggemma-2"
   ],
   "tools": [
     {
@@ -9363,6 +9363,112 @@
         "open-standard"
       ],
       "icon": "GitBranch"
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-07",
+      "description": "Anthropic's cheapest and fastest Claude 5.5 small model (7 Oct 2026): high-volume subagent, summarization, classification, computer use, and browser workloads, with adjustable effort; about 75% cheaper to run than Haiku 4.5 on average, API id claude-haiku-5-5, on Claude Platform, AWS, Google Cloud, and Azure.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.anthropic.com/claude-haiku-5-5",
+      "githubUrl": "https://github.com/anthropics",
+      "logoUrl": "https://github.com/anthropics.png",
+      "country": "US",
+      "tags": [
+        "claude",
+        "haiku-5-5",
+        "anthropic",
+        "small-model",
+        "subagent",
+        "fast",
+        "computer-use"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "mellum-2-1",
+      "name": "Mellum2.1",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-08",
+      "description": "JetBrains open Apache-2.0 coding-agent model (8 Oct 2026): Mellum2.1 Thinking is a 12B MoE with 2.5B active parameters, RL-trained in real repos to explore codebases, edit files, and check its own changes; weights on Hugging Face (JetBrains/Mellum2.1-12B-A2.5B-Thinking), self-hostable for local sub-agents.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+      "githubUrl": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+      "logoUrl": "https://github.com/jetbrains.png",
+      "tags": [
+        "jetbrains",
+        "mellum",
+        "mellum2-1",
+        "coding-agents",
+        "open-weights",
+        "moe",
+        "apache-2-0",
+        "self-hosted"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "google-gemini-agent",
+      "name": "Google Gemini Agent",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-08",
+      "description": "Google Cloud's universal enterprise work agent (8 Oct 2026, Gemini at Work): one agent and API for objectives across chat, coding, and long-running work, with skills/tools (including MCP), multi-agent and coworker agents, model routing across Gemini and Claude, and enterprise identity, sandbox, and spend controls; private preview now.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026/",
+      "logoUrl": "https://github.com/google.png",
+      "country": "US",
+      "tags": [
+        "google-cloud",
+        "gemini",
+        "enterprise-agent",
+        "multi-agent",
+        "skills",
+        "mcp",
+        "model-routing"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "anthropic-oss-scanner",
+      "name": "Anthropic OSS Scanner",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-08",
+      "description": "Anthropic's free opt-in vulnerability scanner for open-source projects (8 Oct 2026, Cyber Mission): periodic model-generated security scans with PoCs and suggested patches from frontier Claude models (including Mythos), no human triage; maintainers enroll via PRs to anthropics/oss-scanner.",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "githubUrl": "https://github.com/anthropics/oss-scanner",
+      "logoUrl": "https://github.com/anthropics.png",
+      "country": "US",
+      "tags": [
+        "anthropic",
+        "oss-scanner",
+        "security",
+        "vulnerability",
+        "open-source",
+        "cyber-mission"
+      ],
+      "icon": "ShieldCheck"
     }
   ],
   "toolRepositories": {
@@ -11338,6 +11444,22 @@
     "agent-memory-repo": {
       "repo": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
       "docs": "https://cognition.ai/agent-memory-repo"
+    },
+    "claude-haiku-5-5": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://www.anthropic.com/claude-haiku-5-5"
+    },
+    "mellum-2-1": {
+      "repo": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+      "docs": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/"
+    },
+    "google-gemini-agent": {
+      "repo": "https://github.com/google",
+      "docs": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026/"
+    },
+    "anthropic-oss-scanner": {
+      "repo": "https://github.com/anthropics/oss-scanner",
+      "docs": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
     }
   }
 }

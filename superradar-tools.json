@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-09T04:52:20Z",
+  "updatedAt": "2026-10-10T04:53:16Z",
   "featuredWeekLabel": "5–11 October 2026",
   "featuredToolIds": [
-    "claude-haiku-5-5",
     "google-gemini-agent",
+    "claude-managed-agents",
+    "claude-haiku-5-5",
     "mellum-2-1",
-    "reflection-beam",
-    "embeddinggemma-2"
+    "reflection-beam"
   ],
   "tools": [
     {
@@ -9467,6 +9467,31 @@
         "vulnerability",
         "open-source",
         "cyber-mission"
+      ],
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "claude-managed-agents",
+      "name": "Claude Managed Agents",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-09",
+      "description": "Anthropic's fully managed agent harness on the Claude Platform (public beta): sandboxed sessions, built-in tools, SSE streaming, now with multiagent orchestration and dynamic workflows (multiagent_20261001, 9 Oct 2026) where a lead agent writes a phased program that runs many sub-agents in the background and merges results.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+      "logoUrl": "https://github.com/anthropics.png",
+      "country": "US",
+      "tags": [
+        "anthropic",
+        "claude",
+        "managed-agents",
+        "multi-agent",
+        "orchestration",
+        "harness"
       ],
       "icon": "ShieldCheck"
     }

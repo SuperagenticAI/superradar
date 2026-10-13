@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-10T04:53:16Z",
-  "featuredWeekLabel": "5–11 October 2026",
+  "updatedAt": "2026-10-13T04:56:05Z",
+  "featuredWeekLabel": "12–18 October 2026",
   "featuredToolIds": [
-    "google-gemini-agent",
-    "claude-managed-agents",
-    "claude-haiku-5-5",
-    "mellum-2-1",
-    "reflection-beam"
+    "muse-wonder",
+    "microsoft-decision-1",
+    "personal-agent-protocol",
+    "step-5-preview",
+    "minicpm-v-4-7"
   ],
   "tools": [
     {
@@ -9494,6 +9494,150 @@
         "harness"
       ],
       "icon": "ShieldCheck"
+    },
+    {
+      "id": "muse-wonder",
+      "name": "Muse Wonder",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-12",
+      "description": "Meta Superintelligence Labs' first frontier model series (12 Oct 2026): Muse Wonder and Muse Wonder Full for long-running personal and professional agent work and coding, with Active Memory and Active Focus, 1M-token context, and text, image, video, and audio input; Wonder is on the Meta Model API and Muse Code, Wonder Full is Muse Code only.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://research.meta.ai/blog/muse-wonder",
+      "country": "US",
+      "logoUrl": "https://github.com/meta-llama.png",
+      "tags": [
+        "muse-wonder",
+        "meta",
+        "muse-code",
+        "meta-model-api",
+        "agentic",
+        "frontier-model"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "microsoft-decision-1",
+      "name": "Microsoft-Decision-1",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-09",
+      "description": "Microsoft's decision-scoring model (9 Oct 2026): takes a state plus bounded questions and returns calibrated probabilities over fixed answer options with no generated text, for agent routing, classification, prioritization, verification, and workflow control; available in Microsoft Foundry and via OpenRouter.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+      "country": "US",
+      "logoUrl": "https://github.com/microsoft.png",
+      "tags": [
+        "microsoft",
+        "decision-model",
+        "system-one",
+        "foundry",
+        "agent-routing",
+        "openrouter"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "personal-agent-protocol",
+      "name": "Personal Agent Protocol (Poppy)",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-09",
+      "description": "Sierra-led open protocol (draft 0.1, 9 Oct 2026) for how personal agents work with companies on a user's behalf: companies publish /.well-known/poppy.json, agents identify themselves, start sessions, and sign users in via OAuth with scoped access across web, OpenAPI or MCP APIs, and company-agent conversations; design partners include Meta, OpenAI, Shopify, Stripe, Visa, and Mastercard.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://personalagentprotocol.org/docs/introduction",
+      "country": "US",
+      "logoUrl": "https://github.com/sierra-research.png",
+      "tags": [
+        "poppy",
+        "personal-agent-protocol",
+        "sierra",
+        "protocol",
+        "oauth",
+        "mcp"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "step-5-preview",
+      "name": "Step 5 Preview",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "description": "StepFun's flagship model for agentic work (October 2026): software engineering and professional knowledge work with a 1M-token context, text, image, and video input, and up to 64k output tokens; available via the StepFun API as step-5-preview.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview",
+      "country": "CN",
+      "logoUrl": "https://github.com/stepfun-ai.png",
+      "tags": [
+        "stepfun",
+        "step-5",
+        "agentic",
+        "long-context",
+        "multimodal"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "minicpm-v-4-7",
+      "name": "MiniCPM-V 4.7",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-12",
+      "description": "OpenBMB's Apache-2.0 on-device multimodal models (model card published 12 Oct 2026): a 35B-A3B MoE (the series' first) and a 1B variant for image, multi-image, and video understanding, with GGUF, AWQ, GPTQ, and FP8 builds, DSpark speculative-decoding drafts, and iOS, Android, and HarmonyOS deployment.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+      "githubUrl": "https://github.com/OpenBMB/MiniCPM-V",
+      "country": "CN",
+      "logoUrl": "https://github.com/OpenBMB.png",
+      "tags": [
+        "minicpm-v",
+        "openbmb",
+        "multimodal",
+        "on-device",
+        "moe",
+        "open-weights"
+      ],
+      "icon": "Cpu"
+    },
+    {
+      "id": "digitalocean-agent-learning-services",
+      "name": "DigitalOcean Agent Learning Services",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-10-12",
+      "description": "DigitalOcean's agent improvement loop (public preview, 12 Oct 2026): Insights for OpenTelemetry-based tracing of Managed Agents and inference, Signals to flag failing production sessions, and Evaluations and Simulations to test fixes on realistic multi-turn scenarios before release; backed by Agent Data Services (private preview).",
+      "category": "Evaluation",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.digitalocean.com/blog/introducing-signals-and-simulations",
+      "country": "US",
+      "logoUrl": "https://github.com/digitalocean.png",
+      "tags": [
+        "digitalocean",
+        "evaluation",
+        "observability",
+        "simulations",
+        "signals",
+        "managed-agents"
+      ],
+      "icon": "FlaskConical"
     }
   ],
   "toolRepositories": {
@@ -11485,6 +11629,25 @@
     "anthropic-oss-scanner": {
       "repo": "https://github.com/anthropics/oss-scanner",
       "docs": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+    },
+    "muse-wonder": {
+      "docs": "https://research.meta.ai/blog/muse-wonder"
+    },
+    "microsoft-decision-1": {
+      "docs": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+    },
+    "personal-agent-protocol": {
+      "docs": "https://personalagentprotocol.org/docs/spec"
+    },
+    "step-5-preview": {
+      "docs": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+    },
+    "minicpm-v-4-7": {
+      "repo": "https://github.com/OpenBMB/MiniCPM-V",
+      "docs": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+    },
+    "digitalocean-agent-learning-services": {
+      "docs": "https://www.digitalocean.com/blog/introducing-signals-and-simulations"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-13T04:56:05Z",
+  "updatedAt": "2026-10-14T04:56:05Z",
   "featuredWeekLabel": "12–18 October 2026",
   "featuredToolIds": [
+    "gemini-4-argon",
     "muse-wonder",
-    "microsoft-decision-1",
-    "personal-agent-protocol",
-    "step-5-preview",
-    "minicpm-v-4-7"
+    "opencode",
+    "lfm2-5-24b-a2b",
+    "cursor-origin"
   ],
   "tools": [
     {
@@ -1787,24 +1787,28 @@
       "name": "OpenCode",
       "state": "Adopt",
       "trending": true,
-      "description": "The breakout open-source terminal coding agent of 2026 (~150K GitHub stars, millions of monthly active developers by mid-year). Model-agnostic with a dual-agent architecture (full-access 'build' + read-only 'plan'), LSP integration for real-time diagnostics, MCP support, and works as an ACP agent inside editors like Devin Desktop.",
+      "description": "Open-source, model-agnostic terminal coding agent from Anomaly; OpenCode 2.0 (12 Oct 2026) moves the TUI, web, and desktop apps onto one shared local service, adds Code Mode that turns MCP servers and OpenAPI endpoints into script-callable functions, background subagents and shell commands, 80+ hot-reloadable plugins, and @opencode/sdk to embed the same engine as a library.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Open Source",
       "websiteUrl": "https://opencode.ai/",
-      "githubUrl": "https://github.com/sst/opencode",
+      "githubUrl": "https://github.com/anomalyco/opencode",
       "country": "US",
       "tags": [
         "opencode",
         "open-source",
-        "dual-agent",
-        "lsp",
+        "code-mode",
+        "background-subagents",
+        "sdk",
         "mcp",
         "acp",
         "model-agnostic"
       ],
       "logoUrl": "https://avatars.githubusercontent.com/u/66570915?s=200&v=4",
-      "icon": "Code"
+      "icon": "Code",
+      "releaseDate": "2026-10-12",
+      "lastUpdate": "2026-10-12",
+      "new": true
     },
     {
       "id": "coderabbit",
@@ -8937,11 +8941,11 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-09-30",
-      "description": "Google Gemini 4 Argon (30 Sep 2026): frontier model for long-horizon coding, enterprise knowledge work, and cyber defense with up to 1M output tokens; initial Fairwind trusted-defender access only, broader API and AI Ultra rollout forthcoming.",
+      "description": "Google Gemini 4 Argon: frontier reasoning model for long-horizon coding, agentic, enterprise knowledge, and cyber defense work, first shown 30 Sep 2026 to trusted defenders and generally available from 13 Oct 2026 as gemini-4-argon on the paid Gemini API, AI Studio, Gemini Managed Agents, and Google Antigravity, with a unified 1M input-output token window and long decode up to 1M tokens.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "websiteUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
       "logoUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
       "country": "US",
       "tags": [
@@ -8949,10 +8953,13 @@
         "google",
         "argon",
         "frontier",
-        "fairwind",
+        "gemini-api",
+        "antigravity",
+        "long-decode",
         "cyber"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "lastUpdate": "2026-10-13"
     },
     {
       "id": "gpt-6-1-sol",
@@ -9638,6 +9645,58 @@
         "managed-agents"
       ],
       "icon": "FlaskConical"
+    },
+    {
+      "id": "lfm2-5-24b-a2b",
+      "name": "LFM2.5-24B-A2B",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-13",
+      "description": "Liquid AI's largest and final LFM2.5 model (13 Oct 2026): an open-weight 24B-parameter Mixture-of-Experts reasoning model with about 2B active parameters and a 131K context, post-trained for tool calling and multi-step agent tasks on-device, with base and post-trained checkpoints plus GGUF, ONNX, and MLX builds on Hugging Face.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "githubUrl": "https://github.com/Liquid4All",
+      "logoUrl": "https://github.com/Liquid4All.png",
+      "country": "US",
+      "tags": [
+        "liquid-ai",
+        "lfm2.5",
+        "moe",
+        "open-weights",
+        "on-device",
+        "tool-calling",
+        "local-agents"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "cursor-origin",
+      "name": "Cursor Origin",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-08-17",
+      "lastUpdate": "2026-10-13",
+      "description": "Cursor's code hosting and git platform built for agent-scale development (early beta on paid plans since 17 Aug 2026) with repos, pull requests, code search, and GitHub mirroring; on 13 Oct 2026 it opened the Origin App Marketplace with 20+ apps for deployments, CI, code review, security, monitoring, and project management, plus public app submissions built on the Origin API.",
+      "category": "Code Review",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cursor.com/changelog/origin-app-marketplace",
+      "githubUrl": "https://github.com/cursor",
+      "logoUrl": "https://github.com/cursor.png",
+      "country": "US",
+      "tags": [
+        "cursor",
+        "origin",
+        "code-hosting",
+        "git",
+        "pull-requests",
+        "app-marketplace"
+      ],
+      "icon": "GitBranch"
     }
   ],
   "toolRepositories": {
@@ -10246,8 +10305,8 @@
       "docs": "https://zed.dev/docs"
     },
     "opencode": {
-      "repo": "https://github.com/sst/opencode",
-      "docs": "https://github.com/topics/agentic-coding"
+      "repo": "https://github.com/anomalyco/opencode",
+      "docs": "https://anoma.ly/notes/opencode-2-0/"
     },
     "sweep-ai": {
       "repo": "https://github.com/sweepai/sweep",
@@ -11648,6 +11707,14 @@
     },
     "digitalocean-agent-learning-services": {
       "docs": "https://www.digitalocean.com/blog/introducing-signals-and-simulations"
+    },
+    "lfm2-5-24b-a2b": {
+      "repo": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+      "docs": "https://docs.liquid.ai/lfm/models/lfm25-24b-a2b"
+    },
+    "cursor-origin": {
+      "repo": "https://github.com/cursor",
+      "docs": "https://cursor.com/docs/origin/apps"
     }
   }
 }

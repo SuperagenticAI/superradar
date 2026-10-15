@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-14T04:56:05Z",
+  "updatedAt": "2026-10-15T04:56:18Z",
   "featuredWeekLabel": "12–18 October 2026",
   "featuredToolIds": [
     "gemini-4-argon",
     "muse-wonder",
+    "grok-voice-3",
     "opencode",
-    "lfm2-5-24b-a2b",
-    "cursor-origin"
+    "lfm2-5-24b-a2b"
   ],
   "tools": [
     {
@@ -1115,7 +1115,7 @@
       "state": "Trial",
       "new": true,
       "trending": true,
-      "description": "Nous Research's self-improving open-source agent with persistent memory, skills learned from experience, messaging gateways, and MCP tool integration. The v0.21 Pantheon release (31 Aug 2026) adds desktop Bot Mode (named multi-agent group chats), an MCP command center, live mid-flight subagent steering, and desktop-browser control.",
+      "description": "Nous Research's self-improving open-source agent with persistent memory, skills learned from experience, messaging gateways, and MCP tool integration. The v0.22 Threshold release (14 Oct 2026) adds a guided first-run setup on a free trial model, hosted app Connectors, one-click local models via a managed llama.cpp runtime, a 600-plugin catalog, signed desktop builds with stable release channels, and Bot Screen takeover for logins and 2FA.",
       "category": "Coding Agents",
       "layer": "Coding",
       "sourceType": "Open Source",
@@ -1123,7 +1123,8 @@
       "githubUrl": "https://github.com/NousResearch/hermes-agent",
       "logoUrl": "https://github.com/NousResearch.png",
       "country": "US",
-      "icon": "Bot"
+      "icon": "Bot",
+      "lastUpdate": "2026-10-14"
     },
     {
       "id": "fable-5-1",
@@ -9582,10 +9583,10 @@
       "state": "Assess",
       "new": true,
       "trending": true,
-      "description": "StepFun's flagship model for agentic work (October 2026): software engineering and professional knowledge work with a 1M-token context, text, image, and video input, and up to 64k output tokens; available via the StepFun API as step-5-preview.",
+      "description": "StepFun's flagship model for agentic work (October 2026): a 600B-parameter sparse MoE with 27B active parameters for software engineering and professional knowledge work, with a 1M-token context, text, image, and video input, and up to 64k output tokens; available via the StepFun API as step-5-preview, with open weights (FP8, BF16, NVFP4) published on Hugging Face and ModelScope on 15 Oct 2026 under the StepFun Model License.",
       "category": "Foundational Models",
       "layer": "Models",
-      "sourceType": "Closed Source",
+      "sourceType": "Open Weights",
       "websiteUrl": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview",
       "country": "CN",
       "logoUrl": "https://github.com/stepfun-ai.png",
@@ -9594,9 +9595,12 @@
         "step-5",
         "agentic",
         "long-context",
-        "multimodal"
+        "multimodal",
+        "open-weights"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "lastUpdate": "2026-10-15",
+      "githubUrl": "https://github.com/stepfun-ai"
     },
     {
       "id": "minicpm-v-4-7",
@@ -9697,6 +9701,83 @@
         "app-marketplace"
       ],
       "icon": "GitBranch"
+    },
+    {
+      "id": "grok-voice-3",
+      "name": "Grok Voice 3.0",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-14",
+      "description": "SpaceXSI's speech-to-speech model for voice agents (14 Oct 2026): ranks first on the Artificial Analysis Speech-to-Speech Index (86.9) with under one second latency, 71.6% on τ-Voice, and top accuracy on ServiceNow's EVA-Bench; available in the Voice Agent API and Voice Agent Builder at $0.08 per minute, with grok-voice-latest switched over automatically.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://x.ai/news/grok-voice-3",
+      "country": "US",
+      "logoUrl": "https://github.com/xai-org.png",
+      "tags": [
+        "grok-voice",
+        "spacexai",
+        "speech-to-speech",
+        "voice-agents",
+        "realtime",
+        "low-latency"
+      ],
+      "icon": "MessageSquare"
+    },
+    {
+      "id": "nemotron-3-5-bolt",
+      "name": "Nemotron 3.5 Bolt 74B",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-15",
+      "description": "NVIDIA's open model for local agents on RTX Spark (announced 13 Oct, releasing 15 Oct 2026): a 74B-parameter Mixture-of-Experts with about 9B active parameters, packed into 24GB with 2-bit quantization-aware training, fully open with weights, training data, and recipes, and supported at launch in llama.cpp, vLLM, Ollama, Unsloth, and LM Studio and in agents such as Hermes and OpenClaw.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "githubUrl": "https://github.com/NVIDIA-NeMo",
+      "country": "US",
+      "logoUrl": "https://github.com/NVIDIA-NeMo.png",
+      "tags": [
+        "nemotron-3-5-bolt",
+        "nvidia",
+        "moe",
+        "open-weights",
+        "local-agents",
+        "rtx-spark",
+        "2-bit"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "ling-3-1-flash",
+      "name": "Ling-3.1-flash",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-14",
+      "description": "Ant Group inclusionAI's MIT-licensed hybrid reasoning model (open weights 14 Oct 2026): a 560B-parameter hybrid-linear MoE with about 25B active parameters and a 1M-token context, tuned for general agents, office work, and software engineering in harnesses such as Claude Code, Kilo Code, Hermes Agent, and OpenClaw, with day-0 SGLang and vLLM support and MXFP4 builds on Hugging Face and ModelScope.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "githubUrl": "https://github.com/inclusionAI",
+      "country": "CN",
+      "logoUrl": "https://github.com/inclusionAI.png",
+      "tags": [
+        "ling",
+        "inclusionai",
+        "ant-group",
+        "moe",
+        "open-weights",
+        "1m-context",
+        "agentic-coding"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {
@@ -11699,6 +11780,7 @@
       "docs": "https://personalagentprotocol.org/docs/spec"
     },
     "step-5-preview": {
+      "repo": "https://huggingface.co/stepfun-ai/Step-5-Preview",
       "docs": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
     },
     "minicpm-v-4-7": {
@@ -11715,6 +11797,17 @@
     "cursor-origin": {
       "repo": "https://github.com/cursor",
       "docs": "https://cursor.com/docs/origin/apps"
+    },
+    "grok-voice-3": {
+      "docs": "https://docs.x.ai/docs/guides/voice"
+    },
+    "nemotron-3-5-bolt": {
+      "repo": "https://github.com/NVIDIA-NeMo",
+      "docs": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/"
+    },
+    "ling-3-1-flash": {
+      "repo": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "docs": "https://huggingface.co/inclusionAI/Ling-3.1-flash"
     }
   }
 }

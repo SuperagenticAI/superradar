@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-15T04:56:18Z",
+  "updatedAt": "2026-10-16T04:54:49Z",
   "featuredWeekLabel": "12–18 October 2026",
   "featuredToolIds": [
+    "muse-spark-open",
     "gemini-4-argon",
     "muse-wonder",
-    "grok-voice-3",
-    "opencode",
-    "lfm2-5-24b-a2b"
+    "nemotron-3-5-super-vl",
+    "grok-voice-3"
   ],
   "tools": [
     {
@@ -9734,12 +9734,12 @@
       "new": true,
       "trending": true,
       "releaseDate": "2026-10-15",
-      "description": "NVIDIA's open model for local agents on RTX Spark (announced 13 Oct, releasing 15 Oct 2026): a 74B-parameter Mixture-of-Experts with about 9B active parameters, packed into 24GB with 2-bit quantization-aware training, fully open with weights, training data, and recipes, and supported at launch in llama.cpp, vLLM, Ollama, Unsloth, and LM Studio and in agents such as Hermes and OpenClaw.",
+      "description": "NVIDIA's open model for local agents on RTX Spark (released 15 Oct 2026 alongside Nemotron 3.5 Super VL): a 74B-parameter Mixture-of-Experts with about 9B active parameters, packed into 24GB with 2-bit quantization-aware training, fully open with weights, training data, and recipes, with 24GB, BF16, and GGUF checkpoints on Hugging Face and launch support in llama.cpp, vLLM, Ollama, Unsloth, and LM Studio; a smaller Bolt E4B follows on 23 Oct.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
       "websiteUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "githubUrl": "https://github.com/NVIDIA-NeMo",
+      "githubUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "country": "US",
       "logoUrl": "https://github.com/NVIDIA-NeMo.png",
       "tags": [
@@ -9749,7 +9749,8 @@
         "open-weights",
         "local-agents",
         "rtx-spark",
-        "2-bit"
+        "2-bit",
+        "hugging-face"
       ],
       "icon": "Brain"
     },
@@ -9778,6 +9779,86 @@
         "agentic-coding"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "muse-spark-open",
+      "name": "Muse Spark Open",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-15",
+      "description": "Meta Superintelligence Labs' open-weight frontier model (15 Oct 2026), billed as the most capable US open-weight model to date: a natively multimodal 816B-parameter Mixture-of-Experts with about 42B active parameters and a 1M-token context, built for coding and long-horizon agentic work, released under the Muse Model License in BF16 and NVFP4 on Hugging Face, SageMaker, Google Cloud Model Garden, and Microsoft Foundry, served by Baseten, Fireworks, Groq, Modal, Nebius, OpenRouter, and Together, and optimized to run on two M5 Ultra Mac Studios with MLX.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://research.meta.ai/blog/muse-spark-open",
+      "githubUrl": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "country": "US",
+      "logoUrl": "https://github.com/meta-llama.png",
+      "tags": [
+        "muse-spark-open",
+        "meta",
+        "moe",
+        "open-weights",
+        "multimodal",
+        "1m-context",
+        "mlx",
+        "agentic-coding"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "nemotron-3-5-super-vl",
+      "name": "Nemotron 3.5 Super VL",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-15",
+      "description": "NVIDIA's open vision-language model for specialized always-on agents (15 Oct 2026): a 120B-parameter hybrid Mamba-Transformer LatentMoE with about 12B active parameters, up to 1M-token context, and native multi-token prediction for reasoning, coding, tool use, document, and video understanding, shipped as base, post-trained, and NVFP4 checkpoints with training recipes and RL environments on Hugging Face, OpenRouter, ModelScope, and NVIDIA NIM.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/Nemotron",
+      "country": "US",
+      "logoUrl": "https://github.com/NVIDIA-NeMo.png",
+      "tags": [
+        "nemotron-3-5-super-vl",
+        "nvidia",
+        "moe",
+        "mamba",
+        "vision-language",
+        "open-weights",
+        "1m-context",
+        "agents"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "openui",
+      "name": "OpenUI",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-15",
+      "description": "Thesys' MIT-licensed open standard and React renderer for generative UI (1.0 on 15 Oct 2026, about 11K GitHub stars): agents stream interfaces built from a team's own components in a compact OpenUI Lang, with 1.0 adding custom actions that call app code, custom functions, library extension, and a stored message format, and working with any model including self-hosted open weights.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.openui.com",
+      "githubUrl": "https://github.com/thesysdev/openui",
+      "logoUrl": "https://github.com/thesysdev.png",
+      "tags": [
+        "openui",
+        "thesys",
+        "generative-ui",
+        "agent-interfaces",
+        "react",
+        "open-standard"
+      ],
+      "icon": "Layers"
     }
   ],
   "toolRepositories": {
@@ -11808,6 +11889,18 @@
     "ling-3-1-flash": {
       "repo": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
       "docs": "https://huggingface.co/inclusionAI/Ling-3.1-flash"
+    },
+    "muse-spark-open": {
+      "repo": "https://huggingface.co/collections/meta-models/muse-spark-open",
+      "docs": "https://dev.meta.ai/docs/muse-spark-open/get-the-model"
+    },
+    "nemotron-3-5-super-vl": {
+      "repo": "https://github.com/NVIDIA-NeMo/Nemotron",
+      "docs": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+    },
+    "openui": {
+      "repo": "https://github.com/thesysdev/openui",
+      "docs": "https://www.openui.com/docs/openui-lang/whats-new"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-16T04:54:49Z",
+  "updatedAt": "2026-10-17T04:50:52Z",
   "featuredWeekLabel": "12–18 October 2026",
   "featuredToolIds": [
     "muse-spark-open",
+    "reflection-beam",
     "gemini-4-argon",
     "muse-wonder",
-    "nemotron-3-5-super-vl",
-    "grok-voice-3"
+    "nemotron-3-5-super-vl"
   ],
   "tools": [
     {
@@ -9194,7 +9194,7 @@
       "new": true,
       "trending": true,
       "releaseDate": "2026-09-29",
-      "description": "Liquid AI's decision model family: d1 (29 Sep 2026) is a hosted API model that answers typed yes/no, choice, and score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; on 7 Oct 2026 Liquid added open-weight d1-3B (text and vision) and experimental d1-omni-600M (text with image or audio) on Hugging Face for edge use.",
+      "description": "Liquid AI's decision model family: d1 (29 Sep 2026) is a hosted API model that answers typed yes/no, choice, and score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; on 7 Oct 2026 Liquid added open-weight d1-3B (text and vision) and experimental d1-omni-600M (text with image or audio) on Hugging Face for edge use, and on 15 Oct 2026 shipped hosted d1-ultra, its most capable multimodal decision model, on the Liquid API, OpenRouter, and Vercel AI Gateway at $0.042 per million input tokens.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -9211,10 +9211,11 @@
         "openrouter",
         "open-weights",
         "edge",
-        "d1-3b"
+        "d1-3b",
+        "d1-ultra"
       ],
       "icon": "Brain",
-      "lastUpdate": "2026-10-07"
+      "lastUpdate": "2026-10-15"
     },
     {
       "id": "vista-harness",
@@ -9270,16 +9271,16 @@
     {
       "id": "reflection-beam",
       "name": "Reflection Beam",
-      "state": "Assess",
+      "state": "Trial",
       "new": true,
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-10-05",
-      "description": "Reflection AI's first open-weight model (announced 5 Oct 2026): a 501B-parameter sparse MoE with 23B active per token, built for coding, reasoning, and agentic workloads; early access by waitlist now, with Apache 2.0 weights, technical report, and fine-tuning stack due later in October 2026.",
+      "description": "Reflection AI's first open-weight model: a 501B-parameter sparse MoE with 23B active per token and a 1M-token context, built for coding, reasoning, and long-horizon agentic work. Announced 5 Oct 2026; on 16 Oct 2026 the Apache 2.0 weights shipped on Hugging Face in BF16, FP8, and NVFP4 with a speculative decoding drafter, a model card and safety technical report, day-zero vLLM, SGLang, Transformers, Unsloth, and Dynamo support, and 40+ launch partners including AWS, Google Cloud, Microsoft Foundry, OpenRouter, Ollama, and OpenCode, alongside Reflection's open-source Mirror CLI harness.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
-      "websiteUrl": "https://reflection.ai/blog/introducing-beam",
+      "websiteUrl": "https://reflection.ai/blog/beam-is-available",
       "logoUrl": "https://github.com/reflection-ai.png",
       "country": "US",
       "tags": [
@@ -9289,9 +9290,13 @@
         "open-weights",
         "coding",
         "agents",
-        "apache-2-0"
+        "apache-2-0",
+        "hugging-face",
+        "mirror-cli"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "githubUrl": "https://huggingface.co/reflection",
+      "lastUpdate": "2026-10-16"
     },
     {
       "id": "embeddinggemma-2",
@@ -9859,6 +9864,60 @@
         "open-standard"
       ],
       "icon": "Layers"
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral Large 4",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-06",
+      "description": "Mistral's largest model to date, nicknamed Le Chonk (public preview 6 Oct 2026): a natively multimodal 1T-parameter MoE with 52B active, trained from scratch in Mistral's own European datacenters, strong on agentic coding (61.7% DeepSWE v1.1, 28.3% Terminal-Bench 4), agentic workflows, cybersecurity, and visual grounding. The preview API is live on Mistral Studio, with open weights promised by the end of October 2026.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://mistral.ai/news/mistral-large-4/",
+      "logoUrl": "https://avatars.githubusercontent.com/u/132372032?s=200&v=4",
+      "country": "FR",
+      "tags": [
+        "mistral",
+        "mistral-large-4",
+        "le-chonk",
+        "moe",
+        "multimodal",
+        "open-weights",
+        "sovereign-ai",
+        "agentic-coding"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "mirror-cli",
+      "name": "Mirror CLI",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-16",
+      "description": "Reflection AI's Apache-2.0 terminal coding agent, open-sourced with the Beam weights on 16 Oct 2026 and trained alongside Beam as its reference harness: a Python front end over a minimal Rust agent core, with approvals, resumable sessions, parallel agents in separate worktrees, project instructions, skills, MCP connections, and Python extensions. Install with uv tool install reflection-mirror; it defaults to Beam but can point at other endpoints.",
+      "category": "Agentic CLI",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://developers.reflection.ai/coding-agents-quickstart",
+      "githubUrl": "https://github.com/reflection-oss/mirror",
+      "logoUrl": "https://github.com/reflection-oss.png",
+      "country": "US",
+      "tags": [
+        "reflection-ai",
+        "mirror",
+        "coding-agent",
+        "cli",
+        "beam",
+        "rust",
+        "mcp",
+        "skills",
+        "apache-2-0"
+      ],
+      "icon": "Terminal"
     }
   ],
   "toolRepositories": {
@@ -11820,8 +11879,8 @@
       "docs": "https://cohere.com/blog/introducing-north-2"
     },
     "reflection-beam": {
-      "repo": "https://github.com/reflection-ai",
-      "docs": "https://reflection.ai/blog/introducing-beam"
+      "repo": "https://huggingface.co/reflection",
+      "docs": "https://developers.reflection.ai"
     },
     "embeddinggemma-2": {
       "repo": "https://github.com/google-deepmind/gemma",
@@ -11901,6 +11960,14 @@
     "openui": {
       "repo": "https://github.com/thesysdev/openui",
       "docs": "https://www.openui.com/docs/openui-lang/whats-new"
+    },
+    "mistral-large-4": {
+      "repo": "https://github.com/mistralai",
+      "docs": "https://docs.mistral.ai/models/mistral-large-4"
+    },
+    "mirror-cli": {
+      "repo": "https://github.com/reflection-oss/mirror",
+      "docs": "https://developers.reflection.ai/coding-agents-quickstart"
     }
   }
 }

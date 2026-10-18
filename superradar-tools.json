@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-17T04:50:52Z",
+  "updatedAt": "2026-10-18T04:55:42Z",
   "featuredWeekLabel": "12–18 October 2026",
   "featuredToolIds": [
     "muse-spark-open",
     "reflection-beam",
+    "deepseek",
     "gemini-4-argon",
-    "muse-wonder",
-    "nemotron-3-5-super-vl"
+    "muse-wonder"
   ],
   "tools": [
     {
@@ -2393,32 +2393,35 @@
     },
     {
       "id": "deepseek",
-      "name": "DeepSeek-V4-Flash-0731",
+      "name": "DeepSeek-V4.1-Flash",
       "state": "Adopt",
       "highlighted": true,
-      "description": "DeepSeek's V4-Flash-0731 (July 31, 2026) is the official production release of V4-Flash, superseding the April preview with substantially stronger agentic and coding performance from re-post-training (same architecture/size). Scores 50 on Artificial Analysis Intelligence Index — 10 points above the preview and ahead of V4-Pro on many tasks — at roughly $0.09–$0.14/$0.18–$0.28 per 1M tokens. ~304B MoE (open weights, MIT), 1M context, dual Thinking/Non-Thinking modes, Hybrid Attention. Widely discussed on X as a Claude Code / personal-agent workhorse.",
+      "description": "DeepSeek's flagship Flash model line, now at V4.1-Flash-1017 (17 Oct 2026), a minor update to V4.1-Flash (10 Sep 2026) with stronger reasoning, coding, agentic, and vision results (DeepSWE v1.1 77.0, Terminal-Bench 4.0 42.3) plus faster task completion and shorter outputs at the same deepseek-flash API price; MIT open weights with image input and a 1M-token context on Hugging Face and ModelScope, tuned for DeepSeek Harness, and launched alongside public Search and Fetch APIs at $0.75 per 1,000 calls.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
-      "websiteUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "githubUrl": "https://github.com/deepseek-ai/DeepSeek-V4",
+      "websiteUrl": "https://api-docs.deepseek.com/news/news261017",
+      "githubUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "country": "CN",
       "logoUrl": "https://github.com/deepseek-ai.png",
       "tags": [
-        "deepseek-v4-flash-0731",
+        "deepseek-v4-1-flash",
+        "v4-1-flash-1017",
         "v4-flash",
         "price-performance",
         "1m-context",
         "agentic",
         "open-weights",
         "mit-license",
-        "moe"
+        "moe",
+        "multimodal"
       ],
       "icon": "Brain",
       "trending": true,
       "new": true,
-      "releaseDate": "2026-07-31",
-      "weeklyHighlight": "Official V4-Flash GA: Intelligence Index 50 at ~$0.14/$0.28 — new price-performance king"
+      "releaseDate": "2026-10-17",
+      "weeklyHighlight": "V4.1-Flash-1017: MIT open weights, DeepSWE 77.0 and Terminal-Bench 4.0 42.3 at Flash prices",
+      "lastUpdate": "2026-10-17"
     },
     {
       "id": "qwen",
@@ -9918,6 +9921,59 @@
         "apache-2-0"
       ],
       "icon": "Terminal"
+    },
+    {
+      "id": "hy-memory",
+      "name": "Hy Memory 2.0",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-15",
+      "description": "Tencent Hunyuan's Apache-2.0 open-source agent memory stack (Hy Memory 2.0, hy-memory on PyPI, October 2026): a Python SDK with separate memory pipelines for chat, working, and coding agents, the Hy-Memory-30B-A3B memory-writer model (about 3B active) on Hugging Face that can replace the general LLM inside Mem0, MemOS, and Hy Memory, and MemHub, a local-first desktop and CLI app that unifies history from Claude Code, Cursor, Codex, OpenCode, and Qwen Code for cross-app recall.",
+      "category": "Memory Systems",
+      "layer": "Knowledge",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://memory.hunyuan.tencent.com/",
+      "githubUrl": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+      "logoUrl": "https://github.com/Tencent-Hunyuan.png",
+      "country": "CN",
+      "tags": [
+        "tencent",
+        "hunyuan",
+        "agent-memory",
+        "memory-model",
+        "memhub",
+        "mem0",
+        "coding-memory",
+        "open-weights",
+        "apache-2-0"
+      ],
+      "icon": "Database"
+    },
+    {
+      "id": "pplx-decider",
+      "name": "Perplexity pplx-decider",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "description": "Perplexity's Apache-2.0 open-weight decision models for agent routing, classification, and grading, now at v1.2 (October 2026): pplx-decider-v1.2 on a Qwen3.8-27B backbone scores 68.09 on the public Decision Index 0.3 and answers several questions about one state in a single pass, while pplx-decider-flash-v1.2 is a 4B distilled version, both taking text and images.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/perplexity-ai/pplx-decider-v1.2",
+      "githubUrl": "https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2",
+      "logoUrl": "https://github.com/perplexity-ai.png",
+      "country": "US",
+      "tags": [
+        "perplexity",
+        "decision-model",
+        "system-one",
+        "agent-routing",
+        "open-weights",
+        "apache-2-0",
+        "multimodal"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {
@@ -10286,8 +10342,8 @@
       "docs": "https://x.ai/news/grok-code-fast-1"
     },
     "deepseek": {
-      "repo": "https://github.com/deepseek-ai/DeepSeek-V4",
-      "docs": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+      "repo": "https://github.com/deepseek-ai/deepseek-recipe",
+      "docs": "https://api-docs.deepseek.com/news/news261017"
     },
     "turbopuffer": {
       "repo": null,
@@ -11968,6 +12024,10 @@
     "mirror-cli": {
       "repo": "https://github.com/reflection-oss/mirror",
       "docs": "https://developers.reflection.ai/coding-agents-quickstart"
+    },
+    "hy-memory": {
+      "repo": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+      "docs": "https://huggingface.co/tencent/Hy-Memory-30B-A3B"
     }
   }
 }

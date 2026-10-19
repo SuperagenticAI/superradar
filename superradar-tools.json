@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-18T04:55:42Z",
-  "featuredWeekLabel": "12–18 October 2026",
+  "updatedAt": "2026-10-19T04:57:36Z",
+  "featuredWeekLabel": "19–25 October 2026",
   "featuredToolIds": [
+    "harness2",
+    "perplexity-space",
     "muse-spark-open",
-    "reflection-beam",
     "deepseek",
-    "gemini-4-argon",
-    "muse-wonder"
+    "reflection-beam"
   ],
   "tools": [
     {
@@ -9974,6 +9974,60 @@
         "multimodal"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "harness2",
+      "name": "Harness²",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-09",
+      "description": "Google Cloud AI Research's Apache-2.0 framework for recursive agent harnessing (paper submitted 9 Oct 2026, widely picked up 18 Oct): it improves an agent's harness, not its weights, by editing eight components (system prompt, guardrails, memory, tool guidance, subagents, skills, scripts, plugins) through a contrastive Propose-Probe-Compose step and keeping evidence-backed lessons for future tasks, with parallel or sequential recursion over OpenCode and Codex executors; one step lifted GLM-5 by up to 11.5 points on WorkBuddy-Bench.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://harness2.github.io/",
+      "githubUrl": "https://github.com/google-research/harness2",
+      "logoUrl": "https://github.com/google-research.png",
+      "country": "US",
+      "tags": [
+        "google",
+        "google-research",
+        "harness",
+        "harness-engineering",
+        "self-improving-agents",
+        "opencode",
+        "codex",
+        "apache-2-0"
+      ],
+      "icon": "Wrench"
+    },
+    {
+      "id": "perplexity-space",
+      "name": "Perplexity SPACE",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-15",
+      "description": "Perplexity's open-sourced Sandboxed Platform for Agentic Code Execution (15 Oct 2026), the in-house sandbox that has run Perplexity Computer since July: an Apache-2.0 Rust platform that gives each agent its own Firecracker microVM with a writable filesystem, driven over an HTTP and server-sent events API for create, exec, stream, pause, suspend, wake, and delete, with checkpoints, session branching, and credentials and network access held outside the guest; Akamai has launched it on its cloud.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://space.docs.perplexity.ai/",
+      "githubUrl": "https://github.com/perplexityai/SPACE",
+      "logoUrl": "https://github.com/perplexityai.png",
+      "country": "US",
+      "tags": [
+        "perplexity",
+        "sandbox",
+        "firecracker",
+        "microvm",
+        "agent-runtime",
+        "rust",
+        "isolation",
+        "apache-2-0"
+      ],
+      "icon": "Shield"
     }
   ],
   "toolRepositories": {
@@ -12028,6 +12082,14 @@
     "hy-memory": {
       "repo": "https://github.com/Tencent-Hunyuan/Hy-Memory",
       "docs": "https://huggingface.co/tencent/Hy-Memory-30B-A3B"
+    },
+    "harness2": {
+      "repo": "https://github.com/google-research/harness2",
+      "docs": "https://arxiv.org/abs/2610.14224"
+    },
+    "perplexity-space": {
+      "repo": "https://github.com/perplexityai/SPACE",
+      "docs": "https://space.docs.perplexity.ai/"
     }
   }
 }

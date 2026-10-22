@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-19T04:57:36Z",
+  "updatedAt": "2026-10-22T04:57:12Z",
   "featuredWeekLabel": "19–25 October 2026",
   "featuredToolIds": [
+    "claude-duet",
+    "minimax-m3-1-flash",
     "harness2",
-    "perplexity-space",
-    "muse-spark-open",
-    "deepseek",
-    "reflection-beam"
+    "nvidia-openshell",
+    "perplexity-space"
   ],
   "tools": [
     {
@@ -8291,22 +8291,25 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-09-28",
-      "description": "NVIDIA OpenShell open-source agent runtime (28 Sep 2026): sandboxed execution with YAML policy, credential proxying, formal policy prover, and MCP/HTTP inspection as the software layer of NVIDIA Open Agent Safety Platform.",
+      "description": "NVIDIA OpenShell open-source agent runtime (28 Sep 2026): sandboxed execution with YAML policy, credential proxying, formal policy prover, and MCP/HTTP inspection; on 21 Oct 2026 at GTC Berlin NVIDIA added the OpenShell Reference Architecture, pairing it with Vera Rubin, Vera CPUs, and BlueField-4 DPUs running NVIDIA Sentry for hardware-enforced agent policy and monitoring.",
       "category": "Security",
       "layer": "AgentOps",
       "sourceType": "Open Source",
-      "websiteUrl": "https://docs.nvidia.com/openshell/latest/",
+      "websiteUrl": "https://nvidianews.nvidia.com/news/openshell-reference-architecture",
       "githubUrl": "https://github.com/NVIDIA/openshell",
       "country": "US",
       "logoUrl": "https://github.com/NVIDIA.png",
       "tags": [
+        "agent-runtime",
+        "bluefield-4",
+        "gtc-berlin",
+        "mcp",
         "nvidia",
         "openshell",
-        "security",
-        "sandbox",
         "policy",
-        "mcp",
-        "agent-runtime"
+        "reference-architecture",
+        "sandbox",
+        "security"
       ],
       "icon": "Shield"
     },
@@ -10028,6 +10031,106 @@
         "apache-2-0"
       ],
       "icon": "Shield"
+    },
+    {
+      "id": "claude-duet",
+      "name": "Claude Duet",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-21",
+      "description": "Anthropic's proactive agent app (research preview, 21 Oct 2026), built on Opus 5.5: it watches connected work apps, sends a daily brief, and handles tasks such as scheduling, dashboards, forecasts, and small web apps in the background, asking for approval before consequential actions; waitlisted for US Pro and Max subscribers on iOS, Android, and claude.ai.",
+      "category": "Web, Browser & API",
+      "layer": "Frameworks",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://claude.com/resources/articles/claude-duet",
+      "githubUrl": "https://github.com/anthropics",
+      "logoUrl": "https://github.com/anthropics.png",
+      "country": "US",
+      "tags": [
+        "anthropic",
+        "claude-duet",
+        "proactive-agent",
+        "personal-agent",
+        "opus-5-5",
+        "research-preview"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "minimax-m3-1-flash",
+      "name": "MiniMax M3.1 Flash",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-19",
+      "description": "MiniMax's next-generation Flash model (GA 19 Oct 2026, revealed as the anonymous Space Bunny): 1M-token context, stronger agentic, coding, computer-use, and cybersecurity results (74% DeepSWE), about 3x faster inference and 70% lower agentic task cost than its predecessor, at $0.15/$0.60 per 1M input/output tokens via the MiniMax API, M Plan, and MiniMax Code, with open weights announced for 23 Oct.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.minimax.io/blog/minimax-m31f",
+      "githubUrl": "https://github.com/MiniMax-AI",
+      "logoUrl": "https://github.com/MiniMax-AI.png",
+      "country": "CN",
+      "tags": [
+        "minimax",
+        "m3-1-flash",
+        "space-bunny",
+        "agentic",
+        "coding",
+        "1m-context"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "cloudflare-clairic",
+      "name": "Cloudflare Clairic",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-19",
+      "description": "Cloudflare's extraction model on Workers AI (preview, 19 Oct 2026): a one-pass System One model that returns typed values (text spans, numbers, dates, durations, lists, estimates, forecasts) for a schema of fields, with confidence and null probabilities instead of generated text; $0.10 per 1M input tokens, open weights planned, and designed to pair with Clef decision models.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "country": "US",
+      "tags": [
+        "cloudflare",
+        "clairic",
+        "extraction-model",
+        "workers-ai",
+        "structured-output",
+        "typed-values"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "ornith-1-5",
+      "name": "Ornith-1.5",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-20",
+      "description": "Ornith's MIT-licensed self-improving open model family for agentic tasks (20 Oct 2026), led by Ornith-1.5-122B, a MoE built on Qwen3.5 and Gemma 4 lineage that generates its own training tasks and scaffolds for RL and targets single-GPU deployment, with GGUF quantizations and Ollama support.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://ornith.ai/ornith_1_5.html",
+      "githubUrl": "https://github.com/ornith-ai/Ornith-1",
+      "logoUrl": "https://github.com/ornith-ai.png",
+      "tags": [
+        "ornith",
+        "open-weights",
+        "self-improving",
+        "moe",
+        "mit",
+        "agentic-coding"
+      ],
+      "icon": "Code"
     }
   ],
   "toolRepositories": {
@@ -12090,6 +12193,22 @@
     "perplexity-space": {
       "repo": "https://github.com/perplexityai/SPACE",
       "docs": "https://space.docs.perplexity.ai/"
+    },
+    "claude-duet": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet"
+    },
+    "minimax-m3-1-flash": {
+      "repo": "https://github.com/MiniMax-AI",
+      "docs": "https://platform.minimax.io/docs/release-notes/models"
+    },
+    "cloudflare-clairic": {
+      "repo": "https://github.com/cloudflare",
+      "docs": "https://developers.cloudflare.com/workers-ai/models/clairic/"
+    },
+    "ornith-1-5": {
+      "repo": "https://github.com/ornith-ai/Ornith-1",
+      "docs": "https://huggingface.co/ornith-ai/Ornith-1.5-122B"
     }
   }
 }

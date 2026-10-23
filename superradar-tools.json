@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-22T04:57:12Z",
+  "updatedAt": "2026-10-23T04:51:41Z",
   "featuredWeekLabel": "19–25 October 2026",
   "featuredToolIds": [
     "claude-duet",
+    "recursive-flint",
     "minimax-m3-1-flash",
-    "harness2",
-    "nvidia-openshell",
-    "perplexity-space"
+    "agent-skills",
+    "deepseek-deepinfer"
   ],
   "tools": [
     {
@@ -10066,12 +10066,12 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-10-19",
-      "description": "MiniMax's next-generation Flash model (GA 19 Oct 2026, revealed as the anonymous Space Bunny): 1M-token context, stronger agentic, coding, computer-use, and cybersecurity results (74% DeepSWE), about 3x faster inference and 70% lower agentic task cost than its predecessor, at $0.15/$0.60 per 1M input/output tokens via the MiniMax API, M Plan, and MiniMax Code, with open weights announced for 23 Oct.",
+      "description": "MiniMax's next-generation Flash model (GA 19 Oct 2026, revealed as the anonymous Space Bunny), with open weights released on Hugging Face on 23 Oct under the MiniMax Community License: a native multimodal MoE (about 428B total, 23B active) with MiniMax Sparse Attention, quantization-aware training, a DSpark speculative-decoding head, and a 1M-token context, posting 73.7% on DeepSWE v1.1 and 61.7 on OSWorld V2, at $0.15/$0.60 per 1M input/output tokens via the MiniMax API, M Plan, and MiniMax Code.",
       "category": "Coding Models",
       "layer": "Coding",
-      "sourceType": "Commercial",
+      "sourceType": "Open Weights",
       "websiteUrl": "https://www.minimax.io/blog/minimax-m31f",
-      "githubUrl": "https://github.com/MiniMax-AI",
+      "githubUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
       "logoUrl": "https://github.com/MiniMax-AI.png",
       "country": "CN",
       "tags": [
@@ -10080,9 +10080,12 @@
         "space-bunny",
         "agentic",
         "coding",
-        "1m-context"
+        "1m-context",
+        "open-weights",
+        "moe"
       ],
-      "icon": "Code"
+      "icon": "Code",
+      "lastUpdate": "2026-10-23"
     },
     {
       "id": "cloudflare-clairic",
@@ -10131,6 +10134,85 @@
         "agentic-coding"
       ],
       "icon": "Code"
+    },
+    {
+      "id": "recursive-flint",
+      "name": "Recursive Flint",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-21",
+      "description": "Recursive's first model (21 Oct 2026), an Apache-2.0 open-weight MoE coding model with 40B total and 2.5B active parameters built largely by its Eureka Machine automated-research system, aimed at fast local agentic coding (125+ tokens/s on an M4 Pro MacBook Pro, 150+ on RTX Spark) with up to 512K context, support for llama.cpp, Ollama, LM Studio, vLLM, and SGLang, and the companion rec inference engine for Apple Silicon.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://recursive.com/updates/introducing-recursive-flint",
+      "githubUrl": "https://huggingface.co/RecursiveSI/flint",
+      "country": "US",
+      "tags": [
+        "recursive",
+        "flint",
+        "local-coding",
+        "open-weights",
+        "apache-2-0",
+        "moe",
+        "automated-research"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "agent-skills",
+      "name": "Agent Skills",
+      "state": "Adopt",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-22",
+      "description": "Open standard for packaging agent know-how as folders with a SKILL.md plus scripts and references that agents load on demand; created by Anthropic (Oct 2025, open standard Dec 2025), integrated by 70+ platforms including ChatGPT, Cursor, GitHub Copilot, and VS Code, and donated on 22 Oct 2026 to the Linux Foundation's Agentic AI Foundation alongside OpenAI's Open Responses, Hugging Face's OpenEnv, and Alibaba's OpenSandbox.",
+      "category": "Agent Protocols",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://agentskills.io",
+      "githubUrl": "https://github.com/agentskills/agentskills",
+      "logoUrl": "https://github.com/agentskills.png",
+      "country": "US",
+      "tags": [
+        "agent-skills",
+        "skill-md",
+        "anthropic",
+        "aaif",
+        "linux-foundation",
+        "open-standard",
+        "apache-2-0"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "deepseek-deepinfer",
+      "name": "DeepInfer",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-20",
+      "description": "DeepSeek's Apache-2.0 inference framework (open-sourced 20 Oct 2026, derived from vLLM) that powers its production services, released with offline inference for DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, including attention DP/CP, MoE expert parallelism with EPLB, DSpark speculative verification, batch-invariant deterministic sampling, and structured outputs.",
+      "category": "Inference Engines",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://github.com/deepseek-ai/DeepInfer",
+      "githubUrl": "https://github.com/deepseek-ai/DeepInfer",
+      "logoUrl": "https://github.com/deepseek-ai.png",
+      "country": "CN",
+      "tags": [
+        "deepseek",
+        "deepinfer",
+        "inference-engine",
+        "apache-2-0",
+        "blackwell",
+        "ascend",
+        "v4-1-flash"
+      ],
+      "icon": "ServerCog"
     }
   ],
   "toolRepositories": {
@@ -12209,6 +12291,18 @@
     "ornith-1-5": {
       "repo": "https://github.com/ornith-ai/Ornith-1",
       "docs": "https://huggingface.co/ornith-ai/Ornith-1.5-122B"
+    },
+    "recursive-flint": {
+      "repo": "https://huggingface.co/RecursiveSI/flint",
+      "docs": "https://recursive.com/updates/introducing-recursive-flint"
+    },
+    "agent-skills": {
+      "repo": "https://github.com/agentskills/agentskills",
+      "docs": "https://agentskills.io"
+    },
+    "deepseek-deepinfer": {
+      "repo": "https://github.com/deepseek-ai/DeepInfer",
+      "docs": "https://github.com/deepseek-ai/DeepInfer#readme"
     }
   }
 }

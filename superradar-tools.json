@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-23T04:51:41Z",
-  "featuredWeekLabel": "19–25 October 2026",
+  "updatedAt": "2026-10-27T05:52:56Z",
+  "featuredWeekLabel": "26 October–1 November 2026",
   "featuredToolIds": [
-    "claude-duet",
-    "recursive-flint",
-    "minimax-m3-1-flash",
-    "agent-skills",
-    "deepseek-deepinfer"
+    "gpt-6-1-terra",
+    "kimi",
+    "jetbrains-thinkrail",
+    "google-agent-compute-engine",
+    "claude-duet"
   ],
   "tools": [
     {
@@ -5415,29 +5415,27 @@
     },
     {
       "id": "kimi",
-      "name": "Kimi K3",
+      "name": "Kimi K3.1 Pro",
       "state": "Trial",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "releaseDate": "2026-07-27",
-      "description": "Moonshot AI's Kimi K3 launched July 16, 2026 with open weights on July 27 — a 2.8T-parameter MoE (MXFP4 ~594GB) with Kimi Delta Attention, Attention Residuals, 16-of-896 expert activation, native vision, and a 1M-token context window. Intelligence Index ~57 (open-weights frontier). Baseten, Fireworks, Together, OpenRouter, and SiliconFlow served it day zero; vLLM and SGLang support self-hosting. Still a top pick for long-horizon coding and agents alongside DeepSeek V4-Flash-0731 and Claude Opus 5.",
+      "releaseDate": "2026-10-23",
+      "description": "Moonshot AI's Kimi K3.1 Pro (23 Oct 2026), the first K3.1-series model: a 3T-class open-weight model with a 1M-token context window and a Highspeed variant 2 to 3 times faster, live in Kimi, Kimi Work, Kimi Code, and the Kimi API, with full weights due by 4 Nov 2026. Moonshot reports 65.7% on Terminal-Bench 4.0. Succeeds Kimi K3 (2.8T MoE, open weights 27 Jul 2026).",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
-      "websiteUrl": "https://www.kimi.com/blog/kimi-k3",
+      "websiteUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
       "githubUrl": "https://github.com/MoonshotAI",
       "country": "CN",
       "logoUrl": "https://github.com/MoonshotAI.png",
       "tags": [
+        "kimi-k3-1-pro",
         "kimi-k3",
-        "2-8t-moe",
-        "mxfp4",
-        "native-vision",
+        "3t-class",
         "1m-context",
+        "highspeed",
         "long-horizon-coding",
-        "kda",
-        "attention-residuals",
         "open-weights"
       ],
       "icon": "Brain"
@@ -10213,6 +10211,82 @@
         "v4-1-flash"
       ],
       "icon": "ServerCog"
+    },
+    {
+      "id": "gpt-6-1-terra",
+      "name": "GPT-6.1 Terra",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-26",
+      "description": "OpenAI GPT-6.1 Terra (26 Oct 2026): fast, efficient model for computer use, visual reasoning, and coding, a big step up from GPT-5.6 Terra at 50% lower API prices ($1/M input, $5/M output). OpenAI reports 50.3% on Terminal-Bench 4.0 at max effort and over 3x faster task completion than GPT-6 Astra and GPT-6.1 Sol. In ChatGPT Work, Codex, and the API (gpt-6.1-terra), and GA on Amazon Bedrock and Microsoft Foundry the same day.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "gpt-6-1",
+        "terra",
+        "computer-use",
+        "visual-reasoning",
+        "coding",
+        "agents"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "jetbrains-thinkrail",
+      "name": "ThinkRail",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-25",
+      "description": "JetBrains InnovationHub's open-source agentic IDE (Apache-2.0) built around the pi coding agent: every workspace is its own git worktree so agents run in parallel, a Monaco editor, terminals and diffs around the agent, a living SPEC.md graph the agent maintains through spec tools, portable Agent Skills, MCP servers with approval prompts, and GitHub PR flow. Broke out on Hacker News on 25 Oct 2026.",
+      "category": "Agentic IDE",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://thinkrail.ai/",
+      "githubUrl": "https://github.com/JetBrains/thinkrail",
+      "logoUrl": "https://github.com/jetbrains.png",
+      "tags": [
+        "jetbrains",
+        "thinkrail",
+        "agentic-ide",
+        "pi",
+        "git-worktree",
+        "specs",
+        "agent-skills",
+        "apache-2-0"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "google-agent-compute-engine",
+      "name": "Google Agent Compute Engine",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-22",
+      "description": "Google Cloud's purpose-built compute service for AI agents (announced 22 Oct 2026 at AGNTCon + MCPCon), the same stack that powers Gemini agents and Antigravity: hardware-isolated microVMs on Titanium with fast boot, checkpoint pause/resume of idle sessions, snapshot-and-fork for evals and RL, persistent Hyperdisk workspaces, per-microVM identity with credentials injected outside the sandbox, and governance via Agent Gateway. Preview targeted in the coming months.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+      "logoUrl": "https://github.com/GoogleCloudPlatform.png",
+      "country": "US",
+      "tags": [
+        "google-cloud",
+        "agent-compute-engine",
+        "microvm",
+        "sandbox",
+        "agent-gateway",
+        "checkpointing"
+      ],
+      "icon": "Cloud"
     }
   ],
   "toolRepositories": {
@@ -11331,7 +11405,7 @@
     },
     "kimi": {
       "repo": "https://github.com/MoonshotAI",
-      "docs": "https://moonshot.ai"
+      "docs": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart"
     },
     "poolside-laguna": {
       "repo": "https://huggingface.co/poolside/Laguna-S-2.1",
@@ -12303,6 +12377,18 @@
     "deepseek-deepinfer": {
       "repo": "https://github.com/deepseek-ai/DeepInfer",
       "docs": "https://github.com/deepseek-ai/DeepInfer#readme"
+    },
+    "gpt-6-1-terra": {
+      "repo": "https://github.com/openai",
+      "docs": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+    },
+    "jetbrains-thinkrail": {
+      "repo": "https://github.com/JetBrains/thinkrail",
+      "docs": "https://thinkrail.ai/"
+    },
+    "google-agent-compute-engine": {
+      "repo": "https://github.com/GoogleCloudPlatform",
+      "docs": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive"
     }
   }
 }

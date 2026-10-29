@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-27T05:52:56Z",
+  "updatedAt": "2026-10-29T05:56:37Z",
   "featuredWeekLabel": "26 October–1 November 2026",
   "featuredToolIds": [
+    "gemini-4-carbon",
     "gpt-6-1-terra",
-    "kimi",
-    "jetbrains-thinkrail",
-    "google-agent-compute-engine",
-    "claude-duet"
+    "cursor-agent-sdk",
+    "github-agentic-workflows",
+    "microsoft-copilot-harness-foundry"
   ],
   "tools": [
     {
@@ -10287,6 +10287,106 @@
         "checkpointing"
       ],
       "icon": "Cloud"
+    },
+    {
+      "id": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-28",
+      "description": "Google DeepMind's next frontier model after Gemini 4 Argon (announced 28 Oct 2026), its strongest for cybersecurity and long-horizon agentic coding, ranking first on Artificial Analysis Intelligence Index v5.0 and leading SEC-bench Pro, ExploitGym and CWE-bench; rolling out first to a subset of cyber defenders via the Fairwind Program, with developer access to follow at an introductory $2 / $10 per 1M tokens.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "logoUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "country": "US",
+      "tags": [
+        "gemini",
+        "google",
+        "carbon",
+        "frontier",
+        "cyber",
+        "long-horizon"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "cursor-agent-sdk",
+      "name": "Cursor Agent SDK",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-20",
+      "description": "Cursor's generally available SDK for defining an agent as a folder of code (instructions.md prompt, typed tools/, skills/, mcp-connections/ and channels/), testing it with evals and PR replay, and deploying it with agent-sdk deploy to Cursor or your own infrastructure; agents wake on GitHub, GitLab and Bitbucket PR, comment and CI events, Slack, webhooks or cron, and it is the framework behind Cursor's own managed agents such as Bugbot.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cursor.com/changelog/agent-sdk",
+      "logoUrl": "https://github.com/cursor.png",
+      "country": "US",
+      "tags": [
+        "cursor",
+        "agent-sdk",
+        "agents-as-code",
+        "evals",
+        "deploy",
+        "code-review"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "github-agentic-workflows",
+      "name": "GitHub Agentic Workflows",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-10-28",
+      "description": "Open-source GitHub Next project (MIT, gh aw) that compiles natural-language Markdown workflows into GitHub Actions YAML so Copilot or another coding agent can run issue triage, CI failure analysis, docs updates and test writing, with read-only defaults, a sandboxed container behind the Agent Workflow Firewall, safe outputs and threat detection; generally available 28 Oct 2026 with ARC runner support and gh aw forecast.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+      "githubUrl": "https://github.com/github/gh-aw",
+      "logoUrl": "https://github.com/github.png",
+      "country": "US",
+      "tags": [
+        "github",
+        "github-actions",
+        "agentic-workflows",
+        "copilot",
+        "ci",
+        "automation"
+      ],
+      "icon": "GitBranch"
+    },
+    {
+      "id": "microsoft-copilot-harness-foundry",
+      "name": "Microsoft Copilot harness (Foundry)",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-28",
+      "description": "Managed agent harness in Microsoft Foundry Agent Service (public preview 28 Oct 2026) where Microsoft runs the agent loop and sandbox for declaratively defined agents, combining reusable skills, connected Foundry and MCP tools with configured auth and approvals, file and code execution with built-in subagent delegation, and source-controlled agent definitions; launched alongside GA long-running resilience for hosted agents.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+      "logoUrl": "https://github.com/microsoft.png",
+      "country": "US",
+      "tags": [
+        "microsoft",
+        "foundry",
+        "harness",
+        "copilot",
+        "managed-agents",
+        "subagents"
+      ],
+      "icon": "Layers"
     }
   ],
   "toolRepositories": {
@@ -12389,6 +12489,18 @@
     "google-agent-compute-engine": {
       "repo": "https://github.com/GoogleCloudPlatform",
       "docs": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive"
+    },
+    "gemini-4-carbon": {
+      "repo": "https://github.com/google-gemini",
+      "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    "cursor-agent-sdk": {
+      "repo": "https://github.com/cursor",
+      "docs": "https://cursor.com/changelog/agent-sdk"
+    },
+    "github-agentic-workflows": {
+      "repo": "https://github.com/github/gh-aw",
+      "docs": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available"
     }
   }
 }

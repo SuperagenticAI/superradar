@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T05:56:37Z",
+  "updatedAt": "2026-10-30T05:53:50Z",
   "featuredWeekLabel": "26 October–1 November 2026",
   "featuredToolIds": [
     "gemini-4-carbon",
     "gpt-6-1-terra",
-    "cursor-agent-sdk",
+    "hydrafusion",
     "github-agentic-workflows",
     "microsoft-copilot-harness-foundry"
   ],
@@ -7337,17 +7337,17 @@
     },
     {
       "id": "hydrafusion",
-      "name": "HydraFusion",
-      "state": "Assess",
+      "name": "GitHub Copilot Fusion",
+      "state": "Trial",
       "new": true,
       "trending": true,
       "highlighted": true,
-      "releaseDate": "2026-09-04",
-      "description": "GitHub Copilot research preview (4 Sep 2026): runtime multi-model orchestration that picks single, cascade, or critique workflows across providers to balance quality, cost, and latency; available via /experimental in Copilot CLI.",
+      "releaseDate": "2026-10-28",
+      "description": "GitHub Copilot Fusion (GA 28 Oct 2026, GitHub Universe): runtime model router and orchestrator that grew out of Project HydraFusion, picking single, cascade, or critique execution across models at Standard, High, or Max effort; GitHub reports Fusion Max scored 60 on the Artificial Analysis Coding Agent Index, within two points of Claude Code with Opus 5.5 Max at about half the cost; available on all Copilot plans in VS Code, the Copilot app, Copilot CLI, and JetBrains IDEs.",
       "category": "Multi-Agent Orchestration",
       "layer": "Frameworks",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "websiteUrl": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
       "githubUrl": "https://github.com/github/copilot-cli",
       "country": "US",
       "logoUrl": "https://github.com/github.png",
@@ -7356,7 +7356,8 @@
         "github-copilot",
         "multi-model",
         "orchestration",
-        "research-preview"
+        "copilot-fusion",
+        "model-routing"
       ],
       "icon": "Network"
     },
@@ -10387,6 +10388,29 @@
         "subagents"
       ],
       "icon": "Layers"
+    },
+    {
+      "id": "gitlab-orbit",
+      "name": "GitLab Orbit",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-29",
+      "description": "GitLab's permission-aware context graph for the software lifecycle (GA 29 Oct 2026, GitLab 19.5) that connects code, merge requests, work items, pipelines, vulnerabilities, and ownership in one queryable graph for agents, exposed through MCP tools, the Orbit REST API, and glab CLI to Duo Agent Platform, Claude Code, Codex, Cursor, and OpenCode; GitLab reports up to 45x fewer retries and 4.5x fewer tokens in its testing; Premium and Ultimate, GitLab.com first.",
+      "category": "Knowledge Graphs",
+      "layer": "Knowledge",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://about.gitlab.com/blog/gitlab-orbit-ga/",
+      "logoUrl": "https://github.com/gitlabhq.png",
+      "country": "US",
+      "tags": [
+        "gitlab",
+        "context-graph",
+        "mcp",
+        "coding-agents",
+        "devsecops"
+      ],
+      "icon": "Network"
     }
   ],
   "toolRepositories": {
@@ -11953,7 +11977,7 @@
     },
     "hydrafusion": {
       "repo": "https://github.com/github/copilot-cli",
-      "docs": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
+      "docs": "https://docs.github.com/en/copilot/concepts/models/copilot-fusion"
     },
     "muse": {
       "docs": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
@@ -12501,6 +12525,10 @@
     "github-agentic-workflows": {
       "repo": "https://github.com/github/gh-aw",
       "docs": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available"
+    },
+    "gitlab-orbit": {
+      "repo": "https://gitlab.com/gitlab-org/gitlab",
+      "docs": "https://docs.gitlab.com/orbit/"
     }
   }
 }

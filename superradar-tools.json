@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-30T05:53:50Z",
+  "updatedAt": "2026-10-31T05:51:53Z",
   "featuredWeekLabel": "26 October–1 November 2026",
   "featuredToolIds": [
     "gemini-4-carbon",
     "gpt-6-1-terra",
+    "mistral-large-4",
     "hydrafusion",
-    "github-agentic-workflows",
-    "microsoft-copilot-harness-foundry"
+    "github-agentic-workflows"
   ],
   "tools": [
     {
@@ -1415,20 +1415,29 @@
     },
     {
       "id": "factory-code-droid",
-      "name": "Factory Code Droid",
-      "state": "Adopt",
+      "name": "Factory Droid",
+      "state": "Trial",
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Factory AI's elite coding agent ranking #2 on Terminal-Bench (61.2%) and #3 on SWE-bench (43.8%). Features hierarchical prompting, model-agnostic design, and state-of-the-art performance across multiple foundation models",
+      "description": "Factory's model-agnostic enterprise coding agent harness; Droid 1.0 (29 Oct 2026) makes programmatic tool calling the default, letting the model write a sandboxed JavaScript Script that runs hundreds of tool calls in one request, with Factory Router for automatic model choice. Factory reports higher Terminal-Bench 4 scores at lower cost than Codex, Claude Code, Cursor, OpenCode, and Devin on the same models (self-reported). Available as a macOS and Windows desktop app, terminal UI, and the @factory/droid-sdk TypeScript SDK.",
       "category": "Coding Agents",
       "layer": "Coding",
       "sourceType": "Commercial",
-      "websiteUrl": "https://factory.ai",
+      "websiteUrl": "https://factory.com/news/frontier-harness",
       "githubUrl": "https://github.com/Factory-AI",
       "logoUrl": "/github_logos/factory-ai.png",
       "country": "US",
-      "icon": "Bot"
+      "icon": "Bot",
+      "releaseDate": "2026-10-29",
+      "tags": [
+        "factory",
+        "droid",
+        "coding-agents",
+        "harness",
+        "programmatic-tool-calling",
+        "sdk"
+      ]
     },
     {
       "id": "openhands",
@@ -9873,15 +9882,15 @@
     {
       "id": "mistral-large-4",
       "name": "Mistral Large 4",
-      "state": "Assess",
+      "state": "Trial",
       "new": true,
       "trending": true,
       "releaseDate": "2026-10-06",
-      "description": "Mistral's largest model to date, nicknamed Le Chonk (public preview 6 Oct 2026): a natively multimodal 1T-parameter MoE with 52B active, trained from scratch in Mistral's own European datacenters, strong on agentic coding (61.7% DeepSWE v1.1, 28.3% Terminal-Bench 4), agentic workflows, cybersecurity, and visual grounding. The preview API is live on Mistral Studio, with open weights promised by the end of October 2026.",
+      "description": "Mistral's flagship model, nicknamed Le Chonk: a natively multimodal 1T-parameter MoE (about 49B active) with a 1M-token context, previewed 6 Oct 2026 and released as open weights on 29 Oct 2026 with improved agentic coding, defensive cybersecurity, and reasoning efficiency. FP8 and NVFP4 checkpoints are on Hugging Face with day-0 transformers, vLLM, SGLang, and llama.cpp support, under the Mistral Ecosystem Open-Weight License (modified MIT; Model-as-a-Service operators need a commercial license); API at $0.70/M input and $2.10/M output.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
-      "websiteUrl": "https://mistral.ai/news/mistral-large-4/",
+      "websiteUrl": "https://mistral.ai/news/mistral-large-4-oss/",
       "logoUrl": "https://avatars.githubusercontent.com/u/132372032?s=200&v=4",
       "country": "FR",
       "tags": [
@@ -9894,7 +9903,8 @@
         "sovereign-ai",
         "agentic-coding"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "highlighted": true
     },
     {
       "id": "mirror-cli",
@@ -12455,7 +12465,7 @@
       "docs": "https://www.openui.com/docs/openui-lang/whats-new"
     },
     "mistral-large-4": {
-      "repo": "https://github.com/mistralai",
+      "repo": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
       "docs": "https://docs.mistral.ai/models/mistral-large-4"
     },
     "mirror-cli": {

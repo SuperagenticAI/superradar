@@ -1,12 +1,11 @@
 {
-  "updatedAt": "2026-10-31T05:51:53Z",
-  "featuredWeekLabel": "26 October–1 November 2026",
+  "updatedAt": "2026-11-05T05:51:17Z",
+  "featuredWeekLabel": "2–8 November 2026",
   "featuredToolIds": [
-    "gemini-4-carbon",
-    "gpt-6-1-terra",
-    "mistral-large-4",
-    "hydrafusion",
-    "github-agentic-workflows"
+    "kimi",
+    "tencent-hunyuan",
+    "swe-2-flash",
+    "kiro"
   ],
   "tools": [
     {
@@ -487,6 +486,30 @@
         "devin",
         "coding-model",
         "pareto"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "swe-2-flash",
+      "name": "SWE-2 Flash",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-04",
+      "description": "Cognition's SWE-2 Flash (4 Nov 2026), a fast, low-cost American coding model mid-trained and RL-tuned from Thinking Machines' Inkling-Small, which Cognition says beats all American open-weight models on its evals at one-fifth the price and 3x the speed of SWE-2; available in Devin Desktop and CLI, with weights shared only through a vetted partner program.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cognition.com/blog/swe-2-flash",
+      "githubUrl": "https://github.com/CognitionAI",
+      "country": "US",
+      "logoUrl": "/custom_logos/devin-ai.ico",
+      "tags": [
+        "swe-2-flash",
+        "cognition",
+        "devin",
+        "coding-model",
+        "inkling"
       ],
       "icon": "Code"
     },
@@ -2051,16 +2074,27 @@
     },
     {
       "id": "kiro",
-      "name": "KIRO",
-      "state": "Assess",
-      "description": "Agentic IDE that works alongside you from prototype to production with spec-driven development and agent hooks",
+      "name": "Kiro",
+      "state": "Trial",
+      "description": "AWS's spec-driven agentic IDE and CLI; Kiro CLI 3.0 (3 Nov 2026) makes the V3 harness shared with Kiro IDE and Kiro Web the default, adding cloud sessions that keep running after you disconnect, background plan-implement-review workflows, spec mode, cross-session memory, and Approve for me, while retiring Classic, the CLI desktop app, and inline autocomplete.",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Commercial",
       "websiteUrl": "https://kiro.dev",
       "country": "US",
       "logoUrl": "https://github.com/kirodotdev.png",
-      "icon": "Code"
+      "icon": "Code",
+      "trending": true,
+      "releaseDate": "2026-11-03",
+      "tags": [
+        "kiro",
+        "aws",
+        "spec-driven",
+        "agentic-cli",
+        "cloud-sessions",
+        "workflows",
+        "acp"
+      ]
     },
     {
       "id": "qwen-code",
@@ -5378,23 +5412,28 @@
     },
     {
       "id": "tencent-hunyuan",
-      "name": "Hunyuan 2.0",
-      "state": "Assess",
-      "description": "Tencent HY 2.0 is Tencent's current text-model family, with Hunyuan 2.0 Think and Hunyuan 2.0 Instruct production variants launched in November 2025. The official product page emphasizes stronger reasoning, code, agent, and long-document performance.",
+      "name": "Tencent Hy4",
+      "state": "Trial",
+      "description": "Tencent's Hy4 (4 Nov 2026), the latest Hy (formerly Hunyuan) LLM, adding visual understanding and computer use across CLI and GUI for the first time, with stronger instruction following, long-context, and long-horizon agentic performance; available in Tencent Cloud TokenHub, CodeBuddy, and WorkBuddy and via OpenRouter and OpenCode at about $0.90/M input and $2.70/M output, with open weights and system cards promised in the coming days and Hy4 Flash to follow.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Commercial",
-      "websiteUrl": "https://cloud.tencent.com/product/hunyuan",
+      "websiteUrl": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
       "country": "CN",
       "logoUrl": "https://github.com/tencent.png",
       "tags": [
-        "hunyuan-2-0",
-        "think",
-        "instruct",
+        "hy4",
+        "hunyuan",
+        "tencent",
+        "multimodal",
+        "computer-use",
         "agentic",
-        "tencent"
+        "open-weights-coming"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-04"
     },
     {
       "id": "zhipu-glm4",
@@ -5430,22 +5469,23 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-10-23",
-      "description": "Moonshot AI's Kimi K3.1 Pro (23 Oct 2026), the first K3.1-series model: a 3T-class open-weight model with a 1M-token context window and a Highspeed variant 2 to 3 times faster, live in Kimi, Kimi Work, Kimi Code, and the Kimi API, with full weights due by 4 Nov 2026. Moonshot reports 65.7% on Terminal-Bench 4.0. Succeeds Kimi K3 (2.8T MoE, open weights 27 Jul 2026).",
+      "description": "Moonshot AI's Kimi K3.1 Pro (23 Oct 2026), the first K3.1-series model: a natively multimodal 2.8T-parameter MoE (104B active) with a 1M-token context, live in Kimi, Kimi Work, Kimi Code, and the Kimi API (plus a 2 to 3 times faster Highspeed variant). Full open weights shipped on Hugging Face on 4 Nov 2026 (MXFP4, ungated) under the Kimi K3.1-Pro License (modified MIT; large Model-as-a-Service operators need a separate agreement), with vLLM, SGLang, and TokenSpeed recipes.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Open Weights",
-      "websiteUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "websiteUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
       "githubUrl": "https://github.com/MoonshotAI",
       "country": "CN",
       "logoUrl": "https://github.com/MoonshotAI.png",
       "tags": [
         "kimi-k3-1-pro",
         "kimi-k3",
-        "3t-class",
+        "moe",
         "1m-context",
         "highspeed",
         "long-horizon-coding",
-        "open-weights"
+        "open-weights",
+        "multimodal"
       ],
       "icon": "Brain"
     },

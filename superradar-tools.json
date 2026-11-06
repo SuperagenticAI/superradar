@@ -1,13 +1,195 @@
 {
-  "updatedAt": "2026-11-05T05:51:17Z",
+  "updatedAt": "2026-11-06T06:00:55Z",
   "featuredWeekLabel": "2–8 November 2026",
   "featuredToolIds": [
-    "kimi",
-    "tencent-hunyuan",
-    "swe-2-flash",
-    "kiro"
+    "gpt-6-cyber",
+    "agent-substrate",
+    "mistral-managed-agents",
+    "kimi-hosted-agents",
+    "ripple-65b"
   ],
   "tools": [
+    {
+      "id": "perplexity-teammates",
+      "name": "Perplexity Teammates",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-05",
+      "description": "Perplexity's persistent AI coworkers for Max subscribers (5 Nov 2026): agents that own ongoing complex work with planning, memory, tools, Slack, isolated environments, and multi-agent collaboration, monitoring tasks in the background until results are ready for review.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+      "logoUrl": "https://www.perplexity.ai/favicon.ico",
+      "country": "US",
+      "tags": [
+        "perplexity",
+        "teammates",
+        "agents",
+        "slack",
+        "persistent",
+        "max"
+      ],
+      "icon": "Users"
+    },
+    {
+      "id": "openrl",
+      "name": "OpenRL",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-05",
+      "description": "Google's self-hosted Kubernetes-native RL post-training API (5 Nov 2026), donated to the CNCF Sandbox: Tinker-compatible Python primitives (sample, forward_backward, optim_step, save_state) with DRA scheduling, pluggable PyTorch/vLLM engines, and pairing with Agent Substrate sandboxes and llm-d for dense rollouts.",
+      "category": "Evaluation",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://openrl.dev/",
+      "githubUrl": "https://github.com/openrl-dev/openrl",
+      "logoUrl": "https://github.com/google.png",
+      "country": "US",
+      "tags": [
+        "openrl",
+        "google",
+        "cncf",
+        "rl",
+        "post-training",
+        "kubernetes",
+        "tinker"
+      ],
+      "icon": "FlaskConical"
+    },
+    {
+      "id": "ripple-65b",
+      "name": "Ripple-65B Preview",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-04",
+      "description": "Ricursive Intelligence's 65B dense open-weight model (4 Nov 2026, Apache 2.0): pretrained on 12T tokens with up to 1M context, claims U.S. open-weight SOTA on agentic coding at 80.52 on Terminal-Bench 2.1 and 79.1 on SWE-bench Pro v2.0 Hard; weights on Hugging Face plus Together, GMI, OpenRouter, and Fireworks.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://www.ricursive.com/ripple",
+      "githubUrl": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "logoUrl": "https://www.ricursive.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "ripple",
+        "ricursive",
+        "open-weights",
+        "agentic-coding",
+        "terminal-bench",
+        "65b"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "kimi-hosted-agents",
+      "name": "Kimi Hosted Agents",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-05",
+      "description": "Moonshot AI's harness-as-a-service (5 Nov 2026): managed 24/7 agent runtime with isolated sandboxes, network controls, session abort, audit export, 140+ Skills, 30+ plugins, finance templates, and optional Kimi Inference Hook for pre-inference enterprise security checks.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://www.kimi.com/news/kimi-hosted-agents",
+      "logoUrl": "https://github.com/MoonshotAI.png",
+      "country": "CN",
+      "tags": [
+        "kimi",
+        "moonshot",
+        "hosted-agents",
+        "harness",
+        "sandbox",
+        "skills",
+        "enterprise"
+      ],
+      "icon": "Cloud"
+    },
+    {
+      "id": "mistral-managed-agents",
+      "name": "Mistral Managed Agents",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-05",
+      "description": "Mistral Studio managed agents and Agents SDK (mistralai-agents) in public preview (5 Nov 2026): write an agent once in Python, then run in-process, self-host with agents serve, or deploy Mistral-managed with agents deploy for durable background execution, sandboxes, skills, MCP connectors, approvals, and Studio tracing.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://mistral.ai/news/build-with-studio/",
+      "logoUrl": "https://github.com/mistralai.png",
+      "country": "FR",
+      "tags": [
+        "mistral",
+        "studio",
+        "managed-agents",
+        "agents-sdk",
+        "sandbox",
+        "mcp",
+        "durable"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "agent-substrate",
+      "name": "Agent Substrate",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-05",
+      "description": "Google's open-source Kubernetes agent runtime now at 1.0 and GA on GKE (5 Nov 2026), donated to the CNCF Sandbox with gVisor and OpenRL: snapshots idle agent Actors to storage and restores them onto warm Workers in under 500 ms for high-density isolated sandboxes on any Kubernetes cluster.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf",
+      "githubUrl": "https://github.com/agent-substrate/substrate",
+      "logoUrl": "https://github.com/google.png",
+      "country": "US",
+      "tags": [
+        "google",
+        "agent-substrate",
+        "gke",
+        "cncf",
+        "sandbox",
+        "kubernetes",
+        "gvisor"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "gpt-6-cyber",
+      "name": "GPT-6 Cyber",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-05",
+      "description": "OpenAI's cybersecurity model (5 Nov 2026) for finding, validating, and fixing vulnerabilities while staying in authorized scope; 48.5% on ExploitGym (up from 32.1% for GPT-5.6 Cyber), Critical under the Preparedness Framework, initially on Daybreak Red for approved defenders via API and Codex.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/introducing-gpt-6-cyber",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "gpt-6-cyber",
+        "cybersecurity",
+        "daybreak-red",
+        "exploitgym",
+        "defenders"
+      ],
+      "icon": "Shield"
+    },
     {
       "id": "digitalocean-managed-agents",
       "name": "DigitalOcean Managed Agents",
@@ -1138,7 +1320,7 @@
       "state": "Trial",
       "new": true,
       "trending": true,
-      "description": "Nous Research's self-improving open-source agent with persistent memory, skills learned from experience, messaging gateways, and MCP tool integration. The v0.22 Threshold release (14 Oct 2026) adds a guided first-run setup on a free trial model, hosted app Connectors, one-click local models via a managed llama.cpp runtime, a 600-plugin catalog, signed desktop builds with stable release channels, and Bot Screen takeover for logins and 2FA.",
+      "description": "Nous Research's self-improving open-source agent with persistent memory, skills, messaging gateways, and MCP. The v0.23 Hearth release (5 Nov 2026) unifies conversations into one gateway, adds a browser webapp desktop, message rewinding, group auto-routing, spend limits, and a 1,050+ plugin catalog.",
       "category": "Coding Agents",
       "layer": "Coding",
       "sourceType": "Open Source",
@@ -1147,7 +1329,8 @@
       "logoUrl": "https://github.com/NousResearch.png",
       "country": "US",
       "icon": "Bot",
-      "lastUpdate": "2026-10-14"
+      "lastUpdate": "2026-10-14",
+      "releaseDate": "2026-11-05"
     },
     {
       "id": "fable-5-1",
@@ -3017,7 +3200,7 @@
       "state": "Assess",
       "highlighted": true,
       "new": true,
-      "description": "LangChain's framework for building deep agents capable of complex planning and long-horizon tasks — planning tools, sub-agents, and filesystem access. Paired with DeepAgents CLI for terminal workflows and LangGraph for durable multi-actor orchestration. Actively used for research and coding agent stacks in 2026.",
+      "description": "LangChain's framework for deep agents with planning tools, sub-agents, and filesystem access. 5 Nov 2026: async subagents let an orchestrator stay responsive while background workers run long tasks and report back; pairs with DeepAgents CLI and LangGraph for durable multi-actor orchestration.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -8217,7 +8400,7 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-09-24",
-      "description": "LangSmith Managed Deep Agents 0.8 (24 Sep 2026): production Deep Agents harness with user-owned credentials, user-level memory, Slack file transfer, HTTP channels, and built-in Parallel web search; deploy via mda CLI.",
+      "description": "LangSmith Managed Deep Agents production harness: user-owned credentials, memory, Slack/HTTP channels, and Parallel web search via the mda CLI. 5 Nov 2026 adds async subagents so the orchestrator stays available while background workers finish long tasks.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Commercial",
@@ -12579,6 +12762,34 @@
     "gitlab-orbit": {
       "repo": "https://gitlab.com/gitlab-org/gitlab",
       "docs": "https://docs.gitlab.com/orbit/"
+    },
+    "gpt-6-cyber": {
+      "repo": "https://github.com/openai",
+      "docs": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
+    "agent-substrate": {
+      "repo": "https://github.com/agent-substrate/substrate",
+      "docs": "https://ate.dev"
+    },
+    "mistral-managed-agents": {
+      "repo": "https://github.com/mistralai",
+      "docs": "https://docs.mistral.ai/studio/agents/overview"
+    },
+    "kimi-hosted-agents": {
+      "repo": "https://github.com/MoonshotAI",
+      "docs": "https://platform.kimi.com"
+    },
+    "ripple-65b": {
+      "repo": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "docs": "https://www.ricursive.com/ripple"
+    },
+    "openrl": {
+      "repo": "https://github.com/openrl-dev/openrl",
+      "docs": "https://openrl.dev/"
+    },
+    "perplexity-teammates": {
+      "repo": "https://github.com/ppl-ai",
+      "docs": "https://www.perplexity.ai/hub/products/teammate"
     }
   }
 }

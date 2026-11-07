@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-06T06:00:55Z",
+  "updatedAt": "2026-11-07T06:00:00Z",
   "featuredWeekLabel": "2–8 November 2026",
   "featuredToolIds": [
     "gpt-6-cyber",
+    "inkling-2-small",
     "agent-substrate",
     "mistral-managed-agents",
-    "kimi-hosted-agents",
-    "ripple-65b"
+    "kimi-hosted-agents"
   ],
   "tools": [
     {
@@ -191,6 +191,33 @@
       "icon": "Shield"
     },
     {
+      "id": "inkling-2-small",
+      "name": "Inkling 2 Small",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-05",
+      "description": "Thinking Machines Lab's Inkling 2 Small (5 Nov 2026): 594B MoE with 17B active, image input, variable effort, and a 1M-token context for agentic coding and long-horizon work; scores 31 on the Artificial Analysis Intelligence Index and is available now on Tinker with closed weights, with Apache 2.0 open weights planned after external safety testing.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "githubUrl": null,
+      "country": "US",
+      "logoUrl": "https://thinkingmachines.ai/favicon.ico",
+      "tags": [
+        "inkling-2-small",
+        "thinking-machines",
+        "moe",
+        "agentic-coding",
+        "tinker",
+        "1m-context",
+        "vision"
+      ],
+      "icon": "Brain"
+    },
+    {
       "id": "digitalocean-managed-agents",
       "name": "DigitalOcean Managed Agents",
       "state": "Trial",
@@ -365,8 +392,8 @@
       "new": true,
       "trending": true,
       "highlighted": true,
-      "releaseDate": "2026-09-22",
-      "description": "JetBrains open system of products for agentic software development (22 Sep 2026): Air in IDEs, Air Teams, and Air Governance (formerly Central), with multi-vendor ACP agents and Junie across surfaces.",
+      "releaseDate": "2026-11-05",
+      "description": "JetBrains open system for agentic software development (Air in IDEs, Air Teams, Air Governance). With JetBrains IDE 2026.3 (5 Nov 2026) Air ships in the IDE: run Claude Agent, Codex, Gemini, GitHub Copilot, Junie, OpenCode and other ACP agents locally or in Air Teams cloud, review diffs in context, and use free Junie Lite without a JetBrains AI subscription.",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -379,7 +406,10 @@
         "agentic-ide",
         "governance",
         "acp",
-        "junie"
+        "junie",
+        "ide-2026-3",
+        "junie-lite",
+        "air-teams"
       ],
       "icon": "Layers"
     },
@@ -1952,7 +1982,7 @@
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Google's agent-first development platform. Antigravity 2.0 added a redesigned desktop app, Go-based CLI, public SDK, dynamic subagents, and up to five parallel agents. August 20, 2026: ships inside eligible Gemini Enterprise subscriptions with admin/spend controls, plus VS Code, Visual Studio, JetBrains, and Zed extensions.",
+      "description": "Google's agent-first development platform. Antigravity App v2.29 (3 Nov 2026) starts rolling out Remote Agents to Google AI Pro and Ultra on personal accounts: isolated Google-managed cloud sessions that keep coding after you close the laptop, managed from the desktop app, CLI (agy --remote-agent), or antigravity.google.com/remote, plus Voice Mode and redesigned Automations.",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -1966,9 +1996,13 @@
         "agentic-ide",
         "google",
         "gemini-enterprise",
-        "parallel-agents"
+        "parallel-agents",
+        "remote-agents",
+        "voice-mode",
+        "antigravity-2-29"
       ],
-      "icon": "Code"
+      "icon": "Code",
+      "releaseDate": "2026-11-03"
     },
     {
       "id": "warp",
@@ -2259,7 +2293,7 @@
       "id": "kiro",
       "name": "Kiro",
       "state": "Trial",
-      "description": "AWS's spec-driven agentic IDE and CLI; Kiro CLI 3.0 (3 Nov 2026) makes the V3 harness shared with Kiro IDE and Kiro Web the default, adding cloud sessions that keep running after you disconnect, background plan-implement-review workflows, spec mode, cross-session memory, and Approve for me, while retiring Classic, the CLI desktop app, and inline autocomplete.",
+      "description": "AWS's spec-driven agentic IDE and CLI; Kiro CLI 3.0 (3 Nov 2026) made the V3 harness the default with cloud sessions and Approve for me. On 5 Nov 2026 Kiro bots went GA in open-source Kiro Crew: named long-running agents with Notes memory, tools, permissions, parallel worker sessions, scheduled jobs, and dashboards for ongoing responsibilities such as triage and release readiness.",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -2268,7 +2302,7 @@
       "logoUrl": "https://github.com/kirodotdev.png",
       "icon": "Code",
       "trending": true,
-      "releaseDate": "2026-11-03",
+      "releaseDate": "2026-11-05",
       "tags": [
         "kiro",
         "aws",
@@ -2276,7 +2310,10 @@
         "agentic-cli",
         "cloud-sessions",
         "workflows",
-        "acp"
+        "acp",
+        "kiro-bots",
+        "kiro-crew",
+        "long-running-agents"
       ]
     },
     {
@@ -4039,14 +4076,22 @@
       "id": "openrouter",
       "name": "OpenRouter",
       "state": "Trial",
-      "description": "Unified API gateway that routes across hundreds of LLMs with shared billing, analytics, and smart fallbacks",
+      "description": "Unified API gateway across hundreds of LLMs with shared billing and provider routing; on 6 Nov 2026 rebuilt Auto Router (openrouter/auto) and launched Auto Code (openrouter/auto-code) for coding agents, choosing models by pass rate, speed, cost, live pricing, and cache without a router surcharge.",
       "category": "Model Hosts",
       "layer": "AgentOps",
       "sourceType": "Open Source",
       "websiteUrl": "https://openrouter.ai",
       "country": "US",
       "logoUrl": "https://github.com/OpenRouterTeam.png",
-      "icon": "Network"
+      "icon": "Network",
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-11-06",
+      "tags": [
+        "auto-code",
+        "auto-router",
+        "model-routing"
+      ]
     },
     {
       "id": "portkey",
@@ -5905,7 +5950,7 @@
       "id": "baseten",
       "name": "Baseten",
       "state": "Trial",
-      "description": "Serverless model training/serving platform. On 2 Sep 2026 shipped platform + docs MCP and baseten-skills for coding agents; on 10 Sep 2026 acquired Blaxel to add persistent agent sandboxes beside inference.",
+      "description": "Inference, training, and agent execution platform. On 4–5 Nov 2026 opened Grid (public preview enterprise model gateway/router/guardrails for coding agents) and Baseten Sandboxes (public, free until 16 Nov): stateful microVM agent environments with CLI/SDK control, built on the Blaxel acquisition beside Dedicated Inference and Loops training.",
       "category": "Model Serving",
       "layer": "AgentOps",
       "sourceType": "Commercial",
@@ -5916,7 +5961,13 @@
       "icon": "Server",
       "new": true,
       "trending": true,
-      "releaseDate": "2026-09-10"
+      "releaseDate": "2026-11-05",
+      "tags": [
+        "sandboxes",
+        "grid",
+        "agent-cloud",
+        "blaxel"
+      ]
     },
     {
       "id": "predibase",

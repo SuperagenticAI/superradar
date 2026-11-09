@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-07T06:00:00Z",
-  "featuredWeekLabel": "2–8 November 2026",
+  "updatedAt": "2026-11-09T05:58:55Z",
+  "featuredWeekLabel": "9–15 November 2026",
   "featuredToolIds": [
+    "microsoft-execution-containers",
     "gpt-6-cyber",
     "inkling-2-small",
-    "agent-substrate",
-    "mistral-managed-agents",
-    "kimi-hosted-agents"
+    "perplexity-teammates",
+    "opencode"
   ],
   "tools": [
     {
@@ -2037,7 +2037,7 @@
       "name": "OpenCode",
       "state": "Adopt",
       "trending": true,
-      "description": "Open-source, model-agnostic terminal coding agent from Anomaly; OpenCode 2.0 (12 Oct 2026) moves the TUI, web, and desktop apps onto one shared local service, adds Code Mode that turns MCP servers and OpenAPI endpoints into script-callable functions, background subagents and shell commands, 80+ hot-reloadable plugins, and @opencode/sdk to embed the same engine as a library.",
+      "description": "Open-source, model-agnostic terminal coding agent from Anomaly; OpenCode 2.0 (12 Oct 2026) moves the TUI, web, and desktop apps onto one shared local service with Code Mode, background subagents, 80+ plugins, and @opencode/sdk, and OpenCode Browse (7 Nov 2026, MIT) adds an MCP server plus Chromium extension that lets OpenCode, Claude Code, Cursor, Codex, and other MCP clients drive your real browser tabs with Playwright, hand logins, 2FA, and payments back to you, and limit sessions with site allowlists.",
       "category": "Agentic CLI",
       "layer": "Coding",
       "sourceType": "Open Source",
@@ -2052,12 +2052,13 @@
         "sdk",
         "mcp",
         "acp",
-        "model-agnostic"
+        "model-agnostic",
+        "browser"
       ],
       "logoUrl": "https://avatars.githubusercontent.com/u/66570915?s=200&v=4",
       "icon": "Code",
       "releaseDate": "2026-10-12",
-      "lastUpdate": "2026-10-12",
+      "lastUpdate": "2026-11-07",
       "new": true
     },
     {
@@ -10695,6 +10696,32 @@
         "devsecops"
       ],
       "icon": "Network"
+    },
+    {
+      "id": "microsoft-execution-containers",
+      "name": "Microsoft Execution Containers (MXC)",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-10-07",
+      "lastUpdate": "2026-11-05",
+      "description": "Microsoft's policy-driven containment layer for AI agents and untrusted generated code (GA 7 Oct 2026, MIT SDK), where a JSON policy outside the agent's control sets which files, network destinations, processes, and UI it may touch, enforced through process containers on Windows 11, macOS, and Linux, Windows-only session and WSL containers, and an experimental MicroVM backend, with Learning and Permissive modes that record attempted access; already used by GitHub Copilot, OpenAI Codex, Replit, LM Studio, and NVIDIA OpenShell, and expanded in November 2026 with Defender discovery of local agents and dynamic permissions.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "githubUrl": "https://github.com/microsoft/mxc",
+      "logoUrl": "https://github.com/microsoft.png",
+      "country": "US",
+      "tags": [
+        "microsoft",
+        "windows",
+        "sandbox",
+        "containment",
+        "agent-security",
+        "least-privilege"
+      ],
+      "icon": "ShieldCheck"
     }
   ],
   "toolRepositories": {
@@ -12841,6 +12868,10 @@
     "perplexity-teammates": {
       "repo": "https://github.com/ppl-ai",
       "docs": "https://www.perplexity.ai/hub/products/teammate"
+    },
+    "microsoft-execution-containers": {
+      "repo": "https://github.com/microsoft/mxc",
+      "docs": "https://learn.microsoft.com/en-us/windows/apps/develop/mxc/"
     }
   }
 }

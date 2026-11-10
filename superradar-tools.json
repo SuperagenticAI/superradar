@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-09T05:58:55Z",
+  "updatedAt": "2026-11-10T05:55:21Z",
   "featuredWeekLabel": "9–15 November 2026",
   "featuredToolIds": [
+    "fable-5-2",
+    "muse-ember",
     "microsoft-execution-containers",
     "gpt-6-cyber",
-    "inkling-2-small",
-    "perplexity-teammates",
-    "opencode"
+    "inkling-2-small"
   ],
   "tools": [
     {
@@ -10722,6 +10722,79 @@
         "least-privilege"
       ],
       "icon": "ShieldCheck"
+    },
+    {
+      "id": "fable-5-2",
+      "name": "Fable 5.2",
+      "state": "Adopt",
+      "highlighted": true,
+      "trending": true,
+      "new": true,
+      "releaseDate": "2026-11-09",
+      "description": "Anthropic's Claude Fable 5.2 (9 Nov 2026): generally available upgrade to Fable 5.1 for the most ambitious coding and long-running agentic work, up to 30% faster with a lower $8/$40 per million token price, optional fast mode, 1M context, and big gains on FrontierCode 2.0 (49.1%), FrontierSWE v2 (69.9%), and OSWorld 2.1; can act as Advisor or Orchestrator over smaller Claude models. API id claude-fable-5-2 on the Claude Platform, Bedrock, Google Cloud, and Microsoft Foundry.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "githubUrl": "https://github.com/anthropics",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "fable-5-2",
+        "mythos-class",
+        "agentic-coding",
+        "anthropic",
+        "orchestrator"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "mythos-5-2",
+      "name": "Mythos 5.2",
+      "state": "Assess",
+      "new": true,
+      "releaseDate": "2026-11-09",
+      "description": "Anthropic's Claude Mythos 5.2 (9 Nov 2026): the same underlying model as Fable 5.2 without its cyber and biology blocks, available to vetted organizations through the Cyber and Life Sciences Verification Programs and inside Claude Security; Anthropic reports 89.6% on its CVE Rediscovery eval and 76.3% on CyScenarioBench.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "githubUrl": "https://github.com/anthropics",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "mythos-5-2",
+        "trusted-access",
+        "cyber",
+        "life-sciences",
+        "anthropic"
+      ],
+      "icon": "Shield"
+    },
+    {
+      "id": "muse-ember",
+      "name": "Muse Ember",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-09",
+      "description": "Meta Superintelligence Labs' smallest and most efficient model (9 Nov 2026), built for the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. Text, image, audio, and video input, 1M context, up to 512K output, Responses API support, and $0.10/$0.50 per million tokens; Meta reports it matches Claude Haiku 5.5 on the Artificial Analysis Index at about a third of the cost. Available as muse-ember-1.0 on the Meta Model API and Muse Code, designed to pair with Muse Wonder as a subagent.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://research.meta.ai/blog/muse-ember",
+      "country": "US",
+      "logoUrl": "https://github.com/meta-llama.png",
+      "tags": [
+        "muse-ember",
+        "meta",
+        "meta-model-api",
+        "muse-code",
+        "subagent",
+        "low-cost"
+      ],
+      "icon": "Zap"
     }
   ],
   "toolRepositories": {
@@ -12872,6 +12945,17 @@
     "microsoft-execution-containers": {
       "repo": "https://github.com/microsoft/mxc",
       "docs": "https://learn.microsoft.com/en-us/windows/apps/develop/mxc/"
+    },
+    "fable-5-2": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    "mythos-5-2": {
+      "repo": "https://github.com/anthropics",
+      "docs": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    "muse-ember": {
+      "docs": "https://research.meta.ai/blog/muse-ember"
     }
   }
 }

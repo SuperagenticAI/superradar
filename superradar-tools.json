@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-10T05:55:21Z",
+  "updatedAt": "2026-11-11T05:51:11Z",
   "featuredWeekLabel": "9–15 November 2026",
   "featuredToolIds": [
     "fable-5-2",
+    "gemini-4-carbon",
     "muse-ember",
     "microsoft-execution-containers",
-    "gpt-6-cyber",
-    "inkling-2-small"
+    "gpt-6-cyber"
   ],
   "tools": [
     {
@@ -733,11 +733,11 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-09-10",
-      "description": "Cursor Projects (10 Sep 2026, beta): persistent coordinator agent that maintains shared context across months of work, delegates to cloud and local subagents, and acts on Slack/PR/schedule subscriptions for features, migrations, and gardening.",
+      "description": "Cursor Projects (10 Sep 2026, beta): persistent coordinator agent that keeps shared context across months of work, delegates to cloud and local subagents, and acts on Slack, PR and schedule subscriptions; since 10 Nov 2026 Projects is multiplayer (beta for all users), letting teammates join a Project to plan, build and ship together alongside its agent fleet.",
       "category": "Multi-Agent Orchestration",
       "layer": "Frameworks",
       "sourceType": "Commercial",
-      "websiteUrl": "https://cursor.com/blog/projects",
+      "websiteUrl": "https://cursor.com/blog/projects-multiplayer",
       "githubUrl": "https://github.com/cursor",
       "country": "US",
       "logoUrl": "https://github.com/cursor.png",
@@ -746,9 +746,11 @@
         "projects",
         "coordinator",
         "cloud-agents",
-        "subscriptions"
+        "subscriptions",
+        "multiplayer"
       ],
-      "icon": "Network"
+      "icon": "Network",
+      "lastUpdate": "2026-11-10"
     },
     {
       "id": "openai-agents-api",
@@ -1982,7 +1984,7 @@
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Google's agent-first development platform. Antigravity App v2.29 (3 Nov 2026) starts rolling out Remote Agents to Google AI Pro and Ultra on personal accounts: isolated Google-managed cloud sessions that keep coding after you close the laptop, managed from the desktop app, CLI (agy --remote-agent), or antigravity.google.com/remote, plus Voice Mode and redesigned Automations.",
+      "description": "Google's agent-first development platform. Antigravity App v2.29 (3 Nov 2026) rolls out Remote Agents to Google AI Pro and Ultra (isolated Google-managed cloud sessions managed from the desktop app, CLI via agy --remote-agent, or the web), and on 10 Nov 2026 Gemini 4 Carbon arrived for AI Ultra with a /swarm preview that turns one prompt into a coordinated team of agents across parallel isolated workspaces with adversarial verifiers.",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -1999,10 +2001,13 @@
         "parallel-agents",
         "remote-agents",
         "voice-mode",
-        "antigravity-2-29"
+        "antigravity-2-29",
+        "swarm",
+        "gemini-4-carbon"
       ],
       "icon": "Code",
-      "releaseDate": "2026-11-03"
+      "releaseDate": "2026-11-03",
+      "lastUpdate": "2026-11-10"
     },
     {
       "id": "warp",
@@ -10577,16 +10582,16 @@
     {
       "id": "gemini-4-carbon",
       "name": "Gemini 4 Carbon",
-      "state": "Assess",
+      "state": "Trial",
       "new": true,
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-10-28",
-      "description": "Google DeepMind's next frontier model after Gemini 4 Argon (announced 28 Oct 2026), its strongest for cybersecurity and long-horizon agentic coding, ranking first on Artificial Analysis Intelligence Index v5.0 and leading SEC-bench Pro, ExploitGym and CWE-bench; rolling out first to a subset of cyber defenders via the Fairwind Program, with developer access to follow at an introductory $2 / $10 per 1M tokens.",
+      "description": "Google DeepMind's strongest frontier model for cybersecurity and long-horizon agentic work, first released to cyber defenders via the Fairwind Program (28 Oct 2026) and generally available from 10 Nov 2026 on the paid Gemini API in AI Studio and Android Studio, Gemini for business, Google Antigravity, CodeMender, the Gemini app and AI Mode for AI Ultra; ranks first on CursorBench 4.0, Perplexity WANDR and Zapier AutomationBench, with a 1M input-output window at an introductory $2 / $10 per 1M tokens until 30 Nov ($4 / $20 after).",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
       "logoUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
       "country": "US",
       "tags": [
@@ -10595,9 +10600,13 @@
         "carbon",
         "frontier",
         "cyber",
-        "long-horizon"
+        "long-horizon",
+        "ga",
+        "gemini-api",
+        "antigravity"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "lastUpdate": "2026-11-10"
     },
     {
       "id": "cursor-agent-sdk",
@@ -10795,6 +10804,62 @@
         "low-cost"
       ],
       "icon": "Zap"
+    },
+    {
+      "id": "modern-web-guidance",
+      "name": "Modern Web Guidance",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-10",
+      "description": "Open-source agent skills from Chrome, now a cross-browser effort with Firefox and Edge, that embed expert-reviewed web platform guidance and Baseline compatibility data into coding agents; version 1.0 (10 Nov 2026) adds a static-analysis modernization workflow for existing HTML, CSS, JavaScript and package.json, accessibility-reviewed guides, and a public nightly eval dashboard, installed with npx modern-web-guidance@latest install or from the Claude Code, Codex, Cursor, Antigravity, Copilot and WebStorm plugin marketplaces.",
+      "category": "Extensions",
+      "layer": "Coding",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+      "githubUrl": "https://github.com/GoogleChrome/modern-web-guidance",
+      "logoUrl": "https://github.com/GoogleChrome.png",
+      "country": "US",
+      "tags": [
+        "google",
+        "chrome",
+        "firefox",
+        "edge",
+        "mdn",
+        "agent-skills",
+        "baseline",
+        "web-platform",
+        "apache-2-0"
+      ],
+      "icon": "Globe"
+    },
+    {
+      "id": "kagent",
+      "name": "kagent",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-10",
+      "description": "CNCF open-source Kubernetes agent platform from Solo.io that reached 1.0 GA on 10 Nov 2026 as the production layer on top of Agent Substrate: declarative agents across models, MCP tools and skills, bring-your-own harnesses (kagent runtime, Claude, Codex or any A2A container), auto-suspend of idle conversations, human-in-the-loop approvals, checkpoints and forks, OIDC ownership, gateway-injected credentials via agentgateway, and on-demand sandboxes.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://www.solo.io/blog/announcing-kagent-1-0-ga",
+      "githubUrl": "https://github.com/kagent-dev/kagent",
+      "logoUrl": "https://github.com/kagent-dev.png",
+      "country": "US",
+      "tags": [
+        "kagent",
+        "solo-io",
+        "cncf",
+        "kubernetes",
+        "agent-substrate",
+        "a2a",
+        "mcp",
+        "agentgateway",
+        "apache-2-0"
+      ],
+      "icon": "Bot"
     }
   ],
   "toolRepositories": {
@@ -12900,7 +12965,7 @@
     },
     "gemini-4-carbon": {
       "repo": "https://github.com/google-gemini",
-      "docs": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      "docs": "https://deepmind.google/models/model-cards/gemini-4-carbon/"
     },
     "cursor-agent-sdk": {
       "repo": "https://github.com/cursor",
@@ -12956,6 +13021,14 @@
     },
     "muse-ember": {
       "docs": "https://research.meta.ai/blog/muse-ember"
+    },
+    "modern-web-guidance": {
+      "repo": "https://github.com/GoogleChrome/modern-web-guidance",
+      "docs": "https://developer.chrome.com/docs/modern-web-guidance"
+    },
+    "kagent": {
+      "repo": "https://github.com/kagent-dev/kagent",
+      "docs": "https://kagent.dev"
     }
   }
 }

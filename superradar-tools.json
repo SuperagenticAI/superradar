@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-11T05:51:11Z",
+  "updatedAt": "2026-11-12T05:51:02Z",
   "featuredWeekLabel": "9–15 November 2026",
   "featuredToolIds": [
     "fable-5-2",
     "gemini-4-carbon",
-    "muse-ember",
-    "microsoft-execution-containers",
-    "gpt-6-cyber"
+    "gemini-decision-1",
+    "aws-emulator",
+    "muse-ember"
   ],
   "tools": [
     {
@@ -5099,12 +5099,12 @@
       "id": "a2ui",
       "name": "A2UI",
       "state": "Trial",
-      "description": "Google's A2UI (Agent-to-User Interface) protocol (v0.8) enables AI agents to generate rich, interactive UIs via declarative JSON. Secure, framework-agnostic, LLM-friendly format with progressive rendering. Works with A2A and AG-UI transports. Apache 2.0 licensed",
+      "description": "Google's A2UI (Agent-to-User Interface) open protocol for generative UI reached 1.0 stable on 11 Nov 2026: agents answer with interactive native screens (forms, charts, pickers) described in declarative JSON and rendered with each app's own components. 1.0 adds bidirectional function calls, accessibility and extensions; renderers for React, Angular, Lit, Flutter and SwiftUI (Jetpack Compose on 0.9.1, 1.0 soon); agent SDKs for Python, TypeScript and Dart; works inside MCP Apps in Claude and Gemini. Used by Atlassian, Alation, Bloomberg and ByteDance. Apache 2.0.",
       "category": "Agent Protocols",
       "layer": "Frameworks",
       "sourceType": "Open Source",
       "websiteUrl": "https://a2ui.org",
-      "githubUrl": "https://github.com/google/A2UI",
+      "githubUrl": "https://github.com/a2ui-project/a2ui",
       "country": "US",
       "logoUrl": "https://github.com/google.png",
       "tags": [
@@ -5112,11 +5112,16 @@
         "declarative",
         "framework-agnostic",
         "progressive-rendering",
-        "agent-interfaces"
+        "agent-interfaces",
+        "a2ui-1-0",
+        "mcp-apps",
+        "generative-ui"
       ],
       "new": true,
       "highlighted": true,
-      "icon": "Network"
+      "icon": "Network",
+      "releaseDate": "2026-11-11",
+      "trending": true
     },
     {
       "id": "ag-ui",
@@ -10860,6 +10865,88 @@
         "apache-2-0"
       ],
       "icon": "Bot"
+    },
+    {
+      "id": "gemini-decision-1",
+      "name": "Gemini Decision 1 (Decisions API)",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-11",
+      "weeklyHighlight": "Google's decision model scores up to 1,000 closed-set questions per call in about 200 ms, built for agent routing and tool selection",
+      "description": "Google DeepMind's Gemini Decisions API (11 Nov 2026) powered by Gemini Decision 1 (gemini-decision-1): scores up to 1,000 yes/no (noul), multiple-choice, or rubric-score questions against one multimodal input (text, images, audio, video, PDFs, up to 256K tokens) in a single forward pass, returning calibrated probabilities and confidence in 150 to 250 ms. Built for tool selection, policy checks, model routing, and context grading inside agents. $0.10 per 1M input tokens, zero output tokens billed, free tier in Google AI Studio (Gemini API v1beta, google-genai 3.2+); integrations rolling out across OpenRouter, LangChain, Vercel, LiteLLM, Pydantic AI and more.",
+      "category": "Model Serving",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "logoUrl": "https://github.com/google-gemini.png",
+      "country": "US",
+      "tags": [
+        "google",
+        "gemini",
+        "decisions-api",
+        "decision-model",
+        "routing",
+        "classification",
+        "tool-selection",
+        "multimodal"
+      ],
+      "icon": "Zap"
+    },
+    {
+      "id": "aws-emulator",
+      "name": "AWS Emulator",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-11",
+      "weeklyHighlight": "Free local emulator for 200+ AWS services so coding agents can create, test, and iterate on AWS resources without deploying",
+      "description": "AWS Emulator (GA 11 Nov 2026): a free, Rust-based local emulator of the AWS APIs built from the AWS API models, covering 200+ services. The AWS CLI, SDKs, and coding agents such as Kiro or Claude Code talk to a local SigV4-signed HTTPS endpoint with generated EMULATOR credentials, so agents can create resources, check results, and iterate without a cloud deployment. Includes an embedded in-process mode for the Rust SDK and published per-service fidelity scores. Built and maintained by autonomous agents on Bedrock AgentCore Runtime. Does not evaluate IAM policies; single account and Region.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
+      "githubUrl": "https://github.com/aws/aws-emulator",
+      "logoUrl": "https://github.com/aws.png",
+      "country": "US",
+      "tags": [
+        "aws",
+        "emulator",
+        "local-testing",
+        "coding-agents",
+        "kiro",
+        "claude-code",
+        "rust",
+        "agent-built"
+      ],
+      "icon": "Cloud"
+    },
+    {
+      "id": "qwen4-max-preview",
+      "name": "Qwen4-Max Preview",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-11",
+      "description": "Alibaba's first Qwen4 model (preview opened 11 Nov 2026, model ID qwen4-max-preview): next-generation flagship multimodal model (text, image, video input) for coding, front-end builds, and complex agentic tasks, with 1M-token context, up to 393K output tokens, thinking on by default, tool calling, web search, structured outputs, and OpenAI Chat Completions, Responses, and Anthropic Messages API compatibility. Token Plan only (no pay-as-you-go), also in the Qwen app, Qoder, QwenWork and QwenStudio. Frozen preview that is retired after 25 Nov 2026 (UTC+8); no benchmarks or open weights published yet.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "githubUrl": "https://github.com/QwenLM/Qwen",
+      "logoUrl": "https://github.com/QwenLM.png",
+      "country": "CN",
+      "tags": [
+        "qwen4",
+        "qwen4-max",
+        "alibaba",
+        "multimodal",
+        "agentic-coding",
+        "1m-context",
+        "preview"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {
@@ -11905,7 +11992,7 @@
       "docs": "https://a2a-protocol.org/"
     },
     "a2ui": {
-      "repo": "https://github.com/google/A2UI",
+      "repo": "https://github.com/a2ui-project/a2ui",
       "docs": "https://a2ui.org"
     },
     "anyscale": {

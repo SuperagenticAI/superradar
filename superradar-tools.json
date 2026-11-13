@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-12T05:51:02Z",
+  "updatedAt": "2026-11-13T05:50:57Z",
   "featuredWeekLabel": "9–15 November 2026",
   "featuredToolIds": [
     "fable-5-2",
-    "gemini-4-carbon",
-    "gemini-decision-1",
+    "gemini-4-hydrogen",
+    "openai-daybreak",
     "aws-emulator",
     "muse-ember"
   ],
@@ -1526,7 +1526,7 @@
       "id": "aws-bedrock-agentcore",
       "name": "AgentCore",
       "state": "Assess",
-      "description": "Amazon's enterprise agent marketplace with AgentCore Memory and multi-agent orchestration",
+      "description": "Amazon's enterprise agent marketplace with AgentCore Memory and multi-agent orchestration. Next-generation AgentCore Runtime is the default for new runtimes from 12 Nov 2026: snapshot-restored Firecracker microVM sessions (under 2s P75 start on a 2 GB image), up to 8 vCPU / 32 GB, scale-to-zero idle agents, up to 68% less billed memory.",
       "category": "Model Serving",
       "layer": "AgentOps",
       "sourceType": "Commercial",
@@ -1534,7 +1534,8 @@
       "githubUrl": "https://github.com/aws/bedrock-agentcore-sdk-python",
       "country": "US",
       "logoUrl": "https://github.com/aws.png",
-      "icon": "Cloud"
+      "icon": "Cloud",
+      "lastUpdate": "2026-11-12"
     },
     {
       "id": "azure-ai-foundry",
@@ -9790,7 +9791,7 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-10-09",
-      "description": "Anthropic's fully managed agent harness on the Claude Platform (public beta): sandboxed sessions, built-in tools, SSE streaming, now with multiagent orchestration and dynamic workflows (multiagent_20261001, 9 Oct 2026) where a lead agent writes a phased program that runs many sub-agents in the background and merges results.",
+      "description": "Anthropic's fully managed agent harness on the Claude Platform (public beta): sandboxed sessions, built-in tools, SSE streaming, now with multiagent orchestration and dynamic workflows (multiagent_20261001, 9 Oct 2026) where a lead agent writes a phased program that runs many sub-agents in the background and merges results. Self-hosted Managed Agents (private beta, 12 Nov 2026) runs the whole service, harness, sandboxes, credentials and session history, in your own cloud or data centre, with model calls to Anthropic, Bedrock, Vertex or Foundry; access via your Anthropic account team.",
       "category": "Agent Frameworks",
       "layer": "Frameworks",
       "sourceType": "Closed Source",
@@ -9803,9 +9804,11 @@
         "managed-agents",
         "multi-agent",
         "orchestration",
-        "harness"
+        "harness",
+        "self-hosted"
       ],
-      "icon": "ShieldCheck"
+      "icon": "ShieldCheck",
+      "lastUpdate": "2026-11-12"
     },
     {
       "id": "muse-wonder",
@@ -10947,6 +10950,61 @@
         "preview"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-12",
+      "description": "Google DeepMind's fast Gemini 4 model for everyday coding and agentic workflows (GA 12 Nov 2026): four thinking levels (low, medium, high default, new xhigh), 1M-token input and up to 1M output, flat $1.50 / $7.50 per 1M tokens, beats Gemini 4 Argon on the Artificial Analysis Intelligence Index (51 at high, 54 at xhigh) and more than triples 3.8 Flash on Terminal-Bench 4.1 (57%). Available in the Gemini API, AI Studio, Android Studio, Gemini for business, the Gemini app and Search, and in Google Antigravity for paid AI Pro and Ultra, where the new Orchestrator option pairs it with Carbon or Argon (near-Carbon success with 24% less quota).",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "logoUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "country": "US",
+      "tags": [
+        "gemini",
+        "google",
+        "hydrogen",
+        "agentic-coding",
+        "fast",
+        "1m-context",
+        "gemini-api",
+        "antigravity",
+        "orchestrator"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "openai-daybreak",
+      "name": "OpenAI Daybreak Red Team & Defense Factory",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-12",
+      "description": "OpenAI's agentic security products on the Daybreak platform (launched 12 Nov 2026): Daybreak Red Team (early access) puts a coordinated team of agents on your web apps to investigate attack paths from source and app context, validate scanner, bug bounty and disclosure findings, and retest patches, with scope enforced by isolated environments and Guardian review; Daybreak Defense Factory (research preview, Codex plugin) connects GitHub repos and findings, runs one-off or per-commit scans, validates issues in isolation and prepares tested patches with Codex for engineer review. Runs on OpenAI's cyber models (currently GPT-6 Cyber).",
+      "category": "Security",
+      "layer": "AgentOps",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/daybreak/",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "daybreak",
+        "security",
+        "red-team",
+        "pen-testing",
+        "vulnerability-remediation",
+        "codex",
+        "gpt-6-cyber"
+      ],
+      "icon": "ShieldCheck"
     }
   ],
   "toolRepositories": {

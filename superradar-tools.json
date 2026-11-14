@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-13T05:50:57Z",
+  "updatedAt": "2026-11-14T06:16:00Z",
   "featuredWeekLabel": "9–15 November 2026",
   "featuredToolIds": [
     "fable-5-2",
     "gemini-4-hydrogen",
     "openai-daybreak",
-    "aws-emulator",
-    "muse-ember"
+    "inkling-2-small",
+    "aws-emulator"
   ],
   "tools": [
     {
@@ -198,10 +198,10 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-11-05",
-      "description": "Thinking Machines Lab's Inkling 2 Small (5 Nov 2026): 594B MoE with 17B active, image input, variable effort, and a 1M-token context for agentic coding and long-horizon work; scores 31 on the Artificial Analysis Intelligence Index and is available now on Tinker with closed weights, with Apache 2.0 open weights planned after external safety testing.",
+      "description": "Thinking Machines Lab's Inkling 2 Small (5 Nov 2026): 594B MoE with 17B active, image input, variable effort, and a 1M-token context for agentic coding and long-horizon work; scores 31 on the Artificial Analysis Intelligence Index. Open weights shipped 12 Nov 2026 on Hugging Face (thinkingmachines/Inkling-2-Small) under Apache 2.0, with SGLang, vLLM and TokenSpeed recipes for local inference, plus Tinker for hosted use and fine-tuning.",
       "category": "Foundational Models",
       "layer": "Models",
-      "sourceType": "Closed Source",
+      "sourceType": "Open Source",
       "websiteUrl": "https://thinkingmachines.ai/news/inkling-2-small/",
       "githubUrl": null,
       "country": "US",
@@ -213,7 +213,10 @@
         "agentic-coding",
         "tinker",
         "1m-context",
-        "vision"
+        "vision",
+        "open-weights",
+        "apache-2.0",
+        "hugging-face"
       ],
       "icon": "Brain"
     },
@@ -9218,7 +9221,7 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-09-29",
-      "description": "OpenAI dots (29 Sep 2026): always-on GPT-6 Astra agents with a dedicated cloud computer, 4,000+ app plugins, proactive read-only research, and ChatGPT/Slack/Teams reach; rolling out to Pro, Business Premium, and Enterprise (admin-enabled).",
+      "description": "OpenAI dots (29 Sep 2026): always-on GPT-6 Astra agents with a dedicated cloud computer, 4,000+ app plugins, proactive read-only research, and ChatGPT/Slack/Teams reach; rolling out to Pro, Business Premium, and Enterprise (admin-enabled). ChatGPT Wallet (13 Nov 2026, US Pro first) lets dots pay on a user's behalf with network payment tokens and a per-purchase biometric approval, built with Amex, Mastercard and Visa, alongside a Commerce Partner Playbook for businesses accepting agent payments.",
       "category": "Web, Browser & API",
       "layer": "Frameworks",
       "sourceType": "Closed Source",
@@ -9230,7 +9233,10 @@
         "dots",
         "persistent-agent",
         "chatgpt",
-        "gpt-6-astra"
+        "gpt-6-astra",
+        "chatgpt-wallet",
+        "agentic-commerce",
+        "agent-payments"
       ],
       "icon": "Bot"
     },

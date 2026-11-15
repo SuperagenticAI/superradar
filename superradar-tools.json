@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T06:16:00Z",
+  "updatedAt": "2026-11-15T05:57:04Z",
   "featuredWeekLabel": "9–15 November 2026",
   "featuredToolIds": [
     "fable-5-2",
@@ -6974,7 +6974,7 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-07-25",
-      "description": "The dominant local GGUF inference stack (C/C++). Late July 2026 added native stdio MCP support in llama-server (PR #26062) so a local model can launch MCP servers, discover tools, and run agentic loops without a separate bridge — config via Claude/Cursor-style mcpServers JSON. Combined with Qwen/DeepSeek GGUFs, it becomes a full local agent harness for files, web, databases, and coding MCPs like Serena. Also popular as a cost-saving MCP worker behind Claude Code.",
+      "description": "The dominant local GGUF inference stack (C/C++). v1.0.0 (13 Nov 2026, with ggml 1.0.0) adopts semantic versioning for the public C API, removes deprecated APIs, adds FP8 KV caches, a host-memory MoE expert cache and new architectures (Kimi-K3.1-Pro, Ripple), hardens llama-server (SSRF, CORS, DNS rebinding, MCP tool cancellation) and adds an OpenAI-compatible /v1/audio/speech endpoint. llama-server also supports native stdio MCP (since July 2026), making it a full local agent harness.",
       "category": "Inference Engines",
       "layer": "AgentOps",
       "sourceType": "Open Source",
@@ -6989,9 +6989,13 @@
         "mcp",
         "agent-harness",
         "stdio",
-        "open-source"
+        "open-source",
+        "v1-0",
+        "fp8-kv-cache",
+        "semver"
       ],
-      "icon": "Cpu"
+      "icon": "Cpu",
+      "lastUpdate": "2026-11-13"
     },
     {
       "id": "unity-cli",
@@ -7288,10 +7292,10 @@
       "trending": true,
       "new": true,
       "releaseDate": "2026-08-06",
-      "description": "Cloudflare's agent-first browser that runs in V8 isolates on Workers. Speaks CDP so Puppeteer, Playwright, and MCP clients work unchanged. 3–7× less CPU/memory than Chromium on screenshots and HTML extraction; free during beta via Browser Run.",
+      "description": "Cloudflare's agent-first browser that runs entirely on Workers (Rust compiled to WebAssembly, building on Blitz, Stylo and Boa). Speaks CDP so Puppeteer, Playwright, and MCP clients work unchanged; 3 to 7x less CPU/memory than Chromium on screenshots and HTML extraction. Open sourced 13 Nov 2026 under Apache 2.0 (cloudflare/kitesurf), so teams can run it locally or deploy their own instance on a Workers Paid account, alongside the managed Browser Run API.",
       "category": "Web, Browser & API",
       "layer": "Frameworks",
-      "sourceType": "Commercial",
+      "sourceType": "Open Source",
       "websiteUrl": "https://blog.cloudflare.com/kitesurf/",
       "country": "US",
       "logoUrl": "https://github.com/cloudflare.png",
@@ -7300,9 +7304,13 @@
         "agent-browser",
         "cloudflare-workers",
         "cdp",
-        "mcp"
+        "mcp",
+        "open-source",
+        "apache-2.0"
       ],
-      "icon": "Globe"
+      "icon": "Globe",
+      "githubUrl": "https://github.com/cloudflare/kitesurf",
+      "lastUpdate": "2026-11-13"
     },
     {
       "id": "cloudflare-os",
@@ -11011,6 +11019,32 @@
         "gpt-6-cyber"
       ],
       "icon": "ShieldCheck"
+    },
+    {
+      "id": "expo-simulators",
+      "name": "Expo Simulators",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-12",
+      "description": "Expo's cloud service (GA 12 Nov 2026, all paid plans) that gives coding agents, CI jobs and teammates on-demand cloud iOS Simulators and Android Emulators, each in its own isolated VM with no Mac required. Agents such as Claude Code, Codex and Cursor drive them with the same agent-device, Argent or Appium commands as a local simulator (or via the eas-simulator skill), and every session returns a screen recording, screenshots and logs as proof of work for PR review, with a live browser view for humans.",
+      "category": "Sandbox",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://expo.dev/blog/introducing-expo-simulators-cloud-simulators-built-for-agents",
+      "logoUrl": "https://github.com/expo.png",
+      "country": "US",
+      "tags": [
+        "expo",
+        "simulators",
+        "ios",
+        "android",
+        "mobile",
+        "coding-agents",
+        "verification",
+        "cloud-sandbox"
+      ],
+      "icon": "Cloud"
     }
   ],
   "toolRepositories": {
@@ -12365,7 +12399,7 @@
     },
     "llama-cpp": {
       "repo": "https://github.com/ggml-org/llama.cpp",
-      "docs": "https://github.com/ggml-org/llama.cpp"
+      "docs": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
     },
     "unity-cli": {
       "repo": "https://github.com/Unity-Technologies",
@@ -12424,8 +12458,8 @@
       "docs": "https://docs.openclaw.ai"
     },
     "kitesurf": {
-      "repo": "https://github.com/cloudflare",
-      "docs": "https://developers.cloudflare.com/browser-run/kitesurf/"
+      "repo": "https://github.com/cloudflare/kitesurf",
+      "docs": "https://blog.cloudflare.com/kitesurf-open-source/"
     },
     "cloudflare-os": {
       "repo": "https://github.com/cloudflare/cloudflare-os",
@@ -13180,6 +13214,10 @@
     "kagent": {
       "repo": "https://github.com/kagent-dev/kagent",
       "docs": "https://kagent.dev"
+    },
+    "expo-simulators": {
+      "repo": "https://github.com/expo",
+      "docs": "https://docs.expo.dev/eas/simulators/introduction"
     }
   }
 }

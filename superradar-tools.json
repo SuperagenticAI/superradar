@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-15T05:57:04Z",
-  "featuredWeekLabel": "9–15 November 2026",
+  "updatedAt": "2026-11-16T05:46:48Z",
+  "featuredWeekLabel": "16–22 November 2026",
   "featuredToolIds": [
-    "fable-5-2",
     "gemini-4-hydrogen",
     "openai-daybreak",
-    "inkling-2-small",
+    "google-antigravity",
+    "personal-agent-protocol",
     "aws-emulator"
   ],
   "tools": [
@@ -1988,7 +1988,7 @@
       "highlighted": true,
       "trending": true,
       "new": true,
-      "description": "Google's agent-first development platform. Antigravity App v2.29 (3 Nov 2026) rolls out Remote Agents to Google AI Pro and Ultra (isolated Google-managed cloud sessions managed from the desktop app, CLI via agy --remote-agent, or the web), and on 10 Nov 2026 Gemini 4 Carbon arrived for AI Ultra with a /swarm preview that turns one prompt into a coordinated team of agents across parallel isolated workspaces with adversarial verifiers.",
+      "description": "Google's agent-first development platform. Antigravity App v2.32.0 (13 Nov 2026) adds Dynamic Workflows: /run-workflow has the agent write a short, reviewable Python script that orchestrates parallel or staged subagents (phase, agent, parallel, pipeline) with JSON Schema results, on Google AI Pro and Ultra in the App and CLI (run_workflow tool in CLI 1.5.9, 14 Nov). Builds on Remote Agents (v2.29, 3 Nov) and the /swarm preview with Gemini 4 Carbon (10 Nov).",
       "category": "Agentic IDE",
       "layer": "Coding",
       "sourceType": "Commercial",
@@ -2007,11 +2007,13 @@
         "voice-mode",
         "antigravity-2-29",
         "swarm",
-        "gemini-4-carbon"
+        "gemini-4-carbon",
+        "dynamic-workflows",
+        "run-workflow"
       ],
       "icon": "Code",
       "releaseDate": "2026-11-03",
-      "lastUpdate": "2026-11-10"
+      "lastUpdate": "2026-11-13"
     },
     {
       "id": "warp",
@@ -9881,7 +9883,7 @@
       "trending": true,
       "highlighted": true,
       "releaseDate": "2026-10-09",
-      "description": "Sierra-led open protocol (draft 0.1, 9 Oct 2026) for how personal agents work with companies on a user's behalf: companies publish /.well-known/poppy.json, agents identify themselves, start sessions, and sign users in via OAuth with scoped access across web, OpenAPI or MCP APIs, and company-agent conversations; design partners include Meta, OpenAI, Shopify, Stripe, Visa, and Mastercard.",
+      "description": "Sierra-led open protocol for how personal agents work with companies on a user's behalf. Version 1.0 shipped 13 Nov 2026 (draft 0.1 was 9 Oct): companies publish /.well-known/poppy.json, agents identify themselves, start sessions and sign users in via OAuth with scoped access across web, OpenAPI, MCP and UCP. Shopify enabled Poppy for every merchant, Meta's Muse now checks for Poppy first on every site, and design partners passed 100 (Salesforce, Delta, Stripe, Visa, Mastercard and more).",
       "category": "Agent Protocols",
       "layer": "Frameworks",
       "sourceType": "Open Source",
@@ -9894,9 +9896,11 @@
         "sierra",
         "protocol",
         "oauth",
-        "mcp"
+        "mcp",
+        "poppy-1-0"
       ],
-      "icon": "Network"
+      "icon": "Network",
+      "lastUpdate": "2026-11-13"
     },
     {
       "id": "step-5-preview",

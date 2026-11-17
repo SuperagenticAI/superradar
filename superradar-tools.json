@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-16T05:46:48Z",
+  "updatedAt": "2026-11-17T05:51:10Z",
   "featuredWeekLabel": "16–22 November 2026",
   "featuredToolIds": [
     "gemini-4-hydrogen",
+    "qwen4-max-preview",
     "openai-daybreak",
     "google-antigravity",
-    "personal-agent-protocol",
-    "aws-emulator"
+    "personal-agent-protocol"
   ],
   "tools": [
     {
@@ -5659,7 +5659,7 @@
       "id": "tencent-hunyuan",
       "name": "Tencent Hy4",
       "state": "Trial",
-      "description": "Tencent's Hy4 (4 Nov 2026), the latest Hy (formerly Hunyuan) LLM, adding visual understanding and computer use across CLI and GUI for the first time, with stronger instruction following, long-context, and long-horizon agentic performance; available in Tencent Cloud TokenHub, CodeBuddy, and WorkBuddy and via OpenRouter and OpenCode at about $0.90/M input and $2.70/M output, with open weights and system cards promised in the coming days and Hy4 Flash to follow.",
+      "description": "Tencent's Hy4 (4 Nov 2026), the latest Hy (formerly Hunyuan) LLM, adding visual understanding and computer use across CLI and GUI for the first time, with stronger instruction following, long-context, and long-horizon agentic performance; available in Tencent Cloud TokenHub, CodeBuddy, and WorkBuddy and via OpenRouter and OpenCode at about $0.90/M input and $2.70/M output, with open weights and system cards promised in the coming days and Hy4 Flash to follow. On 16 Nov 2026 Tencent shipped Hy4 flash, a 224B-parameter model (12B active, hybrid attention, LatentMoE and Engram) with multimodal input, 1M-token context and over 150 tokens per second, priced at about $0.07/M input and $0.28/M output, recommended for everyday agent work such as deep research, documents, slides and computer use, on Tencent Cloud TokenHub and WorkBuddy with OpenRouter and open weights to follow.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Commercial",
@@ -5673,12 +5673,14 @@
         "multimodal",
         "computer-use",
         "agentic",
-        "open-weights-coming"
+        "open-weights-coming",
+        "hy4-flash"
       ],
       "icon": "Brain",
       "new": true,
       "trending": true,
-      "releaseDate": "2026-11-04"
+      "releaseDate": "2026-11-04",
+      "lastUpdate": "2026-11-16"
     },
     {
       "id": "zhipu-glm4",
@@ -9510,11 +9512,11 @@
       "new": true,
       "trending": true,
       "releaseDate": "2026-09-29",
-      "description": "Liquid AI's decision model family: d1 (29 Sep 2026) is a hosted API model that answers typed yes/no, choice, and score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; on 7 Oct 2026 Liquid added open-weight d1-3B (text and vision) and experimental d1-omni-600M (text with image or audio) on Hugging Face for edge use, and on 15 Oct 2026 shipped hosted d1-ultra, its most capable multimodal decision model, on the Liquid API, OpenRouter, and Vercel AI Gateway at $0.042 per million input tokens.",
+      "description": "Liquid AI's decision model family: d1 (29 Sep 2026) is a hosted API model that answers typed yes/no, choice, and score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; on 7 Oct 2026 Liquid added open-weight d1-3B (text and vision) and experimental d1-omni-600M (text with image or audio) on Hugging Face for edge use, and on 15 Oct 2026 shipped hosted d1-ultra, its most capable multimodal decision model, on the Liquid API, OpenRouter, and Vercel AI Gateway at $0.042 per million input tokens, and on 16 Nov 2026 released hosted d1.2 and d1.2-ultra, which add audio input and five new answer types (value reading, spans, bounding boxes, ranged numbers and multi-select choices), with d1.2-ultra ranking first on the Artificial Analysis Decision Index v2.1 (75) at $0.02 and $0.042 per million input tokens.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://docs.liquid.ai/lfm/models/decision-models",
+      "websiteUrl": "https://www.liquid.ai/blog/d1-2",
       "githubUrl": "https://github.com/Liquid4All",
       "logoUrl": "https://github.com/Liquid4All.png",
       "country": "US",
@@ -9528,10 +9530,12 @@
         "open-weights",
         "edge",
         "d1-3b",
-        "d1-ultra"
+        "d1-ultra",
+        "d1-2",
+        "audio"
       ],
       "icon": "Brain",
-      "lastUpdate": "2026-10-15"
+      "lastUpdate": "2026-11-16"
     },
     {
       "id": "vista-harness",
@@ -10945,16 +10949,16 @@
     },
     {
       "id": "qwen4-max-preview",
-      "name": "Qwen4-Max Preview",
-      "state": "Assess",
+      "name": "Qwen4-Max",
+      "state": "Trial",
       "new": true,
       "trending": true,
       "releaseDate": "2026-11-11",
-      "description": "Alibaba's first Qwen4 model (preview opened 11 Nov 2026, model ID qwen4-max-preview): next-generation flagship multimodal model (text, image, video input) for coding, front-end builds, and complex agentic tasks, with 1M-token context, up to 393K output tokens, thinking on by default, tool calling, web search, structured outputs, and OpenAI Chat Completions, Responses, and Anthropic Messages API compatibility. Token Plan only (no pay-as-you-go), also in the Qwen app, Qoder, QwenWork and QwenStudio. Frozen preview that is retired after 25 Nov 2026 (UTC+8); no benchmarks or open weights published yet.",
+      "description": "Alibaba's Qwen4 flagship (preview 11 Nov 2026, generally available 16 Nov 2026 as model ID qwen4-max): a 2.4T-parameter sparse MoE with 71B active parameters (25% fewer than Qwen3.8-Max), native image and video input, 1M-token context and up to 262K thinking output, built for coding and long-horizon agent work, ranked 6th on Code Arena and about 60% cheaper per task than Qwen3.8-Max on Alibaba's Work360 benchmark. Available on QwenCloud via the Token Plan and pay-as-you-go API ($1.50 input / $4.50 output per 1M tokens in Singapore) with OpenAI Chat Completions, Responses and Anthropic Messages compatibility, plus QwenWork and QwenStudio; not open weights, with smaller open-weight Qwen4 models promised.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
-      "websiteUrl": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "websiteUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783",
       "githubUrl": "https://github.com/QwenLM/Qwen",
       "logoUrl": "https://github.com/QwenLM.png",
       "country": "CN",
@@ -10962,12 +10966,15 @@
         "qwen4",
         "qwen4-max",
         "alibaba",
+        "moe",
         "multimodal",
         "agentic-coding",
         "1m-context",
-        "preview"
+        "long-horizon-agents"
       ],
-      "icon": "Brain"
+      "icon": "Brain",
+      "highlighted": true,
+      "lastUpdate": "2026-11-16"
     },
     {
       "id": "gemini-4-hydrogen",

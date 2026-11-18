@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-17T05:51:10Z",
+  "updatedAt": "2026-11-18T05:51:03Z",
   "featuredWeekLabel": "16–22 November 2026",
   "featuredToolIds": [
+    "gpt-6-2-astra",
     "gemini-4-hydrogen",
-    "qwen4-max-preview",
-    "openai-daybreak",
-    "google-antigravity",
-    "personal-agent-protocol"
+    "mai-code-2",
+    "devin-bots",
+    "qwen4-max-preview"
   ],
   "tools": [
     {
@@ -11056,6 +11056,104 @@
         "cloud-sandbox"
       ],
       "icon": "Cloud"
+    },
+    {
+      "id": "gpt-6-2-astra",
+      "name": "GPT-6.2 Astra",
+      "state": "Adopt",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-17",
+      "description": "OpenAI GPT-6.2 Astra (17 Nov 2026): new frontier model for the hardest professional, coding, and science work; sets a new high on Agents' Last Exam (5.2 points over GPT-6 Astra at under a third of the cost) and Terminal-Bench-Science, and is OpenAI's first released model rated High for AI self-improvement. In ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu, and in the API as gpt-6.2-astra at $8 input, $0.40 cached, $40 output per million tokens.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "gpt-6.2",
+        "astra",
+        "frontier",
+        "coding",
+        "agents",
+        "science"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "gpt-6-2-sol",
+      "name": "GPT-6.2 Sol",
+      "state": "Adopt",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-17",
+      "description": "OpenAI GPT-6.2 Sol (17 Nov 2026): efficient, versatile successor to GPT-6.1 Sol for everyday coding, writing, and agentic tasks, delivering better results with fewer output tokens at the same API prices as GPT-6.1 Sol. Available in ChatGPT Work and Codex and in the API as gpt-6.2-sol.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "logoUrl": "https://openai.com/favicon.ico",
+      "country": "US",
+      "tags": [
+        "openai",
+        "gpt-6.2",
+        "sol",
+        "coding",
+        "agents",
+        "efficient"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "mai-code-2",
+      "name": "MAI Code 2",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-17",
+      "description": "Microsoft AI's coding models announced at Ignite (17 Nov 2026): MAI Code 2 targets everyday enterprise coding (multi-file implementation, deep debugging, repo-wide reasoning, UI), averaging 98% of GPT-6.1 Sol at 40% of the cost across DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas and FrontierCode, while MAI Code 2 Flash handles high-volume edits and fixes. Both are live in GitHub Copilot; Code 2 Flash is in limited preview in Microsoft Foundry.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "logoUrl": "https://github.com/microsoft.png",
+      "country": "US",
+      "tags": [
+        "microsoft",
+        "mai",
+        "coding",
+        "github-copilot",
+        "foundry",
+        "ignite"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "devin-bots",
+      "name": "Devin Bots",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-17",
+      "description": "Cognition's Devin Bots (17 Nov 2026): persistent engineering agents with their own memory, tools, and identity that own a goal end-to-end (maintaining a repo, managing releases, keeping Android at parity with iOS), lead multiple Devin sessions in parallel, evaluate results, and surface only decisions that need a human. Available at devin.ai/bots on Max and Teams plans.",
+      "category": "Coding Agents",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://devin.ai/blog/introducing-devin-bots",
+      "logoUrl": "/custom_logos/devin-ai.ico",
+      "country": "US",
+      "tags": [
+        "cognition",
+        "devin",
+        "persistent-agents",
+        "coding-agents",
+        "multi-agent",
+        "background-agents"
+      ],
+      "icon": "Bot"
     }
   ],
   "toolRepositories": {

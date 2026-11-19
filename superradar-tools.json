@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-18T05:51:03Z",
+  "updatedAt": "2026-11-19T05:53:26Z",
   "featuredWeekLabel": "16–22 November 2026",
   "featuredToolIds": [
+    "gemini-4-neon",
     "gpt-6-2-astra",
-    "gemini-4-hydrogen",
     "mai-code-2",
     "devin-bots",
     "qwen4-max-preview"
@@ -11154,6 +11154,34 @@
         "background-agents"
       ],
       "icon": "Bot"
+    },
+    {
+      "id": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-18",
+      "description": "Google DeepMind's frontier-tier Gemini 4 model (18 Nov 2026) for complex software engineering, knowledge work and science: #1 on the Artificial Analysis Coding Agent Index (58.6), 65.2% on Terminal-Bench 4.1, 46.2% on FrontierCode 2.0, #3 overall (61) on the AA Intelligence Index at xhigh, #2 on the Vals Index and Agent Arena. Four thinking levels, 1M-token context, $3 / $15 per 1M tokens ($0.15 cached), about 32% lower cost per task than Carbon. Built for long-running agent work, including acting as an Orchestrator over parallel Hydrogen subagents in Google Antigravity. Rolling out in the Gemini API and AI Studio, Gemini for business, Antigravity (paid AI Pro and Ultra) and the Gemini app.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "logoUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "country": "US",
+      "tags": [
+        "gemini",
+        "google",
+        "neon",
+        "agentic-coding",
+        "frontier",
+        "1m-context",
+        "gemini-api",
+        "antigravity",
+        "orchestrator"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {

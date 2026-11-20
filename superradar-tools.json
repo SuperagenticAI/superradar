@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T05:53:26Z",
+  "updatedAt": "2026-11-20T05:54:55Z",
   "featuredWeekLabel": "16–22 November 2026",
   "featuredToolIds": [
     "gemini-4-neon",
@@ -8863,8 +8863,8 @@
       "new": true,
       "trending": true,
       "highlighted": true,
-      "releaseDate": "2026-09-30",
-      "description": "Kong Volcano AI-native platform (30 Sep 2026): durable compute, branchable Postgres with vectors, edge functions, auth/SSO, realtime, file storage, and durable workflows for building and operating agents with Claude Code, Codex, and Cursor integrations.",
+      "releaseDate": "2026-11-19",
+      "description": "Kong Volcano, launched 19 Nov 2026 as a self-healing agent cloud: one place to build, host and run agents and apps, with sandboxed compute, durable workflows, branchable Postgres with vectors, edge functions, auth/SSO, realtime and file storage, usable from Cursor, Codex, Claude Code or its online builder. Once deployed, Volcano continuously finds issues and proposes fixes to your codebase. Free Hobby tier.",
       "category": "Sandbox",
       "layer": "AgentOps",
       "sourceType": "Commercial",
@@ -11156,6 +11156,30 @@
       "icon": "Bot"
     },
     {
+      "id": "replit-missions",
+      "name": "Replit Missions",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-17",
+      "description": "Replit Missions (17 Nov 2026): define an outcome, success criteria, boundaries and a USD spending cap, and Replit coordinates a swarm of agents that plan, build, test and iterate toward it in parallel. You choose which actions need approval, budget increases require explicit sign-off, and work stops at the cap. Replit says a Mission built its in-house app monitoring platform (dashboards, alerts, tracing) in two days on a $3,000 budget.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://replit.com/blog/introducing-replit-missions",
+      "logoUrl": "https://github.com/replit.png",
+      "country": "US",
+      "tags": [
+        "replit",
+        "missions",
+        "agent-swarm",
+        "multi-agent",
+        "budget-cap",
+        "background-agents"
+      ],
+      "icon": "Bot"
+    },
+    {
       "id": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "state": "Trial",
@@ -13355,6 +13379,10 @@
     "expo-simulators": {
       "repo": "https://github.com/expo",
       "docs": "https://docs.expo.dev/eas/simulators/introduction"
+    },
+    "replit-missions": {
+      "repo": "https://github.com/replit",
+      "docs": "https://docs.replit.com/features/chats-and-routines/missions"
     }
   }
 }

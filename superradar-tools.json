@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-20T05:54:55Z",
+  "updatedAt": "2026-11-21T05:53:26Z",
   "featuredWeekLabel": "16–22 November 2026",
   "featuredToolIds": [
     "gemini-4-neon",
     "gpt-6-2-astra",
+    "vercel-eve",
     "mai-code-2",
-    "devin-bots",
-    "qwen4-max-preview"
+    "devin-bots"
   ],
   "tools": [
     {
@@ -5659,7 +5659,7 @@
       "id": "tencent-hunyuan",
       "name": "Tencent Hy4",
       "state": "Trial",
-      "description": "Tencent's Hy4 (4 Nov 2026), the latest Hy (formerly Hunyuan) LLM, adding visual understanding and computer use across CLI and GUI for the first time, with stronger instruction following, long-context, and long-horizon agentic performance; available in Tencent Cloud TokenHub, CodeBuddy, and WorkBuddy and via OpenRouter and OpenCode at about $0.90/M input and $2.70/M output, with open weights and system cards promised in the coming days and Hy4 Flash to follow. On 16 Nov 2026 Tencent shipped Hy4 flash, a 224B-parameter model (12B active, hybrid attention, LatentMoE and Engram) with multimodal input, 1M-token context and over 150 tokens per second, priced at about $0.07/M input and $0.28/M output, recommended for everyday agent work such as deep research, documents, slides and computer use, on Tencent Cloud TokenHub and WorkBuddy with OpenRouter and open weights to follow.",
+      "description": "Tencent's Hy4 (4 Nov 2026), the latest Hy (formerly Hunyuan) LLM, adding visual understanding and computer use across CLI and GUI for the first time, with stronger instruction following, long-context, and long-horizon agentic performance; available in Tencent Cloud TokenHub, CodeBuddy, and WorkBuddy and via OpenRouter and OpenCode at about $0.90/M input and $2.70/M output, with open weights and system cards promised in the coming days and Hy4 Flash to follow. On 16 Nov 2026 Tencent shipped Hy4 flash, a 224B-parameter model (12B active, hybrid attention, LatentMoE and Engram) with multimodal input, 1M-token context and over 150 tokens per second, priced at about $0.07/M input and $0.28/M output, recommended for everyday agent work such as deep research, documents, slides and computer use, on Tencent Cloud TokenHub and WorkBuddy with OpenRouter and open weights to follow. On 20 Nov 2026 Tencent published the Hy4 open weights (774B total, 49B active MoE, text, image and video understanding) on Hugging Face, ModelScope and GitCode as Hy4, Hy4-FP8 and Hy4 base, with vLLM and SGLang deployment guides, under the Tencent Hy License rather than Apache 2.0.",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Commercial",
@@ -5673,14 +5673,15 @@
         "multimodal",
         "computer-use",
         "agentic",
-        "open-weights-coming",
-        "hy4-flash"
+        "hy4-flash",
+        "open-weights"
       ],
       "icon": "Brain",
       "new": true,
       "trending": true,
       "releaseDate": "2026-11-04",
-      "lastUpdate": "2026-11-16"
+      "lastUpdate": "2026-11-20",
+      "githubUrl": "https://huggingface.co/tencent/Hy4"
     },
     {
       "id": "zhipu-glm4",
@@ -11206,6 +11207,85 @@
         "orchestrator"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "vercel-eve",
+      "name": "eve 1.0 (Vercel)",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-17",
+      "description": "Vercel's open-source (Apache 2.0) framework for production agents, generally available as eve 1.0 on 17 Nov 2026 after 230+ releases since the June preview. You own the harness (the loop that calls models, runs tools and delegates to subagents): pick the model, swap tools, edit instructions and choose which actions need approval. The Workflow SDK checkpoints progress so agents resume after a crash, and multiplayer sessions and agent-to-agent calls are built in, with native channels for Slack, Teams, Discord, Telegram, GitHub, Linear and more, plus an ambient mode screened by a small decision model. Deploy anywhere or to Vercel with Workflows for durable execution and Sandbox for isolated code.",
+      "category": "Agent Frameworks",
+      "layer": "Frameworks",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://vercel.com/blog/eve-is-now-generally-available",
+      "githubUrl": "https://github.com/vercel/eve",
+      "logoUrl": "https://github.com/vercel.png",
+      "country": "US",
+      "tags": [
+        "eve",
+        "vercel",
+        "agent-framework",
+        "durable-agents",
+        "harness",
+        "subagents",
+        "multiplayer",
+        "open-source"
+      ],
+      "icon": "Network"
+    },
+    {
+      "id": "vercel-board",
+      "name": "Vercel Board",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-18",
+      "description": "Vercel Board (18 Nov 2026, experimental, all plans): a headless message board and task store for coordinating fleets of humans and agents. Agents claim tasks with leases, post updates and record results in channels and threads through the Vercel CLI or JavaScript SDK (npx skills add vercel/board), with access grants, two-way Slack and Linear sync and GitHub issue and PR ingestion. Harness agnostic: Claude Code, Codex, Pi, OpenCode, eve, Mastra and LangChain agents can share one board. Vercel runs its security agent swarm and v0's software factory on it.",
+      "category": "Multi-Agent Orchestration",
+      "layer": "Frameworks",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://vercel.com/blog/introducing-vercel-board",
+      "logoUrl": "https://github.com/vercel.png",
+      "country": "US",
+      "tags": [
+        "vercel",
+        "board",
+        "multi-agent",
+        "task-coordination",
+        "agent-swarm",
+        "software-factory",
+        "cli",
+        "sdk"
+      ],
+      "icon": "Bot"
+    },
+    {
+      "id": "genie-4",
+      "name": "Genie 4 (Gemini API)",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-19",
+      "description": "Google DeepMind's Genie 4 world model, launched 18 Nov 2026 and opened to developers on 19 Nov through the Gemini API (Interactions API, models/genie-4) and Google AI Studio. From a text prompt, a reference image or both it generates continuous 720p, 24fps interactive worlds with synchronized native audio, steerable in real time with keyboard controls and live text events while Gemini reasoning keeps world state consistent. Google pitches it for prototyping interactive experiences, spatial design and training robotics and AI agents. Outputs carry SynthID watermarks.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Closed Source",
+      "websiteUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "logoUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "country": "US",
+      "tags": [
+        "genie-4",
+        "world-model",
+        "google-deepmind",
+        "gemini-api",
+        "ai-studio",
+        "simulation",
+        "agent-training"
+      ],
+      "icon": "Brain"
     }
   ],
   "toolRepositories": {
@@ -13383,6 +13463,18 @@
     "replit-missions": {
       "repo": "https://github.com/replit",
       "docs": "https://docs.replit.com/features/chats-and-routines/missions"
+    },
+    "vercel-eve": {
+      "repo": "https://github.com/vercel/eve",
+      "docs": "https://vercel.com/eve"
+    },
+    "vercel-board": {
+      "repo": "https://github.com/vercel",
+      "docs": "https://vercel.com/docs/board"
+    },
+    "genie-4": {
+      "repo": "https://github.com/google-gemini",
+      "docs": "https://aistudio.google.com/docs/models/genie-4"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-21T05:53:26Z",
+  "updatedAt": "2026-11-22T05:55:18Z",
   "featuredWeekLabel": "16–22 November 2026",
   "featuredToolIds": [
     "gemini-4-neon",
     "gpt-6-2-astra",
+    "inkling-2-mini",
     "vercel-eve",
-    "mai-code-2",
-    "devin-bots"
+    "mai-code-2"
   ],
   "tools": [
     {
@@ -11284,6 +11284,36 @@
         "ai-studio",
         "simulation",
         "agent-training"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "inkling-2-mini",
+      "name": "Inkling 2 Mini",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-20",
+      "description": "Thinking Machines Lab's Inkling 2 Mini (20 Nov 2026): a 26.4B-parameter MoE (3.4B active) looped transformer that runs its middle layers three times per token for better reasoning with fewer tokens. Weights are mostly native NVFP4 with a ~20GB footprint, so it runs locally on laptops and desktop AI machines. TML reports it leads open-weights models under 100B on DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%). Open weights on Hugging Face (thinkingmachines/Inkling-2-Mini) under Apache 2.0, plus a research variable-loop variant, with Tinker for hosted inference and fine-tuning.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Source",
+      "websiteUrl": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "githubUrl": null,
+      "country": "US",
+      "logoUrl": "https://thinkingmachines.ai/favicon.ico",
+      "tags": [
+        "inkling-2-mini",
+        "thinking-machines",
+        "moe",
+        "looped-transformer",
+        "local-inference",
+        "agentic-coding",
+        "tinker",
+        "open-weights",
+        "apache-2.0",
+        "hugging-face"
       ],
       "icon": "Brain"
     }

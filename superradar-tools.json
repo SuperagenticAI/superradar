@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-22T05:55:18Z",
-  "featuredWeekLabel": "16–22 November 2026",
+  "updatedAt": "2026-11-23T05:50:49Z",
+  "featuredWeekLabel": "23–29 November 2026",
   "featuredToolIds": [
+    "glm-5-4",
     "gemini-4-neon",
     "gpt-6-2-astra",
     "inkling-2-mini",
-    "vercel-eve",
-    "mai-code-2"
+    "vercel-eve"
   ],
   "tools": [
     {
@@ -11314,6 +11314,34 @@
         "open-weights",
         "apache-2.0",
         "hugging-face"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "glm-5-4",
+      "name": "GLM-5.4",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-23",
+      "description": "Z.ai (Zhipu) GLM-5.4 (23 Nov 2026): successor to GLM-5.3, announced by Z.ai lead Zixuan Li as live for all GLM Coding Plan users, adding vision and stronger all-round coding. Zhipu's official user-group notice says it comes from three months of scaling its Loop Transformer approach and model size; the Coding Plan lists it with a 1M context. Use glm-5.4 (glm-5.4[1m] in Claude Code); weekly-quota users get 50% more quota than on GLM-5.3. No official benchmarks or open weights yet.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://x.com/ZixuanLi_/status/2124719275864670681",
+      "githubUrl": null,
+      "country": "CN",
+      "logoUrl": "https://github.com/zai-org.png",
+      "tags": [
+        "glm-5-4",
+        "z-ai",
+        "zhipu",
+        "loop-transformer",
+        "vision",
+        "1m-context",
+        "agentic-coding",
+        "glm-coding-plan"
       ],
       "icon": "Brain"
     }

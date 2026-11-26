@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-23T05:50:49Z",
+  "updatedAt": "2026-11-26T05:49:34Z",
   "featuredWeekLabel": "23–29 November 2026",
   "featuredToolIds": [
-    "glm-5-4",
+    "claude-ship",
+    "swe-2-1",
     "gemini-4-neon",
     "gpt-6-2-astra",
-    "inkling-2-mini",
-    "vercel-eve"
+    "ernie-5-5-flash-preview"
   ],
   "tools": [
     {
@@ -11342,6 +11342,84 @@
         "1m-context",
         "agentic-coding",
         "glm-coding-plan"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "claude-ship",
+      "name": "Claude Ship",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-23",
+      "description": "Anthropic's Claude Ship (beta, 23 Nov 2026) takes GitHub pull requests through review, fixes and an approval decision for Claude Team and Enterprise: generally available Code Review (Quick, Standard or Deep levels) plus two new beta agents, PR Steward, which fixes failing CI, merge conflicts and review feedback without merging, and Claude Approvals, which applies a repo-defined approval policy like a smarter CODEOWNERS while humans keep merge control via branch protection.",
+      "category": "Code Review",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://claude.com/resources/articles/introducing-claude-ship",
+      "country": "US",
+      "logoUrl": "https://github.com/anthropics.png",
+      "tags": [
+        "claude-ship",
+        "anthropic",
+        "claude-code",
+        "code-review",
+        "pr-steward",
+        "claude-approvals",
+        "github"
+      ],
+      "icon": "GitBranch"
+    },
+    {
+      "id": "swe-2-1",
+      "name": "SWE-2.1",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "highlighted": true,
+      "releaseDate": "2026-11-24",
+      "description": "Cognition's SWE-2.1 (24 Nov 2026), a major upgrade over SWE-2 trained with pure reinforcement learning on Moonshot's Kimi K3, scoring 41.3 on FrontierCode 2.0 (SWE-2: 24.1) and 50.0 on Terminal-Bench 4.1 (24.2) with big cybersecurity gains (80% ExploitBench); ships in Devin alongside SWE-2.1 Ultrafast, the same model served 10x faster on Cerebras.",
+      "category": "Coding Models",
+      "layer": "Coding",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://cognition.com/blog/swe-2-1",
+      "githubUrl": "https://github.com/CognitionAI",
+      "country": "US",
+      "logoUrl": "/custom_logos/devin-ai.ico",
+      "tags": [
+        "swe-2-1",
+        "cognition",
+        "devin",
+        "coding-model",
+        "kimi-k3",
+        "cerebras",
+        "ultrafast"
+      ],
+      "icon": "Code"
+    },
+    {
+      "id": "ernie-5-5-flash-preview",
+      "name": "ERNIE 5.5 Flash Preview",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-24",
+      "description": "Baidu's ERNIE 5.5 Flash Preview (Nov 2026), the first post-trained checkpoint on ERNIE 5.5 Flash Base, is a 280B-total, 14B-active MoE with a 1M-token context, open weights under Apache 2.0 on Hugging Face, tuned for long-horizon agentic coding, Blender/CAD 3D modeling, knowledge work and video creation; Baidu says post-training is still ongoing before the official release.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "country": "CN",
+      "logoUrl": "https://github.com/baidu.png",
+      "tags": [
+        "ernie-5-5",
+        "baidu",
+        "open-weights",
+        "moe",
+        "1m-context",
+        "apache-2-0",
+        "agentic-coding"
       ],
       "icon": "Brain"
     }

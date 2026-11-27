@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-26T05:49:34Z",
+  "updatedAt": "2026-11-27T05:48:03Z",
   "featuredWeekLabel": "23–29 November 2026",
   "featuredToolIds": [
     "claude-ship",
     "swe-2-1",
+    "gigachat-4",
     "gemini-4-neon",
-    "gpt-6-2-astra",
-    "ernie-5-5-flash-preview"
+    "gpt-6-2-astra"
   ],
   "tools": [
     {
@@ -11422,6 +11422,55 @@
         "agentic-coding"
       ],
       "icon": "Brain"
+    },
+    {
+      "id": "gigachat-4",
+      "name": "GigaChat 4",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-26",
+      "description": "Sber's GigaChat 4 (26 Nov 2026) is a 708B-total, 41B-active hybrid MoE (DeepSeek Sparse Attention plus Gated DeltaNet) with a 1M-token context and instant and reasoning modes in one model, built for multi-step agentic tasks, tool calling, structured outputs and coding; open weights under MIT on Hugging Face in FP8, BF16, GGUF and base checkpoints.",
+      "category": "Foundational Models",
+      "layer": "Models",
+      "sourceType": "Open Weights",
+      "websiteUrl": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B",
+      "country": "RU",
+      "logoUrl": "https://github.com/ai-sage.png",
+      "tags": [
+        "gigachat-4",
+        "sber",
+        "open-weights",
+        "moe",
+        "1m-context",
+        "mit",
+        "agentic"
+      ],
+      "icon": "Brain"
+    },
+    {
+      "id": "cloudflare-search-for-agents",
+      "name": "Cloudflare Search for Agents",
+      "state": "Assess",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-25",
+      "description": "Cloudflare's Search for Agents (25 Nov 2026) puts agent-facing site search behind one dashboard or API toggle: Cloudflare creates an AI Search instance for the zone, crawls and indexes it, and exposes a discoverable /.well-known/search endpoint on the site's own domain that returns relevant Markdown rather than generated answers. Available to all plans, including Free with limits.",
+      "category": "Search",
+      "layer": "Knowledge",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://blog.cloudflare.com/search-for-agents/",
+      "country": "US",
+      "logoUrl": "https://github.com/cloudflare.png",
+      "tags": [
+        "cloudflare",
+        "search-for-agents",
+        "ai-search",
+        "agent-ready-web",
+        "well-known",
+        "markdown"
+      ],
+      "icon": "Search"
     }
   ],
   "toolRepositories": {

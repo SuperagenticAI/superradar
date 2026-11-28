@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-27T05:48:03Z",
+  "updatedAt": "2026-11-28T05:51:53Z",
   "featuredWeekLabel": "23–29 November 2026",
   "featuredToolIds": [
     "claude-ship",
     "swe-2-1",
+    "google-workspace-mcp-cli",
     "gigachat-4",
-    "gemini-4-neon",
-    "gpt-6-2-astra"
+    "gemini-4-neon"
   ],
   "tools": [
     {
@@ -9513,7 +9513,7 @@
       "new": true,
       "trending": true,
       "releaseDate": "2026-09-29",
-      "description": "Liquid AI's decision model family: d1 (29 Sep 2026) is a hosted API model that answers typed yes/no, choice, and score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; on 7 Oct 2026 Liquid added open-weight d1-3B (text and vision) and experimental d1-omni-600M (text with image or audio) on Hugging Face for edge use, and on 15 Oct 2026 shipped hosted d1-ultra, its most capable multimodal decision model, on the Liquid API, OpenRouter, and Vercel AI Gateway at $0.042 per million input tokens, and on 16 Nov 2026 released hosted d1.2 and d1.2-ultra, which add audio input and five new answer types (value reading, spans, bounding boxes, ranged numbers and multi-select choices), with d1.2-ultra ranking first on the Artificial Analysis Decision Index v2.1 (75) at $0.02 and $0.042 per million input tokens.",
+      "description": "Liquid AI's decision model family: d1 (29 Sep 2026) is a hosted API model that answers typed yes/no, choice, and score questions with calibrated probabilities and zero generated tokens, for routing, classification, moderation, and guardrails; on 7 Oct 2026 Liquid added open-weight d1-3B (text and vision) and experimental d1-omni-600M (text with image or audio) on Hugging Face for edge use, and on 15 Oct 2026 shipped hosted d1-ultra, its most capable multimodal decision model, on the Liquid API, OpenRouter, and Vercel AI Gateway at $0.042 per million input tokens, and on 16 Nov 2026 released hosted d1.2 and d1.2-ultra, which add audio input and five new answer types (value reading, spans, bounding boxes, ranged numbers and multi-select choices), with d1.2-ultra ranking first on the Artificial Analysis Decision Index v2.1 (75) at $0.02 and $0.042 per million input tokens. On 27 Nov 2026 Liquid released hosted d1.3-ultra in the Liquid console, adding rankings (order options or return top k), number and date extraction from images and audio, and audio time spans, and ranking first on the Artificial Analysis Decision Index v2.1 (76.4).",
       "category": "Foundational Models",
       "layer": "Models",
       "sourceType": "Closed Source",
@@ -9533,10 +9533,11 @@
         "d1-3b",
         "d1-ultra",
         "d1-2",
-        "audio"
+        "audio",
+        "d1-3-ultra"
       ],
       "icon": "Brain",
-      "lastUpdate": "2026-11-16"
+      "lastUpdate": "2026-11-27"
     },
     {
       "id": "vista-harness",
@@ -11471,6 +11472,32 @@
         "markdown"
       ],
       "icon": "Search"
+    },
+    {
+      "id": "google-workspace-mcp-cli",
+      "name": "Google Workspace MCP servers and CLI",
+      "state": "Trial",
+      "new": true,
+      "trending": true,
+      "releaseDate": "2026-11-24",
+      "description": "Google's Workspace MCP servers and official Workspace CLI (GA 24 Nov 2026) give agents Google-managed access to Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat and Tasks, the hosted MCP servers for cloud and web agents and the CLI for terminals, VMs and sandboxes with packaged agent skills, dynamic command discovery and scoped sign-in, under new free Standard and paid Scaled usage tiers, and from 1 Feb 2027 agents must use them instead of calling Workspace REST APIs directly.",
+      "category": "Connectors",
+      "layer": "AgentOps",
+      "sourceType": "Commercial",
+      "websiteUrl": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "githubUrl": null,
+      "country": "US",
+      "logoUrl": "https://github.com/google.png",
+      "tags": [
+        "google-workspace",
+        "mcp",
+        "cli",
+        "gmail",
+        "drive",
+        "agent-skills",
+        "first-party"
+      ],
+      "icon": "Blocks"
     }
   ],
   "toolRepositories": {
